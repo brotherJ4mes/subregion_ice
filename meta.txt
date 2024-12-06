@@ -1,0 +1,24 @@
+code	name	lake	area	depth
+GrB	Green Bay	Michigan	4.19e+09	1.74e+01
+WER	Western Erie	Erie	4.51e+09	7.68e+00
+CER	Central Erie	Erie	1.67e+10	1.91e+01
+EER	Eastern Erie	Erie	4.52e+09	2.43e+01
+NHU	Northern Huron	Huron	1.17e+10	8.48e+01
+EHU	Eastern Huron	Huron	8.96e+09	9.57e+01
+CHU	Central Huron	Huron	1.68e+10	4.81e+01
+SMI	Southern Mich.	Michigan	1.61e+10	7.13e+01
+CMI	Central Mich.	Michigan	1.35e+10	9.21e+01
+NCMI	North Central Mich.	Michigan	1.81e+10	1.23e+02
+NMI	Northern Mich.	Michigan	5.91e+09	3.65e+01
+WON	Western Ont.	Ontario	1.82e+09	6.24e+01
+EON	Eastern Ont.	Ontario	3.64e+09	3.30e+01
+WSU	Western Sup.	Superior	6.39e+09	1.47e+02
+CSU	Central Sup.	Superior	3.55e+10	1.52e+02
+ESU	Eastern Sup.	Superior	3.84e+10	1.54e+02
+LSC	St. Clair	Erie	1.23e+09	2.64e+00
+NR	Niagara River	Ontario	5.68e+07	4.51e+00
+SB	Saginaw Bay	Huron	3.38e+09	1.19e+01
+SMR	St. Marys River	Superior	1.00e+09	1.25e+01
+WB	Whitefish Bay	Superior	1.91e+09	3.94e+01
+NCGeB	N. Chan. & Geo. Bay	Huron	1.76e+10	4.46e+01
+CON	Central Ont.	Ontario	1.39e+10	1.04e+02
