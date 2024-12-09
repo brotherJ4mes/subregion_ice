@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.8.7)  27 NOV 2024 09:50
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.8.7)  9 DEC 2024 14:28
  system commands enabled.
  file:line:error style messages enabled.
 **poster.tex
@@ -1501,15 +1501,15 @@ Package logreq Info: Writing requests to 'poster.run.xml'.
 
 Here is how much of LuaTeX's memory you used:
  48783 strings out of 477513
- 476942,2373549 words of node,token memory allocated
- 100165 words of node memory still in use:
-   447 hlist, 58 vlist, 68 rule, 648 disc, 94 local_par, 80 math, 2148 glue, 1424 kern, 433 penalty, 7678 glyph, 1575 attribute, 94 glue_spec, 1575 attribute_list, 32 write, 136 pdf_literal, 30 pdf_start_link, 30 pdf_end_link, 25 pdf_dest, 30 pdf_action, 340 pdf_colorstack, 10 pdf_setmatrix, 10 pdf_save, 10 pdf_restore nodes
-   avail lists: 1:4,2:492,3:2006,4:1170,5:4370,6:290,7:30238,8:26,9:2029,10:22,11:1961
+ 476927,2373549 words of node,token memory allocated
+ 101379 words of node memory still in use:
+   448 hlist, 58 vlist, 68 rule, 659 disc, 94 local_par, 80 math, 2169 glue, 1447 kern, 434 penalty, 7795 glyph, 1575 attribute, 94 glue_spec, 1575 attribute_list, 32 write, 136 pdf_literal, 30 pdf_start_link, 30 pdf_end_link, 25 pdf_dest, 30 pdf_action, 340 pdf_colorstack, 10 pdf_setmatrix, 10 pdf_save, 10 pdf_restore nodes
+   avail lists: 1:6,2:492,3:2009,4:1170,5:4439,6:290,7:30652,8:26,9:2032,10:22,11:1994
  68436 multiletter control sequences out of 65536+600000
  167 fonts using 29089735 bytes
  128i,20n,116p,726b,2481s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-LightItalic.ttf>{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-Regular.ttf></usr/local/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-Light.ttf></usr/local/texlive/2023/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Bold.otf></usr/share/fonts/liberation-sans/LiberationSans-Regular.ttf></usr/share/fonts/liberation-sans/LiberationSans-Bold.ttf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on poster.pdf (1 page, 1103185 bytes).
+Output written on poster.pdf (1 page, 1102095 bytes).
 
 PDF statistics: 166 PDF objects out of 1000 (max. 8388607)
  112 compressed objects within 2 object streams

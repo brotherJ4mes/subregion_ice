@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber poster"] 1732141328 "poster.bcf" "poster.bbl" "poster" 1732719026 0
+["biber poster"] 1732141328 "poster.bcf" "poster.bbl" "poster" 1733772492 0
   "./refs.bib" 1731535551 7307 c8c2a9c0e00a093c1053a4cbf0297fc8 ""
-  "poster.bcf" 1732719025 108053 706893ea0f8e6ca5ae27217d2ae07ae6 "pdflatex"
+  "poster.bcf" 1733772492 108053 706893ea0f8e6ca5ae27217d2ae07ae6 "pdflatex"
   (generated)
   "poster.bbl"
   "poster.blg"
   (rewritten before read)
-["pdflatex"] 1732719022 "poster.tex" "poster.pdf" "poster" 1732719026 0
+["pdflatex"] 1733772489 "poster.tex" "poster.pdf" "poster" 1733772492 0
   "/home/kessler/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lato-bold.luc" 1731280091 1525262 ba2beb64b2eb002a787bf76d194f22fb ""
   "/home/kessler/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lato-bolditalic.luc" 1731280089 1554217 a19a2cbdac147654126b297a76ee5ed3 ""
   "/home/kessler/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lato-italic.luc" 1731280092 1580286 80b51a6bb4f0b6f9e40121c2ccecec7f ""
@@ -399,21 +399,21 @@
   "beamercolorthemeNOAA.sty" 1731363529 1906 57280dccf9d296237147f5b27b8e9a63 ""
   "beamerthemegemini.sty" 1732140955 7950 84fd1bff52fca7cb9f2cd84797789699 ""
   "figures/amic.png" 1731622935 46621 4338deb2cb200a0e4d63357075d39c53 ""
-  "figures/amic_diff.png" 1731618662 75912 21a630bf98bba4dbcdc9661e663899b3 ""
-  "figures/dur_ts.png" 1731618661 77581 69b87efdc07f65e60c6c87107739d691 ""
+  "figures/amic_diff.png" 1733771754 75774 dc1d72cd4c123866b45eba479381f24c ""
+  "figures/dur_ts.png" 1733771754 77440 9c4b25551e1b39e05c967c0dd742b4b1 ""
   "figures/scatter/AirTemp_jfm.png" 1731452237 156195 98880ebbc2348d72709b232443e02529 ""
   "figures/scatter/WindSpeed_jfm.png" 1731452237 162883 90b7d11cbaf7aaf88de830c5d4243ced ""
   "figures/scatter/cor_boxplot.png" 1731452238 23206 bd1d4cb2dce6cb9f1e3404f47376a9de ""
-  "figures/station_map.png" 1732719021 356060 d673d1559bef91a65cf1d69b109f7d71 ""
-  "figures/trends_horz.png" 1731618662 37342 22456514bc9fc04a938f1124653214d5 ""
+  "figures/station_map.png" 1733772059 355174 2f322b4d0c340354a4377b506f7720db ""
+  "figures/trends_horz.png" 1733771754 37289 25ce75b2dc26075a334c1dabf32b1c57 ""
   "logos/CIGLR_LOGO_white.png" 1731281491 62625 07547e86cc4a07f2eac94e6c7aa95daf ""
   "logos/GLERL.png" 1731281491 32290 c8be06a0dd0849f8041a605ce1c3edd8 ""
-  "poster.aux" 1732719025 5095 71359b40e9b5c6b9eef26ccc0d2b9028 "pdflatex"
+  "poster.aux" 1733772492 5217 9f38af9d53f9ee246cc9817c94dbacc7 "pdflatex"
   "poster.bbl" 1732141329 45090 13c0a629aad5b1453c3694125731bc6d "biber poster"
-  "poster.nav" 1732719025 459 6178c6f2f031b07114cdfe9fc0797420 "pdflatex"
-  "poster.out" 1732719025 93 aea4b6a8ae45636c75679c2f0dfa4493 "pdflatex"
-  "poster.run.xml" 1732719025 2348 bce9e12907c916269afd7ebb05ca37c1 "pdflatex"
-  "poster.tex" 1732714817 10378 836c6a2958ad23603ea6be4774dbc95d ""
+  "poster.nav" 1733772492 459 6178c6f2f031b07114cdfe9fc0797420 "pdflatex"
+  "poster.out" 1733772492 93 aea4b6a8ae45636c75679c2f0dfa4493 "pdflatex"
+  "poster.run.xml" 1733772492 2348 bce9e12907c916269afd7ebb05ca37c1 "pdflatex"
+  "poster.tex" 1733772485 10499 34db6a87514827fdd2741cc8ce435042 ""
   (generated)
   "poster.aux"
   "poster.bcf"
