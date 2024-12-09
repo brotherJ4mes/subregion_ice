@@ -1,10 +1,10 @@
 #!/usr/bin/Rscript
 library(sf)
 library(wesanderson)
-source('met_utils.R')
+source('../met_utils.R')
 
 
-out_dir <- '/home/kessler/work/subregion_ice/poster/67311e171949f1bd5174bf03/figures/'
+out_dir <- '/home/kessler/work/subregion_ice/poster/tex/figures/'
 meta <- read.table('../meta.txt', sep='\t', head=T)
 lakes <- meta$lake
 lk_idx <- c(grep('Sup', lakes), grep('Mic', lakes), grep('Hur', lakes), grep('Eri', lakes), which(grepl('Ont',meta$name)))
@@ -12,8 +12,8 @@ meta <- meta[lk_idx,]
 
 
 if(T){
-stn_list_g <- 'stnlist_ghcnd_2021mar16.txt'
-stn_list_i <- 'stnlist_isd_2021jan29.txt'
+stn_list_g <- '../stn_meta/stnlist_ghcnd_2021mar16.txt'
+stn_list_i <- '../stn_meta/stnlist_isd_2021jan29.txt'
 met_dir <- 'stn'
 
 ghcnd <- create_pts(stn_list_g)
@@ -100,7 +100,7 @@ terra::sbar('bottomleft', d=100, lonlat=T)
 #overlay bar chart
 par(fig=c(0.55, 1, .65, 1), mar=c(1, 4, 6, 3), new=TRUE)
 x <- barplot(meta$depth, names.arg=NULL, col=pal[cidx], width=meta$area, ylim=c(160,0))
-axis(3, x, meta$code, las=2, cex.axis=1.0, gap.axis=.0)
+axis(3, x, meta$code, las=2, cex.axis=0.8, gap.axis=-.1)
 mtext(side=2, 'mean depth (m)', cex=2.0, line=3.5)
 
 #overlay key
