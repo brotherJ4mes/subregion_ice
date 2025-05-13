@@ -1,0 +1,19 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'subregion_ice.blg'
+[32] biber:340> INFO - === Tue May 13, 2025, 10:37:19
+[40] Biber.pm:419> INFO - Reading 'subregion_ice.bcf'
+[80] Biber.pm:979> INFO - Found 2 citekeys in bib section 0
+[90] Biber.pm:4419> INFO - Processing section 0
+[95] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
+[96] bibtex.pm:1713> INFO - LaTeX decoding ...
+[98] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[117] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[117] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[117] Biber.pm:4239> INFO - Sorting list 'ydnt/apasortcite//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[117] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[122] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[122] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[122] Biber.pm:4239> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[122] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[126] bbl.pm:660> INFO - Writing 'subregion_ice.bbl' with encoding 'UTF-8'
+[127] bbl.pm:763> INFO - Output to subregion_ice.bbl

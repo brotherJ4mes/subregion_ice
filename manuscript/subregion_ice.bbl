@@ -1,0 +1,187 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/apasortcite//global/global}
+    \entry{Martin_2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1a159119dfe622a93312f026baaf5115}{%
+           family={Associates},
+           familyi={A\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1a159119dfe622a93312f026baaf5115}
+      \strng{fullhash}{1a159119dfe622a93312f026baaf5115}
+      \strng{bibnamehash}{1a159119dfe622a93312f026baaf5115}
+      \strng{authorbibnamehash}{1a159119dfe622a93312f026baaf5115}
+      \strng{authornamehash}{1a159119dfe622a93312f026baaf5115}
+      \strng{authorfullhash}{1a159119dfe622a93312f026baaf5115}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Economic Impacts of Maritime Shipping in the Great Lakes - St Lawrence Region}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb http://marinedelivers.com
+      \endverb
+      \verb{url}
+      \verb http://marinedelivers.com
+      \endverb
+    \endentry
+    \entry{Austin_2007}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2d41a619cbb2302bd71a3ef7f014a24e}{%
+           family={Austin},
+           familyi={A\bibinitperiod},
+           given={Jay\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c9d84b782f1546c3d30162c08876632}{%
+           family={Colman},
+           familyi={C\bibinitperiod},
+           given={Steven\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Geophysical Union (AGU)}%
+      }
+      \strng{namehash}{36c5d3a7a8291220cec46ccd18915312}
+      \strng{fullhash}{36c5d3a7a8291220cec46ccd18915312}
+      \strng{bibnamehash}{36c5d3a7a8291220cec46ccd18915312}
+      \strng{authorbibnamehash}{36c5d3a7a8291220cec46ccd18915312}
+      \strng{authornamehash}{36c5d3a7a8291220cec46ccd18915312}
+      \strng{authorfullhash}{36c5d3a7a8291220cec46ccd18915312}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1944-8007}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{month}{3}
+      \field{number}{6}
+      \field{title}{Lake Superior summer water temperatures are increasing more rapidly than regional air temperatures: A positive ice‐albedo feedback}
+      \field{volume}{34}
+      \field{year}{2007}
+      \verb{doi}
+      \verb 10.1029/2006gl029021
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1029/2006GL029021
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1029/2006GL029021
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{Martin_2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1a159119dfe622a93312f026baaf5115}{%
+           family={Associates},
+           familyi={A\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1a159119dfe622a93312f026baaf5115}
+      \strng{fullhash}{1a159119dfe622a93312f026baaf5115}
+      \strng{bibnamehash}{1a159119dfe622a93312f026baaf5115}
+      \strng{authorbibnamehash}{1a159119dfe622a93312f026baaf5115}
+      \strng{authornamehash}{1a159119dfe622a93312f026baaf5115}
+      \strng{authorfullhash}{1a159119dfe622a93312f026baaf5115}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Economic Impacts of Maritime Shipping in the Great Lakes - St Lawrence Region}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb http://marinedelivers.com
+      \endverb
+      \verb{url}
+      \verb http://marinedelivers.com
+      \endverb
+    \endentry
+    \entry{Austin_2007}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2d41a619cbb2302bd71a3ef7f014a24e}{%
+           family={Austin},
+           familyi={A\bibinitperiod},
+           given={Jay\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c9d84b782f1546c3d30162c08876632}{%
+           family={Colman},
+           familyi={C\bibinitperiod},
+           given={Steven\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Geophysical Union (AGU)}%
+      }
+      \strng{namehash}{36c5d3a7a8291220cec46ccd18915312}
+      \strng{fullhash}{36c5d3a7a8291220cec46ccd18915312}
+      \strng{bibnamehash}{36c5d3a7a8291220cec46ccd18915312}
+      \strng{authorbibnamehash}{36c5d3a7a8291220cec46ccd18915312}
+      \strng{authornamehash}{36c5d3a7a8291220cec46ccd18915312}
+      \strng{authorfullhash}{36c5d3a7a8291220cec46ccd18915312}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1944-8007}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{month}{3}
+      \field{number}{6}
+      \field{title}{Lake Superior summer water temperatures are increasing more rapidly than regional air temperatures: A positive ice‐albedo feedback}
+      \field{volume}{34}
+      \field{year}{2007}
+      \verb{doi}
+      \verb 10.1029/2006gl029021
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1029/2006GL029021
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1029/2006GL029021
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

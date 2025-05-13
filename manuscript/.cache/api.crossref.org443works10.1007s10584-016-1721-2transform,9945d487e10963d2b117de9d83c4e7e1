@@ -1,0 +1,17 @@
+status: 200
+date: Tue, 13 May 2025 14:34:49 GMT
+content-type: text/x-bibliography
+connection: keep-alive
+vary: Accept
+access-control-expose-headers: Link
+access-control-allow-headers: X-Requested-With, Accept, Accept-Encoding, Accept-Charset, Accept-Language, Accept-Ranges, Cache-Control
+access-control-allow-origin: *
+server: Jetty(9.4.40.v20210413)
+x-ratelimit-limit: 50
+x-ratelimit-interval: 1s
+x-api-pool: public
+permissions-policy: interest-cohort=()
+content-location: https://api.crossref.org:443/works/10.1007/s10584-016-1721-2/transform
+-varied-accept: text/x-bibliography; style=bibtex
+
+ @article{Mason_2016, title={Fine-scale spatial variation in ice cover and surface temperature trends across the surface of the Laurentian Great Lakes}, volume={138}, ISSN={1573-1480}, url={http://dx.doi.org/10.1007/s10584-016-1721-2}, DOI={10.1007/s10584-016-1721-2}, number={1–2}, journal={Climatic Change}, publisher={Springer Science and Business Media LLC}, author={Mason, Lacey A. and Riseng, Catherine M. and Gronewold, Andrew D. and Rutherford, Edward S. and Wang, Jia and Clites, Anne and Smith, Sigrid D. P. and McIntyre, Peter B.}, year={2016}, month=jun, pages={71–83} }
