@@ -12,7 +12,7 @@ ice <- ice[-c(grep('02-29', dts)),] # remove leap days
 dts <- dts[-c(grep('02-29', dts))]
 
 
-meta <- read.table('meta.txt', sep='\t', head=T)
+meta <- read.table('txt/meta.txt', sep='\t', head=T)
 lks <- meta$lake
 # re-order lakes (Ont is handled differently to omit Niagara (no ice data)
 lk_idx <- c(grep('Sup', lks), grep('Mic', lks), grep('Hur', lks), grep('Eri', lks), which(grepl('Ont',meta$name)))
