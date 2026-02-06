@@ -16,7 +16,6 @@ x_ice <- function(fin, fun='mean'){
 		return(as.matrix(ice_vals))
 }
 
-
 flist <- list.files(dir_in, pattern='*.ct', full.names=T)
 dts <- gsub('\\D', '', basename(flist))
 dat_out <- matrix(NA, length(flist), nrow(bnds))

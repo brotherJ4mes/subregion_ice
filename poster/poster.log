@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.8.7)  9 DEC 2024 14:28
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.8.7)  6 FEB 2026 13:50
  system commands enabled.
  file:line:error style messages enabled.
 **poster.tex
@@ -677,12 +677,12 @@ Package beamerposter Info: myfontscale=1.0 on input line 129.
 Package beamerposter Info: checking size input, please wait. on input line 130.
 Package beamerposter Info: the input custom\ 6\ was correct, we proceed. on input line 130.
 Package beamerposter Info: finished size input check. on input line 130.
-Package beamerposter Info: custom poster width=122 on input line 130.
-Package beamerposter Info: custom poster height=91 on input line 130.
+Package beamerposter Info: custom poster width=84 on input line 130.
+Package beamerposter Info: custom poster height=59 on input line 130.
 Package beamerposter Info: myfontscale=1.0 on input line 130.
  ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-SUB ) ) ( FP-UPN ( FP-SUB ) )
-Package beamerposter Info: paperwidth=3471.2362pt, paperheight=2589.20078pt on input line 173.
-Package beamerposter Info: textwidth=3442.78346pt, textheight=2560.74802pt on input line 174.
+Package beamerposter Info: paperwidth=2390.0315pt, paperheight=1678.71259pt on input line 173.
+Package beamerposter Info: textwidth=2361.57874pt, textheight=1650.25984pt on input line 174.
 Package beamerposter Info: fontscale=1.0, myfontscale=1.00 on input line 175.
  ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) )) (./beamerthemegemini.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
@@ -1263,12 +1263,12 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 File: logos/CIGLR_LOGO_white.png Graphic file (type png)
 <use logos/CIGLR_LOGO_white.png>
 Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 72.
-(luatex.def)             Requested size: 517.16197pt x 199.16928pt.
+(luatex.def)             Requested size: 221.62654pt x 85.35826pt.
 <logos/GLERL.png, id=11, 326.4195pt x 84.0741pt>
 File: logos/GLERL.png Graphic file (type png)
 <use logos/GLERL.png>
 Package luatex.def Info: logos/GLERL.png  used on input line 73.
-(luatex.def)             Requested size: 773.38158pt x 199.16928pt.
+(luatex.def)             Requested size: 331.41936pt x 85.35826pt.
 \@quotelevel=\count513
 \@quotereset=\count514
  (./poster.aux)
@@ -1307,12 +1307,12 @@ LaTeX Font Info:    ... okay on input line 79.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 3414.33072pt, 28.45274pt)
-* v-part:(T,H,B)=(0.0pt, 2589.20078pt, 0.0pt)
-* \paperwidth=3471.2362pt
-* \paperheight=2589.20078pt
-* \textwidth=3414.33072pt
-* \textheight=2560.74805pt
+* h-part:(L,W,R)=(28.45274pt, 2333.126pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 1678.71259pt, 0.0pt)
+* \paperwidth=2390.0315pt
+* \paperheight=1678.71259pt
+* \textwidth=2333.126pt
+* \textheight=1650.25986pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
@@ -1394,7 +1394,7 @@ Package biblatex Info: Reference segment=0 on input line 79.
 File: logos/GLERL.png Graphic file (type png)
 <use logos/GLERL.png>
 Package luatex.def Info: logos/GLERL.png  used on input line 79.
-(luatex.def)             Requested size: 773.38158pt x 199.16928pt.
+(luatex.def)             Requested size: 331.41936pt x 85.35826pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 79.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1409,75 +1409,71 @@ File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `cmex7' loaded for size
 (Font)              <6> on input line 79.
-LaTeX Font Info:    Calculating math sizes for size <35.83> on input line 79.
+LaTeX Font Info:    Calculating math sizes for size <29.86> on input line 79.
 File: logos/CIGLR_LOGO_white.png Graphic file (type png)
 <use logos/CIGLR_LOGO_white.png>
 Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 79.
-(luatex.def)             Requested size: 517.16197pt x 199.16928pt.
+(luatex.def)             Requested size: 221.62654pt x 85.35826pt.
 File: logos/GLERL.png Graphic file (type png)
 <use logos/GLERL.png>
-Package luatex.def Info: logos/GLERL.png  used on input line 230.
-(luatex.def)             Requested size: 773.38158pt x 199.16928pt.
+Package luatex.def Info: logos/GLERL.png  used on input line 218.
+(luatex.def)             Requested size: 331.41936pt x 85.35826pt.
 File: logos/CIGLR_LOGO_white.png Graphic file (type png)
 <use logos/CIGLR_LOGO_white.png>
-Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 230.
-(luatex.def)             Requested size: 517.16197pt x 199.16928pt.
-<figures/amic.png, id=31, 1204.5pt x 351.3125pt>
-File: figures/amic.png Graphic file (type png)
-<use figures/amic.png>
-Package luatex.def Info: figures/amic.png  used on input line 230.
-(luatex.def)             Requested size: 1041.38145pt x 303.76318pt.
-LaTeX Font Info:    Calculating math sizes for size <29.86> on input line 230.
-<figures/station_map.png, id=32, 1806.75pt x 1204.5pt>
-File: figures/station_map.png Graphic file (type png)
-<use figures/station_map.png>
-Package luatex.def Info: figures/station_map.png  used on input line 230.
-(luatex.def)             Requested size: 1041.38145pt x 694.2914pt.
-<figures/dur_ts.png, id=40, 1706.375pt x 803.0pt>
-File: figures/dur_ts.png Graphic file (type png)
-<use figures/dur_ts.png>
-Package luatex.def Info: figures/dur_ts.png  used on input line 230.
-(luatex.def)             Requested size: 1041.38145pt x 490.0866pt.
-<figures/amic_diff.png, id=41, 1706.375pt x 803.0pt>
-File: figures/amic_diff.png Graphic file (type png)
-<use figures/amic_diff.png>
-Package luatex.def Info: figures/amic_diff.png  used on input line 230.
-(luatex.def)             Requested size: 1041.38145pt x 490.0866pt.
-<figures/trends_horz.png, id=48, 1505.625pt x 351.3125pt>
-File: figures/trends_horz.png Graphic file (type png)
-<use figures/trends_horz.png>
-Package luatex.def Info: figures/trends_horz.png  used on input line 230.
-(luatex.def)             Requested size: 1041.38145pt x 243.00626pt.
-<figures/scatter/AirTemp_jfm.png, id=49, 803.0pt x 702.625pt>
-File: figures/scatter/AirTemp_jfm.png Graphic file (type png)
-<use figures/scatter/AirTemp_jfm.png>
-Package luatex.def Info: figures/scatter/AirTemp_jfm.png  used on input line 230.
-(luatex.def)             Requested size: 510.28262pt x 446.50499pt.
-<figures/scatter/WindSpeed_jfm.png, id=50, 803.0pt x 702.625pt>
-File: figures/scatter/WindSpeed_jfm.png Graphic file (type png)
-<use figures/scatter/WindSpeed_jfm.png>
-Package luatex.def Info: figures/scatter/WindSpeed_jfm.png  used on input line 230.
-(luatex.def)             Requested size: 510.28262pt x 446.50499pt.
-<figures/scatter/cor_boxplot.png, id=51, 1204.5pt x 250.9375pt>
-File: figures/scatter/cor_boxplot.png Graphic file (type png)
-<use figures/scatter/cor_boxplot.png>
-Package luatex.def Info: figures/scatter/cor_boxplot.png  used on input line 230.
-(luatex.def)             Requested size: 1041.38145pt x 216.9737pt.
+Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 218.
+(luatex.def)             Requested size: 221.62654pt x 85.35826pt.
+<../figures/amic.png, id=31, 1204.5pt x 351.3125pt>
+File: ../figures/amic.png Graphic file (type png)
+<use ../figures/amic.png>
+Package luatex.def Info: ../figures/amic.png  used on input line 218.
+(luatex.def)             Requested size: 717.01674pt x 209.13805pt.
+<../figures/station_map.png, id=32, 1806.75pt x 1204.5pt>
+File: ../figures/station_map.png Graphic file (type png)
+<use ../figures/station_map.png>
+Package luatex.def Info: ../figures/station_map.png  used on input line 218.
+(luatex.def)             Requested size: 717.01674pt x 478.02374pt.
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <7> on input line 218.
+<../figures/dur_ts.png, id=40, 1706.375pt x 803.0pt>
+File: ../figures/dur_ts.png Graphic file (type png)
+<use ../figures/dur_ts.png>
+Package luatex.def Info: ../figures/dur_ts.png  used on input line 218.
+(luatex.def)             Requested size: 717.01674pt x 337.42924pt.
+<../figures/trends_horz.png, id=44, 1505.625pt x 351.3125pt>
+File: ../figures/trends_horz.png Graphic file (type png)
+<use ../figures/trends_horz.png>
+Package luatex.def Info: ../figures/trends_horz.png  used on input line 218.
+(luatex.def)             Requested size: 717.01674pt x 167.30937pt.
+<../figures/scatter/AirTemp_jfm.png, id=47, 803.0pt x 702.625pt>
+File: ../figures/scatter/AirTemp_jfm.png Graphic file (type png)
+<use ../figures/scatter/AirTemp_jfm.png>
+Package luatex.def Info: ../figures/scatter/AirTemp_jfm.png  used on input line 218.
+(luatex.def)             Requested size: 351.34213pt x 307.42984pt.
+<../figures/scatter/WindSpeed_jfm.png, id=48, 803.0pt x 702.625pt>
+File: ../figures/scatter/WindSpeed_jfm.png Graphic file (type png)
+<use ../figures/scatter/WindSpeed_jfm.png>
+Package luatex.def Info: ../figures/scatter/WindSpeed_jfm.png  used on input line 218.
+(luatex.def)             Requested size: 351.34213pt x 307.42984pt.
+<../figures/scatter/cor_boxplot.png, id=49, 1204.5pt x 250.9375pt>
+File: ../figures/scatter/cor_boxplot.png Graphic file (type png)
+<use ../figures/scatter/cor_boxplot.png>
+Package luatex.def Info: ../figures/scatter/cor_boxplot.png  used on input line 218.
+(luatex.def)             Requested size: 717.01674pt x 149.38432pt.
 
-Overfull \vbox (2.44931pt too high) detected at line 230
+Overfull \vbox (312.87663pt too high) detected at line 218
  []
 
 File: logos/GLERL.png Graphic file (type png)
 <use logos/GLERL.png>
-Package luatex.def Info: logos/GLERL.png  used on input line 230.
-(luatex.def)             Requested size: 773.38158pt x 199.16928pt.
+Package luatex.def Info: logos/GLERL.png  used on input line 218.
+(luatex.def)             Requested size: 331.41936pt x 85.35826pt.
 File: logos/CIGLR_LOGO_white.png Graphic file (type png)
 <use logos/CIGLR_LOGO_white.png>
-Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 230.
-(luatex.def)             Requested size: 517.16197pt x 199.16928pt.
+Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 218.
+(luatex.def)             Requested size: 221.62654pt x 85.35826pt.
 [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-<./logos/GLERL.png><./logos/CIGLR_LOGO_white.png><./figures/amic.png><./figures/station_map.png><./figures/dur_ts.png><./figures/amic_diff.png><./figures/trends_horz.png><./figures/scatter/AirTemp_jfm.png><./figures/scatter/WindSpeed_jfm.png><./figures/scatter/cor_boxplot.png>]
+<./logos/GLERL.png><./logos/CIGLR_LOGO_white.png><../figures/amic.png><../figures/station_map.png><../figures/dur_ts.png><../figures/trends_horz.png><../figures/scatter/AirTemp_jfm.png><../figures/scatter/WindSpeed_jfm.png><../figures/scatter/cor_boxplot.png>]
 \tf@nav=\write7
 
 \openout7 = poster.nav
@@ -1500,19 +1496,19 @@ Package logreq Info: Writing requests to 'poster.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 48783 strings out of 477513
- 476927,2373549 words of node,token memory allocated
- 101379 words of node memory still in use:
-   448 hlist, 58 vlist, 68 rule, 659 disc, 94 local_par, 80 math, 2169 glue, 1447 kern, 434 penalty, 7795 glyph, 1575 attribute, 94 glue_spec, 1575 attribute_list, 32 write, 136 pdf_literal, 30 pdf_start_link, 30 pdf_end_link, 25 pdf_dest, 30 pdf_action, 340 pdf_colorstack, 10 pdf_setmatrix, 10 pdf_save, 10 pdf_restore nodes
-   avail lists: 1:6,2:492,3:2009,4:1170,5:4439,6:290,7:30652,8:26,9:2032,10:22,11:1994
- 68436 multiletter control sequences out of 65536+600000
- 167 fonts using 29089735 bytes
- 128i,20n,116p,726b,2481s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-LightItalic.ttf>{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-Regular.ttf></usr/local/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-Light.ttf></usr/local/texlive/2023/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Bold.otf></usr/share/fonts/liberation-sans/LiberationSans-Regular.ttf></usr/share/fonts/liberation-sans/LiberationSans-Bold.ttf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on poster.pdf (1 page, 1102095 bytes).
+ 48762 strings out of 477513
+ 381542,2373549 words of node,token memory allocated
+ 89113 words of node memory still in use:
+   424 hlist, 53 vlist, 61 rule, 555 disc, 85 local_par, 74 math, 1940 glue, 1261 kern, 412 penalty, 6686 glyph, 1513 attribute, 94 glue_spec, 1513 attribute_list, 30 write, 136 pdf_literal, 28 pdf_start_link, 28 pdf_end_link, 24 pdf_dest, 28 pdf_action, 332 pdf_colorstack, 9 pdf_setmatrix, 9 pdf_save, 9 pdf_restore nodes
+   avail lists: 1:4,2:498,3:1922,4:1146,5:3889,6:263,7:26672,8:27,9:1916,10:23,11:1683
+ 68419 multiletter control sequences out of 65536+600000
+ 154 fonts using 28311695 bytes
+ 128i,20n,116p,748b,2433s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-LightItalic.ttf>{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-Regular.ttf>{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-Light.ttf></usr/local/texlive/2023/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Bold.otf></usr/share/fonts/liberation-sans/LiberationSans-Regular.ttf></usr/share/fonts/liberation-sans/LiberationSans-Bold.ttf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on poster.pdf (1 page, 1064756 bytes).
 
-PDF statistics: 166 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 131072)
+PDF statistics: 176 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 131072)
  24 words of extra memory for PDF output out of 10000 (max. 100000000)
 

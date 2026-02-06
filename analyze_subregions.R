@@ -3,10 +3,13 @@ library(fields)
 library(Kendall)
 graphics.off()
 
-out_dir <- '/home/kessler/work/subregion_ice/poster/67311e171949f1bd5174bf03/figures'
+#out_dir <- '/home/kessler/work/subregion_ice/poster/67311e171949f1bd5174bf03/figures'
+#out_dir <- '/home/kessler/work/subregion_ice/poster/67311e171949f1bd5174bf03/figures'
+out_dir <- '/home/kessler/work/subregion_ice/figures'
+file_in = 'txt/yrly_out/all.txt'
 
 thresh <- 10
-ice <- read.table('all.txt')
+ice <- read.table(file_in)
 dts <- as.Date(row.names(ice), format='%Y%m%d')
 ice <- ice[-c(grep('02-29', dts)),] # remove leap days
 dts <- dts[-c(grep('02-29', dts))]
@@ -55,7 +58,7 @@ ice_on <- ice_on[jd > 0 & jd <91,] # only consider JFM duration
 onyr <-  as.numeric(format(as.Date(row.names(ice_on),'%Y%m%d'),'%Y'))
 dur <- aggregate(ice_on, by=list(yr=onyr), sum)
 
-stop()
+#stop()
 
 
 normalize <- function(dat){ out <- cbind(data.frame(yr=unique(iyr), sweep(dat[,-1], 2, apply(dat[,-1], 2, mean), '-'))) }

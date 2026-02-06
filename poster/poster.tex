@@ -11,7 +11,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{lipsum}
-\usepackage[size=custom,width=122,height=91,scale=1.0]{beamerposter}
+\usepackage[size=custom,width=84,height=59,scale=1.0]{beamerposter}
 
 \usetheme{gemini}
 \usecolortheme{NOAA}
@@ -22,7 +22,7 @@
 \pgfplotsset{compat=1.14}
 \usepackage{anyfontsize}
 \usepackage{wrapfig}
-\usepackage[font=small,skip=10pt]{caption} %default 30pt
+\usepackage[font=footnotesize,skip=10pt]{caption} %default 30pt
 
 \usepackage[style=numeric, sorting=none, isbn=false, url=false]{biblatex}
 \addbibresource{refs.bib}
@@ -47,7 +47,7 @@
 % Title
 % ====================
 
-\title{Five Decades of Great Lakes Ice Cover: Sub-lake Scale Trends and Relationships with Meterological Data}
+\title{Subregional Analysis of Great Lakes Ice Cover: \\  Connecting Ice to Local Weather Data}
 
 \author{James Kessler \inst{1} \and David Cannon \inst{2} \and Alisa Young \inst{1} \and Jia Wang \inst{1}}
 
@@ -59,8 +59,8 @@
 
 \footercontent{
 \href{http://www.glerl.noaa.gov}{www.GLERL.NOAA.gov} \hfill
-  AGU Fall Meeting 2024, Washington, D.C. \hfill
-\href{mailto:james.kessler@noaa.gov?subject=AGU24 Poster}{james.kessler@noaa.gov}}
+  Ocean Science Meeting 2026, Glasgow, Scotland, U.K.  \hfill
+\href{mailto:james.kessler@noaa.gov?subject=OSM Poster}{james.kessler@noaa.gov}}
 % (can be left out to remove footer)
 
 % ====================
@@ -69,8 +69,8 @@
 % Refer to https://github.com/k4rtik/uchicago-poster
 % logo: https://communications.admin.ox.ac.uk/communications-resources/visual-identity/identity-guidelines/the-oxford-logo
 % use this to include logos on the left and/or right side of the header:
-\logoright{\includegraphics[height=7cm]{logos/CIGLR_LOGO_white.png}}
-\logoleft{\includegraphics[height=7cm]{logos/GLERL.png}}
+\logoright{\includegraphics[height=3cm]{logos/CIGLR_LOGO_white.png}}
+\logoleft{\includegraphics[height=3cm]{logos/GLERL.png}}
 
 % ====================
 % Body
@@ -78,21 +78,23 @@
 
 \begin{document}
 
+\small
 \begin{frame}[t]
 \begin{columns}[t]
 \separatorcolumn
-
 \begin{column}{\colwidth}
 
 	\begin{block}{Introduction} \label{intro}
-		Ice cover in the Great Lakes has significant influence on regional climate, ecology, and economy and has been recorded with high accuracy since the advent of remote-sensing data in the early 1970's. This data is spatially resolved at 1.25KM resolution and available as daily files throughout each ice season\supercite{Yang2020}.
-    
-		Previous work has assessed large-scale (i.e. lake or basin-wide) ice cover fluctuations through time and their relationship to global weather phenomena \supercite{Sharma2019, OReilly2015, Wang2018, Bai2012}. Mason et al. (2016)\supercite{Mason2016} used the Great Lakes Aquatic Habitat Framework (GLAHF)\supercite{Wang2015} to analyze ice cover duration for 1973-2013. The delineation of subregions in GLAHF includes multiple spatial scales and was designed by considering physical, ecological and socioeconomic factors.  
-    
-		Since 2013, the Great Lakes have seen two extreme highs (2014 and 2015) and two extreme lows (2024 and 2017) in the top 5 highest/lowest for seasonal max ice (see fig. \ref{fig:amic}). This work provides an update to Mason et al. 2016 for recent years, analysis of two additional ice metrics (seasonal max and mean), and correlations to several meteorological variables from 530 met stations.
-    
+		Ice cover in the Great Lakes  highly variable and has significant influence on regional climate, ecology, and economy. Spatially resolved ice cover ($\Delta x=1.25 \textup{KM}^2$) has been recorded since 1973 and is available as daily files throughout each ice season\supercite{Yang2020}. Previous work has assessed large-scale (i.e. lake or basin-wide) ice cover fluctuations through time and their relationship to global weather phenomena \supercite{Mason2016, Sharma2019, OReilly2015, Wang2018, Bai2012}. Following Mason et al. (2016)\supercite{Mason2016} we use the Great Lakes Aquatic Habitat Framework (GLAHF)\supercite{Wang2015} to analyze ice cover and local meteorlogical data for 1973-present and ask two research questions:
+
+	  \normalsize \bfseries
+	  \begin{enumerate}
+		  \item{Do significant ice trends exist at these spatial scales?}
+		  \item{Are correlations between atmosphere and ice data consistent with our understanding of physical processes?}
+ 	 \end{enumerate}
+	 \mdseries \normalfont
     \begin{figure}
-      \includegraphics[width=\textwidth]{figures/amic.png}
+      \includegraphics[width=\textwidth]{../figures/amic.png}
 	  \caption{Annual Max Ice cover for the Great Lakes (ice years after 2013 highlighted in blue). } %[TODO: replot as pdf; remove logo \& annotations?]}
 	  \label{fig:amic}
     \end{figure}
@@ -101,17 +103,10 @@
   \begin{block}{Methods} \label{methods}
 
 
-	  \large \bfseries
-	  \underline{Research Questions:}
-	  \begin{enumerate}
-		  \item{Are there statistically significant ice trends at these  spatial scales?}
-		  \item{How do ice cover metrics correlate to nearby meteorological station data?}
- 	 \end{enumerate}
-	 \mdseries \normalfont
 
 	  \begin{figure} 
-		  \includegraphics[width=\textwidth]{figures/station_map.png}
-		   \caption{Spatial delineation of GLAHF subregions over water in relation to selected met station locations from the Global Historical Climatology Network Database\supercite{Menne2012} and the Integrated Surface Database\supercite{Smith2011}.}
+		  \includegraphics[width=\textwidth]{../figures/station_map.png}
+		  \caption{Spatial delineation of GLAHF subregions over water in relation to selected met station locations from the Global Historical Climatology Network Database\supercite{Menne2012} and the Integrated Surface Database\supercite{Smith2011}. The upper right figure shows depth and (relative) surface area of each subregion in the y and x directions, respectively.}
 		   \label{fig:map} 
 		\end{figure}
   \end{block}
@@ -121,43 +116,42 @@
 \separatorcolumn
 \begin{column}{\colwidth}
 	\justifying
-
-	%\vspace{5ex}
 	To address the first research question, the below metrics are calculated for each GLAHF subregion and ice season and then Mann-Kendall monotonic trend test\supercite{Mann1945} is applied to check for statistical significance:
 	\begin{itemize}
-		  \item \textbf{Annual Max Ice Cover (AMIC):} maximum percent (single daily value) during a given season
-		  \item \textbf{Seasonal Average Ice Cover (JFM):} mean daily percent of ice cover for Jan 1 - Mar 31
+		  \item \textbf{Annual Max Ice Cover (AMIC):} maximum percent during a given season
+		  \item \textbf{Seasonal Average Ice Cover (JFM):} mean daily ice cover:  Jan 1 - Mar 31
 		  \item \textbf{Ice Duration:} Total (non-consecutive) days$^{\dagger}$ where ice cover exceeded 10\%
 		\end{itemize}
 
 
-	\vspace{1ex}
 
 	To address the second research question, station data\supercite{Menne2012,Smith2011} is aggregated for each subregion based on a 20 KM radius and correlations between ice metrics and daily mean meteorological surface variables are identified. On average, 30 stations per subregion were located within the radius but station data availability varied through time, location and variable. Temperature min/max were reported most frequently (median station count $\approx$10 per subregion). Other variables\textemdash cloud cover, precipitation, wind speed, were reported less frequently (median $\approx$5).
 
 
 	\vspace{1ex}
-	\footnotesize{	$\dagger$: days are only counted Jan 1 - Mar 31 due to shorter ice reporting windows during 1970's and 80's. This method likely \emph{underestimates} trends in decreasing ice duration but is required to avoid artificial identification of season length decrease.}
-
+	\scriptsize{	$\dagger$: days are only counted Jan 1 - Mar 31 due to shorter ice reporting windows during 1970's and 80's. This method likely \emph{underestimates} trends in decreasing ice duration but is required to avoid artificial season length decrease.}
 	\vspace{2ex}
+	\small
 	\begin{block}{Analysis}\label{analysis}
-	\centering	\large \textbf{\underline{Part 1: Trend Analysis}} \normalfont
+	%\centering	\large \textbf{\underline{Part 1: Trend Analysis}} \normalfont
 
 		\begin{figure} 
-			 \includegraphics[width=\textwidth]{figures/dur_ts.png} 
+			 \includegraphics[width=\textwidth]{../figures/dur_ts.png} 
 			 \caption{Ice duration for each subregion.}
 			 \label{fig:dur}
 		  \end{figure}
-		  \begin{figure} 
-			   \includegraphics[width=\textwidth]{figures/amic_diff.png} 
-			   \caption{Departure from climatology for annual max ice cover for each subregion.}
-		   \label{fig:amic_diff}
-			\end{figure}
 			\justifying
-			Season duration decrease is visible in some regions but not apparent in others (see fig. \ref{fig:dur}).  Regions that show decrease are often offshore and deep: Superior (WSU, CSU, ESU), Huron (NHU, EHU, CHU), and Ontario (WON, CON). This may be due to warmer subsurface temps\supercite{Cannon2024, Anderson2021} during later years providing heat to surface waters and preventing freezing, whereas shallow regions may be able to consistently release all heat from the water column. (Despite the lack of obvious decrease, a majority of regions do show significant decreasing trends in fig. \ref{fig:trends}).
+			Season duration decrease is visible in some regions but not apparent in others (see fig. \ref{fig:dur}).  Regions that show decrease are often offshore and deep: Superior (WSU, CSU, ESU), Huron (NHU, EHU, CHU), and Ontario (WON, CON). This may be due to warmer subsurface temps\supercite{Cannon2024, Anderson2021} during later years providing heat to surface waters and preventing freezing, whereas shallow regions may be able to consistently release all heat from the water column. 
 
 
-		Annual max ice departures (fig. \ref{fig:amic_diff}) show similar features to ice duration\textemdash shallow, isolated regions (e.g. GrB, SB, WB, SMR) show little variation through time. The 1997-98 changepoint identified by Mason et al.\supercite{Mason2016} is prominent in both figures above (transition from white to black and blue to red).
+%		Annual max ice departures (fig. \ref{fig:amic_diff}) show similar features to ice duration\textemdash shallow, isolated regions (e.g. GrB, SB, WB, SMR) show little variation through time. The 1997-98 changepoint identified by Mason et al.\supercite{Mason2016} is prominent in both figures above (transition from white to black and blue to red).
+
+	\begin{figure}
+		\centering
+		 \includegraphics[width=\textwidth]{../figures/trends_horz.png} 
+		 \caption{Linear trends for each metric. Open (solid) dots indicate 95\% (99\%) statistical significance. Columns correspond to rows in fig \ref{fig:dur}. }
+ \label{fig:trends}
+	  \end{figure}
 
   \end{block}
 \end{column}
@@ -166,26 +160,20 @@
 
 \begin{column}{\colwidth}
 
-	\begin{figure}
-		\centering
-		 \includegraphics[width=\textwidth]{figures/trends_horz.png} 
-	 \caption{Linear trends for each metric. Open (solid) dots indicate 95\% (99\%) statistical significance. Columns correspond to rows in figures 3 and 4.} 
- \label{fig:trends}
-	  \end{figure}
 
-	\centering	\large \textbf{\underline{Part 2: Correlation with Met Stations}} \normalfont
+%	\centering	\large \textbf{\underline{Part 2: Correlation with Met Stations}} \normalfont
 
 	
 	\begin{figure} 
-		 \includegraphics[width=.49\textwidth]{figures/scatter/AirTemp_jfm.png}
-		  \includegraphics[width=.49\textwidth]{figures/scatter/WindSpeed_jfm.png}
+		 \includegraphics[width=.49\textwidth]{../figures/scatter/AirTemp_jfm.png}
+		  \includegraphics[width=.49\textwidth]{../figures/scatter/WindSpeed_jfm.png}
 		  \caption{Correlation between Seasonal Ice Cover and Air Temperature (left) and Wind Speed (right). Each point denotes a season where both ice and meteorologic variable was averaged over JFM from daily values.} 
 	  \label{fig:scatter}
 	  \end{figure}
 
 
 	  \begin{figure} 
-		  \includegraphics[width=\textwidth]{figures/scatter/cor_boxplot.png}
+		  \includegraphics[width=\textwidth]{../figures/scatter/cor_boxplot.png}
 		    \caption{Distribution (N=22 subregions) of correlations (Pearson's r) between three ice metrics and met station variables.} 
 			\label{fig:boxplot}
 		\end{figure}
