@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.8.7)  6 FEB 2026 13:50
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.8.7)  11 FEB 2026 15:56
  system commands enabled.
  file:line:error style messages enabled.
 **poster.tex
@@ -1416,64 +1416,59 @@ Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 79.
 (luatex.def)             Requested size: 221.62654pt x 85.35826pt.
 File: logos/GLERL.png Graphic file (type png)
 <use logos/GLERL.png>
-Package luatex.def Info: logos/GLERL.png  used on input line 218.
+Package luatex.def Info: logos/GLERL.png  used on input line 217.
 (luatex.def)             Requested size: 331.41936pt x 85.35826pt.
 File: logos/CIGLR_LOGO_white.png Graphic file (type png)
 <use logos/CIGLR_LOGO_white.png>
-Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 218.
+Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 217.
 (luatex.def)             Requested size: 221.62654pt x 85.35826pt.
 <../figures/amic.png, id=31, 1204.5pt x 351.3125pt>
 File: ../figures/amic.png Graphic file (type png)
 <use ../figures/amic.png>
-Package luatex.def Info: ../figures/amic.png  used on input line 218.
+Package luatex.def Info: ../figures/amic.png  used on input line 217.
 (luatex.def)             Requested size: 717.01674pt x 209.13805pt.
 <../figures/station_map.png, id=32, 1806.75pt x 1204.5pt>
 File: ../figures/station_map.png Graphic file (type png)
 <use ../figures/station_map.png>
-Package luatex.def Info: ../figures/station_map.png  used on input line 218.
-(luatex.def)             Requested size: 717.01674pt x 478.02374pt.
+Package luatex.def Info: ../figures/station_map.png  used on input line 217.
+(luatex.def)             Requested size: 645.31068pt x 430.21953pt.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 218.
+(Font)              <7> on input line 217.
 <../figures/dur_ts.png, id=40, 1706.375pt x 803.0pt>
 File: ../figures/dur_ts.png Graphic file (type png)
 <use ../figures/dur_ts.png>
-Package luatex.def Info: ../figures/dur_ts.png  used on input line 218.
+Package luatex.def Info: ../figures/dur_ts.png  used on input line 217.
 (luatex.def)             Requested size: 717.01674pt x 337.42924pt.
 <../figures/trends_horz.png, id=44, 1505.625pt x 351.3125pt>
 File: ../figures/trends_horz.png Graphic file (type png)
 <use ../figures/trends_horz.png>
-Package luatex.def Info: ../figures/trends_horz.png  used on input line 218.
+Package luatex.def Info: ../figures/trends_horz.png  used on input line 217.
 (luatex.def)             Requested size: 717.01674pt x 167.30937pt.
-<../figures/scatter/AirTemp_jfm.png, id=47, 803.0pt x 702.625pt>
-File: ../figures/scatter/AirTemp_jfm.png Graphic file (type png)
-<use ../figures/scatter/AirTemp_jfm.png>
-Package luatex.def Info: ../figures/scatter/AirTemp_jfm.png  used on input line 218.
-(luatex.def)             Requested size: 351.34213pt x 307.42984pt.
-<../figures/scatter/WindSpeed_jfm.png, id=48, 803.0pt x 702.625pt>
-File: ../figures/scatter/WindSpeed_jfm.png Graphic file (type png)
-<use ../figures/scatter/WindSpeed_jfm.png>
-Package luatex.def Info: ../figures/scatter/WindSpeed_jfm.png  used on input line 218.
-(luatex.def)             Requested size: 351.34213pt x 307.42984pt.
-<../figures/scatter/cor_boxplot.png, id=49, 1204.5pt x 250.9375pt>
+<../figures/cor/NMI.png, id=47, 978.65625pt x 376.40625pt>
+File: ../figures/cor/NMI.png Graphic file (type png)
+<use ../figures/cor/NMI.png>
+Package luatex.def Info: ../figures/cor/NMI.png  used on input line 217.
+(luatex.def)             Requested size: 717.01674pt x 275.77937pt.
+<../figures/scatter/cor_boxplot.png, id=48, 1204.5pt x 250.9375pt>
 File: ../figures/scatter/cor_boxplot.png Graphic file (type png)
 <use ../figures/scatter/cor_boxplot.png>
-Package luatex.def Info: ../figures/scatter/cor_boxplot.png  used on input line 218.
+Package luatex.def Info: ../figures/scatter/cor_boxplot.png  used on input line 217.
 (luatex.def)             Requested size: 717.01674pt x 149.38432pt.
 
-Overfull \vbox (312.87663pt too high) detected at line 218
+Overfull \vbox (281.22617pt too high) detected at line 217
  []
 
 File: logos/GLERL.png Graphic file (type png)
 <use logos/GLERL.png>
-Package luatex.def Info: logos/GLERL.png  used on input line 218.
+Package luatex.def Info: logos/GLERL.png  used on input line 217.
 (luatex.def)             Requested size: 331.41936pt x 85.35826pt.
 File: logos/CIGLR_LOGO_white.png Graphic file (type png)
 <use logos/CIGLR_LOGO_white.png>
-Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 218.
+Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 217.
 (luatex.def)             Requested size: 221.62654pt x 85.35826pt.
 [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-<./logos/GLERL.png><./logos/CIGLR_LOGO_white.png><../figures/amic.png><../figures/station_map.png><../figures/dur_ts.png><../figures/trends_horz.png><../figures/scatter/AirTemp_jfm.png><../figures/scatter/WindSpeed_jfm.png><../figures/scatter/cor_boxplot.png>]
+<./logos/GLERL.png><./logos/CIGLR_LOGO_white.png><../figures/amic.png><../figures/station_map.png><../figures/dur_ts.png><../figures/trends_horz.png><../figures/cor/NMI.png><../figures/scatter/cor_boxplot.png>]
 \tf@nav=\write7
 
 \openout7 = poster.nav
@@ -1496,18 +1491,18 @@ Package logreq Info: Writing requests to 'poster.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 48762 strings out of 477513
- 381542,2373549 words of node,token memory allocated
- 89113 words of node memory still in use:
-   424 hlist, 53 vlist, 61 rule, 555 disc, 85 local_par, 74 math, 1940 glue, 1261 kern, 412 penalty, 6686 glyph, 1513 attribute, 94 glue_spec, 1513 attribute_list, 30 write, 136 pdf_literal, 28 pdf_start_link, 28 pdf_end_link, 24 pdf_dest, 28 pdf_action, 332 pdf_colorstack, 9 pdf_setmatrix, 9 pdf_save, 9 pdf_restore nodes
-   avail lists: 1:4,2:498,3:1922,4:1146,5:3889,6:263,7:26672,8:27,9:1916,10:23,11:1683
- 68419 multiletter control sequences out of 65536+600000
+ 48752 strings out of 477513
+ 381544,2373549 words of node,token memory allocated
+ 89752 words of node memory still in use:
+   418 hlist, 53 vlist, 60 rule, 570 disc, 85 local_par, 74 math, 1938 glue, 1277 kern, 412 penalty, 6758 glyph, 1507 attribute, 94 glue_spec, 1507 attribute_list, 30 write, 136 pdf_literal, 28 pdf_start_link, 28 pdf_end_link, 24 pdf_dest, 28 pdf_action, 332 pdf_colorstack, 8 pdf_setmatrix, 8 pdf_save, 8 pdf_restore nodes
+   avail lists: 1:2,2:498,3:1913,4:1146,5:3937,6:263,7:26882,8:26,9:1895,10:23,11:1728
+ 68412 multiletter control sequences out of 65536+600000
  154 fonts using 28311695 bytes
  128i,20n,116p,748b,2433s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-LightItalic.ttf>{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-Regular.ttf>{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-Light.ttf></usr/local/texlive/2023/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Bold.otf></usr/share/fonts/liberation-sans/LiberationSans-Regular.ttf></usr/share/fonts/liberation-sans/LiberationSans-Bold.ttf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on poster.pdf (1 page, 1064756 bytes).
+Output written on poster.pdf (1 page, 763205 bytes).
 
-PDF statistics: 176 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 175 PDF objects out of 1000 (max. 8388607)
  119 compressed objects within 2 object streams
  27 named destinations out of 1000 (max. 131072)
  24 words of extra memory for PDF output out of 10000 (max. 100000000)

@@ -1,0 +1,156 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdftex 2023.8.7)  11 FEB 2026 15:49
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**poster.tex
+(./poster.tex
+! Undefined control sequence.
+l.5 \documentclass
+                  [final]{beamer}
+? 
+! Undefined control sequence.
+l.11 \usepackage
+                [T1]{fontenc}
+? 
+! Undefined control sequence.
+l.12 \usepackage
+                {lmodern}
+? 
+! Undefined control sequence.
+l.13 \usepackage
+                {lipsum}
+? 
+! Undefined control sequence.
+l.14 \usepackage
+                [size=custom,width=84,height=59,scale=1.0]{beamerposter}
+? 
+! Undefined control sequence.
+l.16 \usetheme
+              {gemini}
+? 
+! Undefined control sequence.
+l.17 \usecolortheme
+                   {NOAA}
+? 
+! Undefined control sequence.
+l.18 \usepackage
+                {graphicx}
+? 
+! Undefined control sequence.
+l.19 \usepackage
+                {booktabs}
+? 
+! Undefined control sequence.
+l.20 \usepackage
+                {tikz}
+? 
+! Undefined control sequence.
+l.21 \usepackage
+                {pgfplots}
+? 
+! Undefined control sequence.
+l.22 \pgfplotsset
+                 {compat=1.14}
+? 
+! Undefined control sequence.
+l.23 \usepackage
+                {anyfontsize}
+? 
+! Undefined control sequence.
+l.24 \usepackage
+                {wrapfig}
+? 
+! Undefined control sequence.
+l.25 \usepackage
+                [font=footnotesize,skip=10pt]{caption} %default 30pt
+? 
+
+Overfull \hbox (58.07845pt too wide) in paragraph at lines 16--26
+[]\tenrm gemini NOAA graph-icx book-tabs tikz pgf-plots com-pat=1.14 any-font-s
+ize wrap-fig [font=footnotesize,skip=10pt]caption |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm g
+.\tenrm e
+.\tenrm m
+.\tenrm i
+.etc.
+
+! Undefined control sequence.
+l.27 \usepackage
+                [style=numeric, sorting=none, isbn=false, url=false]{biblatex}
+? 
+! Undefined control sequence.
+l.28 \addbibresource
+                    {refs.bib}
+? 
+! Undefined control sequence.
+l.38 \newlength
+               {\sepwidth}
+? 
+! Undefined control sequence.
+l.38 \newlength{\sepwidth
+                         }
+? 
+! Undefined control sequence.
+l.39 \newlength
+               {\colwidth}
+? 
+! Undefined control sequence.
+l.39 \newlength{\colwidth
+                         }
+? 
+! Undefined control sequence.
+l.40 \setlength
+               {\sepwidth}{0.025\paperwidth}
+? 
+! Undefined control sequence.
+l.40 \setlength{\sepwidth
+                         }{0.025\paperwidth}
+? 
+! Undefined control sequence.
+l.40 \setlength{\sepwidth}{0.025\paperwidth
+                                           }
+? 
+! Undefined control sequence.
+l.41 \setlength
+               {\colwidth}{0.3\paperwidth}
+? 
+! Undefined control sequence.
+l.41 \setlength{\colwidth
+                         }{0.3\paperwidth}
+? 
+! Undefined control sequence.
+l.41 \setlength{\colwidth}{0.3\paperwidth
+                                         }
+? 
+! Undefined control sequence.
+l.43 \newcommand
+                {\separatorcolumn}{\begin{column}{\sepwidth}\end{column}}
+? 
+! Undefined control sequence.
+l.43 \newcommand{\separatorcolumn
+                                 }{\begin{column}{\sepwidth}\end{column}}
+? 
+! Undefined control sequence.
+l.43 \newcommand{\separatorcolumn}{\begin
+                                         {column}{\sepwidth}\end{column}}
+? 
+! Undefined control sequence.
+l.43 ...\separatorcolumn}{\begin{column}{\sepwidth
+                                                  }\end{column}}
+? 
+[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 43 ({)
+### bottom level</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb>
+Output written on poster.pdf (1 page, 18741 bytes).
+PDF statistics:
+ 12 PDF objects out of 1000 (max. 8388607)
+ 7 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
