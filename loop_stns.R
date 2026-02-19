@@ -12,9 +12,9 @@ lks = colnames(sel_stn)
 sel_stn = sapply(sel_stn, as.logical)
 
 
-#sub_name = 'WSU'
+sub_name = 'NMI'
 if (!exists('sub_name')) sub_name = commandArgs(trail=T)
-meta = read.table('meta.txt', head=T, sep='\t', row.names=1)
+meta = read.table('txt/meta.txt', head=T, sep='\t', row.names=1)
 fullname = meta[sub_name,'name']
 lkname = meta[sub_name,'lake']
 
@@ -51,7 +51,8 @@ aggregate_stn_data = function(sub_name, varstr, method='mean', prnt_stats=F, plt
 
 
 	# average over all stations (for now, may want to reconsider this)
-	long_dat = data.frame(yrs=yrs, mon=mon,  vals=apply(mthy, 1, mean, na.rm=T)) # now reshape 
+	if (method=='mean') long_dat = data.frame(yrs=yrs, mon=mon,  vals=apply(mthy, 1, mean, na.rm=T)) # now reshape 
+	if (method=='max') long_dat = data.frame(yrs=yrs, mon=mon,  vals=apply(mthy, 1, max, na.rm=T)) # now reshape 
 	#names(long_dat)[3] = varstr
 
 	out = reshape(long_dat, timevar='mon', idvar='yrs', dir='wide')
@@ -107,26 +108,32 @@ build_cor = function(x){
 
 
 jfm = read.table('txt/jfm.txt', head=T)[sub_name]
-amic = read.table('txt/amic.txt', head=T)[sub_name]
-dur = read.table('txt/dur.txt', head=T)[sub_name]
+#amic = read.table('txt/amic.txt', head=T)[sub_name]
+#dur = read.table('txt/dur.txt', head=T)[sub_name]
 
 
 cor_jfm  = build_cor(jfm)
-cor_amic = build_cor(amic)
-cor_dur  = build_cor(dur)
+#cor_amic = build_cor(amic)
+#cor_dur  = build_cor(dur)
 
-cor_dur[is.na(cor_dur)] = 0
 cor_jfm[is.na(cor_jfm)] = 0
-cor_amic[is.na(cor_amic)] = 0
+#cor_amic[is.na(cor_amic)] = 0
+#cor_dur[is.na(cor_dur)] = 0
 
-png(sprintf('corrplot_figs/%s.png', sub_name), width=975, height=1150)
-layout(cbind(1:3))
-corrplot(cor_dur, 'square', cl.pos='n')
-mtext(sprintf('duration (%3.0f days)', mean(as.matrix(dur))), 2)
+#png(sprintf('corrplot_figs/%s.png', sub_name), width=975, height=1150)
+#layout(cbind(1:3))
+#corrplot(cor_dur, 'square', cl.pos='n')
+#mtext(sprintf('duration (%3.0f days)', mean(as.matrix(dur))), 2)
+#corrplot(cor_jfm, 'square', cl.pos='n')
+#mtext(sprintf('JFM (%3.0f%%)', mean(as.matrix(jfm))), 2)
+#corrplot(cor_amic, 'square', cl.pos='n')
+#mtext(sprintf('AMIC (%3.0f%%)', mean(as.matrix(amic))), 2)
+#mtext(side=4, outer=T, fullname, line=-2, cex=2)
+#dev.off()
+
+png(sprintf('figures/cor/%s.png', sub_name), width=975, height=375)
 corrplot(cor_jfm, 'square', cl.pos='n')
 mtext(sprintf('JFM (%3.0f%%)', mean(as.matrix(jfm))), 2)
-corrplot(cor_amic, 'square', cl.pos='n')
-mtext(sprintf('AMIC (%3.0f%%)', mean(as.matrix(amic))), 2)
 mtext(side=4, outer=T, fullname, line=-2, cex=2)
 dev.off()
 
@@ -147,7 +154,7 @@ print(miss_wnd)
 
 #df  = data.frame(jfm = jfm[,], tmax=tmax, tmin=tmin, wind=wind, cloud=cld)
 #df  = data.frame(jfm = jfm[,], tmax=tmax, tmin=tmin, wind=wind, precip=pcp)
-df  = data.frame(jfm = jfm[,]/100, tmax=tmax$Nov, tmin=tmin$Nov, wind=wind$Nov, precip=pcp$Nov, cloud=cld$Nov, tdew=dpt$Nov)
+#df  = data.frame(jfm = jfm[,]/100, tmax=tmax$Nov, tmin=tmin$Nov, wind=wind$Nov, precip=pcp$Nov, cloud=cld$Nov, tdew=dpt$Nov)
 #df  = data.frame(jfm = jfm[,], tmax=tmax$Feb, tmin=tmin$Feb, wind=wind$Feb, precip=pcp$Feb, cloud=$cld$Feb, tdew=dpt$Feb)
 #model = lm(jfm ~ ., df)
 #step_mod = stepAIC(model, direction="both")

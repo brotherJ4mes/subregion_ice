@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.8.7)  11 FEB 2026 15:56
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.8.7)  19 FEB 2026 11:57
  system commands enabled.
  file:line:error style messages enabled.
 **poster.tex
@@ -1005,7 +1005,9 @@ Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
 \WF@box=\box83
 \WF@everypar=\toks58
 Package: wrapfig 2003/01/31  v 3.6
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/07/31 v3.6n Customizing captions (AR)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
@@ -1030,60 +1032,65 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 Package caption Info: wrapfig package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count387
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count388
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count387
- (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def
+\lrq@indent=\count389
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count388
-\c@listtotal=\count389
-\c@listcount=\count390
-\c@liststart=\count391
-\c@liststop=\count392
-\c@citecount=\count393
-\c@citetotal=\count394
-\c@multicitecount=\count395
-\c@multicitetotal=\count396
-\c@instcount=\count397
-\c@maxnames=\count398
-\c@minnames=\count399
-\c@maxitems=\count400
-\c@minitems=\count401
-\c@citecounter=\count402
-\c@maxcitecounter=\count403
-\c@savedcitecounter=\count404
-\c@uniquelist=\count405
-\c@uniquename=\count406
-\c@refsection=\count407
-\c@refsegment=\count408
-\c@maxextratitle=\count409
-\c@maxextratitleyear=\count410
-\c@maxextraname=\count411
-\c@maxextradate=\count412
-\c@maxextraalpha=\count413
-\c@abbrvpenalty=\count414
-\c@highnamepenalty=\count415
-\c@lownamepenalty=\count416
-\c@maxparens=\count417
-\c@parenlevel=\count418
-\blx@tempcnta=\count419
-\blx@tempcntb=\count420
-\blx@tempcntc=\count421
-\c@blx@maxsection=\count422
-\blx@maxsegment@0=\count423
-\blx@notetype=\count424
-\blx@parenlevel@text=\count425
-\blx@parenlevel@foot=\count426
-\blx@sectionciteorder@0=\count427
-\blx@sectionciteorderinternal@0=\count428
-\blx@entrysetcounter=\count429
-\blx@biblioinstance=\count430
+\c@tabx@nest=\count390
+\c@listtotal=\count391
+\c@listcount=\count392
+\c@liststart=\count393
+\c@liststop=\count394
+\c@citecount=\count395
+\c@citetotal=\count396
+\c@multicitecount=\count397
+\c@multicitetotal=\count398
+\c@instcount=\count399
+\c@maxnames=\count400
+\c@minnames=\count401
+\c@maxitems=\count402
+\c@minitems=\count403
+\c@citecounter=\count404
+\c@maxcitecounter=\count405
+\c@savedcitecounter=\count406
+\c@uniquelist=\count407
+\c@uniquename=\count408
+\c@refsection=\count409
+\c@refsegment=\count410
+\c@maxextratitle=\count411
+\c@maxextratitleyear=\count412
+\c@maxextraname=\count413
+\c@maxextradate=\count414
+\c@maxextraalpha=\count415
+\c@abbrvpenalty=\count416
+\c@highnamepenalty=\count417
+\c@lownamepenalty=\count418
+\c@maxparens=\count419
+\c@parenlevel=\count420
+\blx@tempcnta=\count421
+\blx@tempcntb=\count422
+\blx@tempcntc=\count423
+\c@blx@maxsection=\count424
+\blx@maxsegment@0=\count425
+\blx@notetype=\count426
+\blx@parenlevel@text=\count427
+\blx@parenlevel@foot=\count428
+\blx@sectionciteorder@0=\count429
+\blx@sectionciteorderinternal@0=\count430
+\blx@entrysetcounter=\count431
+\blx@biblioinstance=\count432
 \labelnumberwidth=\skip85
 \labelalphawidth=\skip86
 \biblabelsep=\skip87
@@ -1095,9 +1102,9 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read3
 \blx@bcfout=\write5
 \blx@langwohyphens=\language2
-\c@mincomprange=\count431
-\c@maxcomprange=\count432
-\c@mincompwidth=\count433
+\c@mincomprange=\count433
+\c@maxcomprange=\count434
+\c@mincompwidth=\count435
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -1107,74 +1114,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count434
-\c@savedafterword=\count435
-\c@annotator=\count436
-\c@savedannotator=\count437
-\c@author=\count438
-\c@savedauthor=\count439
-\c@bookauthor=\count440
-\c@savedbookauthor=\count441
-\c@commentator=\count442
-\c@savedcommentator=\count443
-\c@editor=\count444
-\c@savededitor=\count445
-\c@editora=\count446
-\c@savededitora=\count447
-\c@editorb=\count448
-\c@savededitorb=\count449
-\c@editorc=\count450
-\c@savededitorc=\count451
-\c@foreword=\count452
-\c@savedforeword=\count453
-\c@holder=\count454
-\c@savedholder=\count455
-\c@introduction=\count456
-\c@savedintroduction=\count457
-\c@namea=\count458
-\c@savednamea=\count459
-\c@nameb=\count460
-\c@savednameb=\count461
-\c@namec=\count462
-\c@savednamec=\count463
-\c@translator=\count464
-\c@savedtranslator=\count465
-\c@shortauthor=\count466
-\c@savedshortauthor=\count467
-\c@shorteditor=\count468
-\c@savedshorteditor=\count469
-\c@labelname=\count470
-\c@savedlabelname=\count471
-\c@institution=\count472
-\c@savedinstitution=\count473
-\c@lista=\count474
-\c@savedlista=\count475
-\c@listb=\count476
-\c@savedlistb=\count477
-\c@listc=\count478
-\c@savedlistc=\count479
-\c@listd=\count480
-\c@savedlistd=\count481
-\c@liste=\count482
-\c@savedliste=\count483
-\c@listf=\count484
-\c@savedlistf=\count485
-\c@location=\count486
-\c@savedlocation=\count487
-\c@organization=\count488
-\c@savedorganization=\count489
-\c@origlocation=\count490
-\c@savedoriglocation=\count491
-\c@origpublisher=\count492
-\c@savedorigpublisher=\count493
-\c@publisher=\count494
-\c@savedpublisher=\count495
-\c@language=\count496
-\c@savedlanguage=\count497
-\c@origlanguage=\count498
-\c@savedoriglanguage=\count499
-\c@pageref=\count500
-\c@savedpageref=\count501
+\c@afterword=\count436
+\c@savedafterword=\count437
+\c@annotator=\count438
+\c@savedannotator=\count439
+\c@author=\count440
+\c@savedauthor=\count441
+\c@bookauthor=\count442
+\c@savedbookauthor=\count443
+\c@commentator=\count444
+\c@savedcommentator=\count445
+\c@editor=\count446
+\c@savededitor=\count447
+\c@editora=\count448
+\c@savededitora=\count449
+\c@editorb=\count450
+\c@savededitorb=\count451
+\c@editorc=\count452
+\c@savededitorc=\count453
+\c@foreword=\count454
+\c@savedforeword=\count455
+\c@holder=\count456
+\c@savedholder=\count457
+\c@introduction=\count458
+\c@savedintroduction=\count459
+\c@namea=\count460
+\c@savednamea=\count461
+\c@nameb=\count462
+\c@savednameb=\count463
+\c@namec=\count464
+\c@savednamec=\count465
+\c@translator=\count466
+\c@savedtranslator=\count467
+\c@shortauthor=\count468
+\c@savedshortauthor=\count469
+\c@shorteditor=\count470
+\c@savedshorteditor=\count471
+\c@labelname=\count472
+\c@savedlabelname=\count473
+\c@institution=\count474
+\c@savedinstitution=\count475
+\c@lista=\count476
+\c@savedlista=\count477
+\c@listb=\count478
+\c@savedlistb=\count479
+\c@listc=\count480
+\c@savedlistc=\count481
+\c@listd=\count482
+\c@savedlistd=\count483
+\c@liste=\count484
+\c@savedliste=\count485
+\c@listf=\count486
+\c@savedlistf=\count487
+\c@location=\count488
+\c@savedlocation=\count489
+\c@organization=\count490
+\c@savedorganization=\count491
+\c@origlocation=\count492
+\c@savedoriglocation=\count493
+\c@origpublisher=\count494
+\c@savedorigpublisher=\count495
+\c@publisher=\count496
+\c@savedpublisher=\count497
+\c@language=\count498
+\c@savedlanguage=\count499
+\c@origlanguage=\count500
+\c@savedoriglanguage=\count501
+\c@pageref=\count502
+\c@savedpageref=\count503
 \shorthandwidth=\skip93
 \shortjournalwidth=\skip94
 \shortserieswidth=\skip95
@@ -1201,19 +1208,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count502
-\c@textcitetotal=\count503
-\c@textcitemaxnames=\count504
-\c@biburlbigbreakpenalty=\count505
-\c@biburlbreakpenalty=\count506
-\c@biburlnumpenalty=\count507
-\c@biburlucpenalty=\count508
-\c@biburllcpenalty=\count509
+\c@textcitecount=\count504
+\c@textcitetotal=\count505
+\c@textcitemaxnames=\count506
+\c@biburlbigbreakpenalty=\count507
+\c@biburlbreakpenalty=\count508
+\c@biburlnumpenalty=\count509
+\c@biburlucpenalty=\count510
+\c@biburllcpenalty=\count511
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count510
+\c@smartand=\count512
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -1223,8 +1230,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count511
-\c@bbx:relatedtotal=\count512
+\c@bbx:relatedcount=\count513
+\c@bbx:relatedtotal=\count514
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1262,42 +1269,42 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 <logos/CIGLR_LOGO_white.png, id=10, 385.9218pt x 148.6353pt>
 File: logos/CIGLR_LOGO_white.png Graphic file (type png)
 <use logos/CIGLR_LOGO_white.png>
-Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 72.
+Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 73.
 (luatex.def)             Requested size: 221.62654pt x 85.35826pt.
 <logos/GLERL.png, id=11, 326.4195pt x 84.0741pt>
 File: logos/GLERL.png Graphic file (type png)
 <use logos/GLERL.png>
-Package luatex.def Info: logos/GLERL.png  used on input line 73.
+Package luatex.def Info: logos/GLERL.png  used on input line 74.
 (luatex.def)             Requested size: 331.41936pt x 85.35826pt.
-\@quotelevel=\count513
-\@quotereset=\count514
+\@quotelevel=\count515
+\@quotereset=\count516
  (./poster.aux)
 \openout1 = poster.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 80.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1335,16 +1342,16 @@ LaTeX Font Info:    ... okay on input line 79.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count515
+\scratchcounter=\count517
 \scratchdimen=\dimen351
 \scratchbox=\box84
-\nofMPsegments=\count516
-\nofMParguments=\count517
+\nofMPsegments=\count518
+\nofMParguments=\count519
 \everyMPshowfont=\toks59
-\MPscratchCnt=\count518
+\MPscratchCnt=\count520
 \MPscratchDim=\dimen352
-\MPnumerator=\count519
-\makeMPintoPDFobject=\count520
+\MPnumerator=\count521
+\makeMPintoPDFobject=\count522
 \everyMPtoPDFconversion=\toks60
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1352,7 +1359,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 79.
+Package hyperref Info: Link coloring OFF on input line 80.
  (./poster.out) (./poster.out)
 \@outlinefile=\write6
 
@@ -1388,87 +1395,82 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'poster.bbl' found.
  (./poster.bbl)
-Package biblatex Info: Reference section=0 on input line 79.
-Package biblatex Info: Reference segment=0 on input line 79.
+Package biblatex Info: Reference section=0 on input line 80.
+Package biblatex Info: Reference segment=0 on input line 80.
  (./poster.nav)
 File: logos/GLERL.png Graphic file (type png)
 <use logos/GLERL.png>
-Package luatex.def Info: logos/GLERL.png  used on input line 79.
+Package luatex.def Info: logos/GLERL.png  used on input line 80.
 (luatex.def)             Requested size: 331.41936pt x 85.35826pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 79.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 80.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 79.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 80.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 79.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 80.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 79.
-LaTeX Font Info:    Calculating math sizes for size <29.86> on input line 79.
+(Font)              <6> on input line 80.
+LaTeX Font Info:    Calculating math sizes for size <29.86> on input line 80.
 File: logos/CIGLR_LOGO_white.png Graphic file (type png)
 <use logos/CIGLR_LOGO_white.png>
-Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 79.
+Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 80.
 (luatex.def)             Requested size: 221.62654pt x 85.35826pt.
 File: logos/GLERL.png Graphic file (type png)
 <use logos/GLERL.png>
-Package luatex.def Info: logos/GLERL.png  used on input line 217.
+Package luatex.def Info: logos/GLERL.png  used on input line 202.
 (luatex.def)             Requested size: 331.41936pt x 85.35826pt.
 File: logos/CIGLR_LOGO_white.png Graphic file (type png)
 <use logos/CIGLR_LOGO_white.png>
-Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 217.
+Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 202.
 (luatex.def)             Requested size: 221.62654pt x 85.35826pt.
-<../figures/amic.png, id=31, 1204.5pt x 351.3125pt>
-File: ../figures/amic.png Graphic file (type png)
-<use ../figures/amic.png>
-Package luatex.def Info: ../figures/amic.png  used on input line 217.
-(luatex.def)             Requested size: 717.01674pt x 209.13805pt.
-<../figures/station_map.png, id=32, 1806.75pt x 1204.5pt>
+<../figures/station_map.png, id=31, 1806.75pt x 1204.5pt>
 File: ../figures/station_map.png Graphic file (type png)
 <use ../figures/station_map.png>
-Package luatex.def Info: ../figures/station_map.png  used on input line 217.
-(luatex.def)             Requested size: 645.31068pt x 430.21953pt.
+Package luatex.def Info: ../figures/station_map.png  used on input line 202.
+(luatex.def)             Requested size: 501.90952pt x 334.6111pt.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 217.
-<../figures/dur_ts.png, id=40, 1706.375pt x 803.0pt>
+(Font)              <7> on input line 202.
+<../figures/dur_ts.png, id=39, 1706.375pt x 803.0pt>
 File: ../figures/dur_ts.png Graphic file (type png)
 <use ../figures/dur_ts.png>
-Package luatex.def Info: ../figures/dur_ts.png  used on input line 217.
+Package luatex.def Info: ../figures/dur_ts.png  used on input line 202.
 (luatex.def)             Requested size: 717.01674pt x 337.42924pt.
-<../figures/trends_horz.png, id=44, 1505.625pt x 351.3125pt>
+<../figures/trends_horz.png, id=40, 1505.625pt x 351.3125pt>
 File: ../figures/trends_horz.png Graphic file (type png)
 <use ../figures/trends_horz.png>
-Package luatex.def Info: ../figures/trends_horz.png  used on input line 217.
+Package luatex.def Info: ../figures/trends_horz.png  used on input line 202.
 (luatex.def)             Requested size: 717.01674pt x 167.30937pt.
+<../figures/morphoscatter.png, id=43, 1656.1875pt x 1355.0625pt>
+File: ../figures/morphoscatter.png Graphic file (type png)
+<use ../figures/morphoscatter.png>
+Package luatex.def Info: ../figures/morphoscatter.png  used on input line 202.
+(luatex.def)             Requested size: 501.90952pt x 410.6572pt.
 <../figures/cor/NMI.png, id=47, 978.65625pt x 376.40625pt>
 File: ../figures/cor/NMI.png Graphic file (type png)
 <use ../figures/cor/NMI.png>
-Package luatex.def Info: ../figures/cor/NMI.png  used on input line 217.
+Package luatex.def Info: ../figures/cor/NMI.png  used on input line 202.
 (luatex.def)             Requested size: 717.01674pt x 275.77937pt.
-<../figures/scatter/cor_boxplot.png, id=48, 1204.5pt x 250.9375pt>
-File: ../figures/scatter/cor_boxplot.png Graphic file (type png)
-<use ../figures/scatter/cor_boxplot.png>
-Package luatex.def Info: ../figures/scatter/cor_boxplot.png  used on input line 217.
-(luatex.def)             Requested size: 717.01674pt x 149.38432pt.
 
-Overfull \vbox (281.22617pt too high) detected at line 217
+Overfull \vbox (23.24173pt too high) detected at line 202
  []
 
 File: logos/GLERL.png Graphic file (type png)
 <use logos/GLERL.png>
-Package luatex.def Info: logos/GLERL.png  used on input line 217.
+Package luatex.def Info: logos/GLERL.png  used on input line 202.
 (luatex.def)             Requested size: 331.41936pt x 85.35826pt.
 File: logos/CIGLR_LOGO_white.png Graphic file (type png)
 <use logos/CIGLR_LOGO_white.png>
-Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 217.
+Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 202.
 (luatex.def)             Requested size: 221.62654pt x 85.35826pt.
 [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-<./logos/GLERL.png><./logos/CIGLR_LOGO_white.png><../figures/amic.png><../figures/station_map.png><../figures/dur_ts.png><../figures/trends_horz.png><../figures/cor/NMI.png><../figures/scatter/cor_boxplot.png>]
+<./logos/GLERL.png><./logos/CIGLR_LOGO_white.png><../figures/station_map.png><../figures/dur_ts.png><../figures/trends_horz.png><../figures/morphoscatter.png><../figures/cor/NMI.png>]
 \tf@nav=\write7
 
 \openout7 = poster.nav
@@ -1491,19 +1493,19 @@ Package logreq Info: Writing requests to 'poster.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 48752 strings out of 477513
- 381544,2373549 words of node,token memory allocated
- 89752 words of node memory still in use:
-   418 hlist, 53 vlist, 60 rule, 570 disc, 85 local_par, 74 math, 1938 glue, 1277 kern, 412 penalty, 6758 glyph, 1507 attribute, 94 glue_spec, 1507 attribute_list, 30 write, 136 pdf_literal, 28 pdf_start_link, 28 pdf_end_link, 24 pdf_dest, 28 pdf_action, 332 pdf_colorstack, 8 pdf_setmatrix, 8 pdf_save, 8 pdf_restore nodes
-   avail lists: 1:2,2:498,3:1913,4:1146,5:3937,6:263,7:26882,8:26,9:1895,10:23,11:1728
- 68412 multiletter control sequences out of 65536+600000
- 154 fonts using 28311695 bytes
- 128i,20n,116p,748b,2433s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 48841 strings out of 477513
+ 381558,2373549 words of node,token memory allocated
+ 83591 words of node memory still in use:
+   381 hlist, 45 vlist, 51 rule, 534 disc, 76 local_par, 70 math, 1796 glue, 1171 kern, 379 penalty, 6337 glyph, 1394 attribute, 94 glue_spec, 1394 attribute_list, 26 write, 128 pdf_literal, 28 pdf_start_link, 28 pdf_end_link, 22 pdf_dest, 28 pdf_action, 304 pdf_colorstack, 7 pdf_setmatrix, 7 pdf_save, 7 pdf_restore nodes
+   avail lists: 1:2,2:498,3:1769,4:1062,5:3619,6:236,7:25181,8:26,9:1727,10:26,11:1620
+ 68501 multiletter control sequences out of 65536+600000
+ 153 fonts using 27826407 bytes
+ 128i,20n,128p,809b,2434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-LightItalic.ttf>{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-Regular.ttf>{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-Light.ttf></usr/local/texlive/2023/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Bold.otf></usr/share/fonts/liberation-sans/LiberationSans-Regular.ttf></usr/share/fonts/liberation-sans/LiberationSans-Bold.ttf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on poster.pdf (1 page, 763205 bytes).
+Output written on poster.pdf (1 page, 744511 bytes).
 
-PDF statistics: 175 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 131072)
+PDF statistics: 173 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 131072)
  24 words of extra memory for PDF output out of 10000 (max. 100000000)
 

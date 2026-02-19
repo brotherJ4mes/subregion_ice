@@ -359,6 +359,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplo
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption-beamer.sto
@@ -467,8 +468,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT ../figures/amic.png
-INPUT ../figures/amic.png
 INPUT ../figures/station_map.png
 INPUT ../figures/station_map.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
@@ -486,10 +485,10 @@ INPUT ../figures/dur_ts.png
 INPUT ../figures/dur_ts.png
 INPUT ../figures/trends_horz.png
 INPUT ../figures/trends_horz.png
+INPUT ../figures/morphoscatter.png
+INPUT ../figures/morphoscatter.png
 INPUT ../figures/cor/NMI.png
 INPUT ../figures/cor/NMI.png
-INPUT ../figures/scatter/cor_boxplot.png
-INPUT ../figures/scatter/cor_boxplot.png
 INPUT /home/kessler/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc
 INPUT ./logos/GLERL.png
 INPUT ./logos/CIGLR_LOGO_white.png
