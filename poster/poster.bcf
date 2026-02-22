@@ -2378,7 +2378,6 @@
     <bcf:citekey order="10" intorder="2">Smith2011</bcf:citekey>
     <bcf:citekey order="11" intorder="1">Cannon2024</bcf:citekey>
     <bcf:citekey order="11" intorder="2">Anderson2021</bcf:citekey>
-    <bcf:citekey order="12" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

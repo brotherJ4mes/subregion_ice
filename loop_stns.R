@@ -4,7 +4,7 @@ source('met_utils.R')
 sel_stn_fn = 'stn_meta/sel_stns_20km.txt'
 met_dir = 'stn_csv'
 #tf = '2024-06-01'
-dir_out = '/home/kessler/work/subregion_ice/txt'
+dir_out = '/home/jemes/work/subregion_ice/txt'
 
 sel_stn = read.table(sel_stn_fn)
 stn_ids = row.names(sel_stn)
@@ -12,8 +12,9 @@ lks = colnames(sel_stn)
 sel_stn = sapply(sel_stn, as.logical)
 
 
-sub_name = 'NMI'
+#sub_name='WON'
 if (!exists('sub_name')) sub_name = commandArgs(trail=T)
+print(sub_name)
 meta = read.table('txt/meta.txt', head=T, sep='\t', row.names=1)
 fullname = meta[sub_name,'name']
 lkname = meta[sub_name,'lake']
@@ -21,9 +22,8 @@ lkname = meta[sub_name,'lake']
 
 
 
-
 aggregate_stn_data = function(sub_name, varstr, method='mean', prnt_stats=F, plt_variance=F){
-	var_daily = read_var(varstr, stn_ids[sel_stn[,sub_name]])
+	var_daily = read_var(varstr, stn_ids[sel_stn[,sub_name]], tf='2024-12-31')
 
 	# aggregate  to monthly
 	dts = var_daily$dts
@@ -62,11 +62,11 @@ aggregate_stn_data = function(sub_name, varstr, method='mean', prnt_stats=F, plt
 	# associate July - December with the following ice season (shift down)
 	out[-1,month.abb[7:12]] = out[-nrow(out),month.abb[7:12]]
 	out = out[-1,]     # remove the 1972 met data (since we have no 72 ice data)
+	out = out[-nrow(out),]     # remove the last year since it will likely be incomplete (no Jan - Jun)
 	out = out[,c('yrs', month.abb[7:12], month.abb[1:6])] # re-order to be more intuitive per ice season
 
-
-
 	return(out)
+
 }
 
 
@@ -75,28 +75,24 @@ aggregate_stn_data = function(sub_name, varstr, method='mean', prnt_stats=F, plt
 #tmin = aggregate_stn_data('WSU', 'AirTempMin')
 #fdd = aggregate_stn_data('WSU', 'AirTemp', method='FDD')
 
-# need to update ice metrics for 2025! for now exclude from 
-tmax = aggregate_stn_data(sub_name, 'AirTempMax')[-53,-1]
-tmin = aggregate_stn_data(sub_name, 'AirTempMin')[-53,-1]
-tavg = aggregate_stn_data(sub_name, 'AirTemp')[-53,-1]
-pcp = aggregate_stn_data(sub_name, 'Precipitation')[-53,-1]
-dpt = aggregate_stn_data(sub_name, 'Dewpoint')[-53,-1]
-wind = aggregate_stn_data(sub_name, 'WindSpeed', method='max' )[-53,-1]
-cld = aggregate_stn_data(sub_name, 'CloudCover')[-53,-1]
-#tdew  = aggregate_stn_data(sub_name, 'DewPoint')[-53,-1]
-#fdd_max = aggregate_stn_data(sub_name, 'AirTempMax', method='FDD')[-53,-1]
-#fdd_min = aggregate_stn_data(sub_name, 'AirTempMin', method='FDD')[-53,-1]
+# need to update ice metrics and stns for 2025! for now exclude from 
+tmax = aggregate_stn_data(sub_name, 'AirTempMax')
+tmin = aggregate_stn_data(sub_name, 'AirTempMin')
+pcp = aggregate_stn_data(sub_name, 'Precipitation')
+wind = aggregate_stn_data(sub_name, 'WindSpeed', method='max' )
+cld = aggregate_stn_data(sub_name, 'CloudCover')
 
-#my_cor = function(x, y) cor(x,y,)
+
+wind[!is.finite(as.matrix(wind))] = NA
 
 build_cor = function(x){
-	cor_out = rbind(cor(x, tmax, use='pairwise.complete.obs'),
-					cor(x, tmin, use='pairwise.complete.obs'),
-#					cor(x, tavg),
-#					cor(x, dpt, use='pairwise.complete.obs'),
-					cor(x, wind, use='pairwise.complete.obs'),
-					cor(x, cld, use='pairwise.complete.obs'),
-					cor(x, pcp, use='pairwise.complete.obs'))
+	if (!setequal(x$yrs, tmax$yrs)) stop('number of years dont match in ice and met var')
+
+	cor_out = rbind(cor(x[,-1], tmax[,-1], use='pairwise.complete.obs'),
+					cor(x[,-1], tmin[,-1], use='pairwise.complete.obs'),
+					cor(x[,-1], wind[,-1], use='pairwise.complete.obs'),
+					cor(x[,-1], cld[,-1], use='pairwise.complete.obs'),
+					cor(x[,-1], pcp[,-1], use='pairwise.complete.obs'))
 	#row.names(cor_out) = c('Tmax','Tmin','Tavg','Wind','Cloud','Tdew','Precip')
 	#row.names(cor_out) = c('Tmax','Tmin','Tdew','Wind','Cloud','Precip')
 	row.names(cor_out) = c('Tmax','Tmin','Wind','Cloud','Precip')
@@ -106,20 +102,37 @@ build_cor = function(x){
 
 #find_cor = function(x,y){
 
+jfm = read.table('txt/jfm.txt', head=T)[c('yrs',sub_name)]
+amic = read.table('txt/amic.txt', head=T)[c('yrs',sub_name)]
+dur = read.table('txt/dur.txt', head=T)[c('yrs',sub_name)]
 
-jfm = read.table('txt/jfm.txt', head=T)[sub_name]
-#amic = read.table('txt/amic.txt', head=T)[sub_name]
-#dur = read.table('txt/dur.txt', head=T)[sub_name]
+
+
+sub_yrs = function(x, selyrs) return(x[x['yrs']==selyrs,])
+sel_yrs = intersect(jfm$yrs, tmax$yrs)
+jfm = sub_yrs(jfm, sel_yrs)
+amic = sub_yrs(amic, sel_yrs)
+dur = sub_yrs(dur, sel_yrs)
 
 
 cor_jfm  = build_cor(jfm)
-#cor_amic = build_cor(amic)
-#cor_dur  = build_cor(dur)
+cor_amic = build_cor(amic)
+cor_dur  = build_cor(dur)
 
 cor_jfm[is.na(cor_jfm)] = 0
-#cor_amic[is.na(cor_amic)] = 0
-#cor_dur[is.na(cor_dur)] = 0
+cor_amic[is.na(cor_amic)] = 0
+cor_dur[is.na(cor_dur)] = 0
 
+
+png(sprintf('figures/cor/%s.png', sub_name), width=2400, height=980, pointsize=24)
+corrplot(cor_jfm, 'square', cl.pos='n')
+mtext(sprintf('JFM (%3.0f%%)', mean(as.matrix(jfm[,2]))), cex=1.5, side=2, line=1.5)
+mtext(side=4, outer=T, fullname, line=-2, cex=2)
+dev.off()
+
+
+
+# all 
 #png(sprintf('corrplot_figs/%s.png', sub_name), width=975, height=1150)
 #layout(cbind(1:3))
 #corrplot(cor_dur, 'square', cl.pos='n')
@@ -131,22 +144,18 @@ cor_jfm[is.na(cor_jfm)] = 0
 #mtext(side=4, outer=T, fullname, line=-2, cex=2)
 #dev.off()
 
-png(sprintf('figures/cor/%s.png', sub_name), width=975, height=375)
-corrplot(cor_jfm, 'square', cl.pos='n')
-mtext(sprintf('JFM (%3.0f%%)', mean(as.matrix(jfm))), 2)
-mtext(side=4, outer=T, fullname, line=-2, cex=2)
-dev.off()
 
 
-miss_cld = sum(apply(cld, 1, function(x) any(is.nan(x))))
-miss_pcp = sum(apply(pcp, 1, function(x) any(is.nan(x))))
-miss_wnd = sum(apply(wind, 1, function(x) any(is.nan(x))))
 
-
-print('missing years for clds, precip and wind:')
-print(miss_cld)
-print(miss_pcp)
-print(miss_wnd)
+#miss_cld = sum(apply(cld, 1, function(x) any(is.nan(x))))
+#miss_pcp = sum(apply(pcp, 1, function(x) any(is.nan(x))))
+#miss_wnd = sum(apply(wind, 1, function(x) any(is.nan(x))))
+#
+#
+#print('missing years for clds, precip and wind:')
+#print(miss_cld)
+#print(miss_pcp)
+#print(miss_wnd)
 
 
 # stepwise linear regression
@@ -160,8 +169,8 @@ print(miss_wnd)
 #step_mod = stepAIC(model, direction="both")
 #C = step_mod$coefficients
 
-plot(1973:2024, as.matrix(df[,names(C)[-1]]) %*% C[-1] + C[1], 'l')
-points(1973:2024, t(jfm), col='blue')
+#plot(1973:2024, as.matrix(df[,names(C)[-1]]) %*% C[-1] + C[1], 'l')
+#points(1973:2024, t(jfm), col='blue')
 
 
 #corrplot(rbind(cor_jfm, cor_amic, cor_dur), insig='blank')

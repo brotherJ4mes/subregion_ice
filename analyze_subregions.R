@@ -1,4 +1,4 @@
-#!/bin/Rscript
+#!/usr/bin/Rscript
 library(fields)
 library(Kendall)
 library(latex2exp)
@@ -6,7 +6,8 @@ library(latex2exp)
 
 #out_dir = '/home/kessler/work/subregion_ice/poster/67311e171949f1bd5174bf03/figures'
 #out_dir = '/home/kessler/work/subregion_ice/poster/67311e171949f1bd5174bf03/figures'
-out_dir = '/home/kessler/work/subregion_ice/figures'
+#out_dir = '/home/kessler/work/subregion_ice/figures'
+out_dir = '/home/j4mes/work/subregion_ice/figures'
 file_in = 'txt/yrly_out/all.txt'
 
 thresh = 10
@@ -177,19 +178,20 @@ if(plt_trend){
 	brks = seq(-1.5,1.5,by=.25);
 	cmap = rev(hcl.colors(length(brks)-1,'blue-Red 3'))
 
-	png(sprintf('%s/trends.png', out_dir), w=700, h=1000)
-	par(mar=c(5,10,4,5))
-	image.plot(x=1:3, y=1:nsubs, z=t(as.matrix(slopes)), col=cmap, breaks=brks, main='Ice Cover Trends',
-			   yaxt='n', xaxt='n', yaxt='n', xlab=NA, ylab=NA)
-	axis(2, at=1:nsubs, lab=meta$name, las=2)
+	#png(sprintf('%s/trends.png', out_dir), w=200, h=1000)
+	png(sprintf('%s/trends.png', out_dir), w=300, h=1200)
+	par(mar=c(5,3,4,2))
+	image.plot(x=1:3, y=1:nsubs, z=t(as.matrix(slopes[nsubs:1,])), col=cmap, breaks=brks, main='Ice Cover Trends',
+			   yaxt='n', xaxt='n', yaxt='n', xlab=NA, ylab=NA, horizontal=T)
+	#axis(2, at=1:nsubs, lab=meta$name, las=2)
 	axis(1, at=1:3, lab=c('JFM (%/yr)','AMIC (%/yr)', NA))
 	axis(1, at=1:3, lab=c(NA, NA, 'Duration\n (days/yr)'), lwd=0, line=.5)
-	axis(4, lk_brks+.5, lab=NA, tcl=1)
-	text(3.75, y=lk_brks[-6] + diff(lk_brks)/2 + 0.5, lab=unique(lks), srt=270, xpd=NA, cex=1.5)
-	abline(h=lk_brks[c(-1,-6)]+.5, lwd=2, col='black')
-	axis(4, lk_brks+.5, lab=NA, tcl=-1, lwd=2)
-	points(sig95[,2], sig95[,1], pch=1)
-	points(sig99[,2], sig99[,1], pch=20)
+	#axis(4, nsubs-lk_brks+.5, lab=NA, tcl=1)
+	#axis(4, nsubs-lk_brks+.5, lab=NA, tcl=-1, lwd=2)
+	abline(h=nsubs-lk_brks[c(-1,-6)]+.5, lwd=2, col='black')
+	text(x=0.25, y=nsubs-lk_brks[-6] + diff(nsubs-lk_brks)/2 + 0.5, lab=unique(lks), srt=90, xpd=NA, cex=1.5)
+	points(sig95[,2], sig95[,1], pch=1, cex=2)
+	points(sig99[,2], sig99[,1], pch=20, cex=2.5)
 
 	sig99 = which(t(pvals)<.01, arr=T)
 	sig95 = which(t(pvals)<.05, arr=T)
