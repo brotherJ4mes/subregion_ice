@@ -390,9 +390,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT ./poster.out
 INPUT ./poster.out
-OUTPUT poster.pdf
 INPUT ./poster.out
 OUTPUT poster.out
+OUTPUT poster.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 INPUT /usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
 INPUT /usr/share/texlive/texmf-dist/tex/latex/translator/translator-environment-dictionary-English.dict
@@ -488,9 +488,12 @@ INPUT ../figures/trends_horz.png
 INPUT ../figures/trends_horz.png
 INPUT ../figures/morphoscatter.png
 INPUT ../figures/morphoscatter.png
-INPUT ../figures/cor/NMI.png
-INPUT ../figures/cor/NMI.png
-INPUT /home/j4mes/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc
+INPUT ../figures/cor/SB.png
+INPUT ../figures/cor/SB.png
+INPUT ../figures/cor/NHU.png
+INPUT ../figures/cor/NHU.png
+INPUT ../figures/bib_qr.png
+INPUT ../figures/bib_qr.png
 INPUT ./logos/GLERL.png
 INPUT ./logos/CIGLR_LOGO_white.png
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
