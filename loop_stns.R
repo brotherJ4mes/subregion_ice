@@ -12,7 +12,7 @@ lks = colnames(sel_stn)
 sel_stn = sapply(sel_stn, as.logical)
 
 
-#sub_name='WON'
+sub_name='SB'
 if (!exists('sub_name')) sub_name = commandArgs(trail=T)
 print(sub_name)
 meta = read.table('txt/meta.txt', head=T, sep='\t', row.names=1)
@@ -124,10 +124,23 @@ cor_amic[is.na(cor_amic)] = 0
 cor_dur[is.na(cor_dur)] = 0
 
 
+add_cor = function(x,y) text(x, y, sprintf('%5.2f', t(cor_jfm[5:1,])[x,y]), cex=1.5, col='white')
+
+
 png(sprintf('figures/cor/%s.png', sub_name), width=2400, height=980, pointsize=24)
 corrplot(cor_jfm, 'square', cl.pos='n')
 mtext(sprintf('JFM (%3.0f%%)', mean(as.matrix(jfm[,2]))), cex=1.5, side=2, line=1.5)
 mtext(side=4, outer=T, fullname, line=-2, cex=2)
+
+
+#SB
+add_cor(7,4)
+add_cor(5,2)
+
+#NHU
+#add_cor(7,4)
+#add_cor(7,2)
+
 dev.off()
 
 

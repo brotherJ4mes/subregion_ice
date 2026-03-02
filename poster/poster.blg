@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'poster.blg'
-[135] biber:340> INFO - === Mon Feb 23, 2026, 07:09:23
-[159] Biber.pm:419> INFO - Reading 'poster.bcf'
-[256] Biber.pm:979> INFO - Found 12 citekeys in bib section 0
-[274] Biber.pm:4419> INFO - Processing section 0
-[289] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
-[292] bibtex.pm:1713> INFO - LaTeX decoding ...
-[335] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
-[687] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[687] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[687] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[687] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[706] bbl.pm:660> INFO - Writing 'poster.bbl' with encoding 'UTF-8'
-[723] bbl.pm:763> INFO - Output to poster.bbl
+[93] biber:340> INFO - === Mon Feb 23, 2026, 10:22:29
+[110] Biber.pm:419> INFO - Reading 'poster.bcf'
+[185] Biber.pm:979> INFO - Found 12 citekeys in bib section 0
+[200] Biber.pm:4419> INFO - Processing section 0
+[212] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
+[213] bibtex.pm:1713> INFO - LaTeX decoding ...
+[235] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[591] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[591] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[591] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[591] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[605] bbl.pm:660> INFO - Writing 'poster.bbl' with encoding 'UTF-8'
+[618] bbl.pm:763> INFO - Output to poster.bbl

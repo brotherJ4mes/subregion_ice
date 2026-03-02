@@ -86,34 +86,30 @@
 \begin{column}{\colwidth}
 
 	\begin{block}{Introduction} \label{intro}
-		Ice cover in the Great Lakes  highly variable and has significant influence on regional climate, ecology, and economy. Spatially resolved ice cover ($\Delta x=1.25 \textup{KM}^2$) has been recorded since 1973 and is available as daily files throughout each ice season\supercite{Yang2020}. Previous work has assessed large-scale (i.e. lake or basin-wide) ice cover fluctuations through time and their relationship to global weather phenomena \supercite{Mason2016, Sharma2019, OReilly2015, Wang2018, Bai2012}. We follow Mason et al. (2016)\supercite{Mason2016} and use the Great Lakes Aquatic Habitat Framework (GLAHF)\supercite{Wang2015} to analyze ice cover on a subregional basis for the below metrics and analyze how morphometry and atmospheric conditions impact ice cover in the Great Lakes.
+		Ice cover in the Great Lakes  highly variable and has significant influence on regional climate, ecology, and economy. Spatially resolved ice cover ($\Delta x=1.25 \textup{KM}^2$) has been recorded since 1973 and is available as daily files throughout each ice season\supercite{Yang2020}. Previous work has assessed large-scale (i.e. lake or basin-wide) ice cover fluctuations through time and their relationship to global weather phenomena \supercite{Mason2016, Sharma2019, OReilly2015, Wang2018, Bai2012}. Following Mason et al. (2016)\supercite{Mason2016} we use the Great Lakes Aquatic Habitat Framework (GLAHF)\supercite{Wang2015} to analyze ice cover on a subregional basis for the below metrics and analyze how morphometry (area, depth, etc.) and atmospheric conditions impact ice cover in the Great Lakes.
 	\begin{itemize}
 		  \item \textbf{Annual Max Ice Cover (AMIC):} maximum percent during a given season
 		  \item \textbf{Seasonal Average Ice Cover (JFM):} mean daily ice cover:  Jan 1 - Mar 31
-		  \item \textbf{Ice Duration:} Total (non-consecutive) days$^{\dagger}$ where ice cover exceeded 10\%
+		  \item \textbf{Ice Duration:} Total (non-consecutive) days where ice cover exceeded 10\%
 		\end{itemize}
   \end{block}
 
   \begin{block}{Methods} \label{methods}
     \begin{figure}
-			  \includegraphics[width=.7\textwidth]{../figures/station_map.png}
+			  \includegraphics[width=.9\textwidth]{../figures/station_map.png}
 			  \caption{Spatial delineation of GLAHF subregions and selected met station locations (GHCND\supercite{Menne2012}, ISD\supercite{Smith2011}). The upper right figure shows depth and (relative) surface area of each subregion in the y and x directions, respectively.}
 			   \label{fig:map} 
 	\end{figure}
+	\vspace{-4ex}
 	  \begin{enumerate}
 	  \normalsize \bfseries
 		  \item{Do ice trends exist at these spatial scales and how are they related to lake morphometry?}
 		  \item{How do atmospheric conditions impact ice formation?}
-		 % \item{Are correlations between atmosphere and ice data consistent with our understanding of physical processes?}
  	 \end{enumerate}
 	\justifying
-
-	To address \#1, the three metrics are calculated for each GLAHF subregion and ice season and then Mann-Kendall monotonic trend test\supercite{Mann1945} is applied to check for statistical significance. Additionally correlations between trend magnitude and morphometrics are identified. To address \#2, station data\supercite{Menne2012,Smith2011} is aggregated for each subregion based on a 20 KM radius and correlations between ice metrics and monthly mean (or max for wind) meteorological surface variables are identified.
-
-	%On average, 30 stations per subregion were located within the radius but station data availability varied through time, location and variable. Temperature min/max were reported most frequently (median station count $\approx$10 per subregion). Other variables\textemdash cloud cover, precipitation, wind speed, were reported less frequently (median $\approx$5).
-
-
-	\scriptsize{	$\dagger$: days are only counted Jan 1 - Mar 31 due to shorter ice reporting windows during 1970's and 80's.}
+	Q1: Ice metrics calculated for each subregion and Mann-Kendall monotonic trend test\supercite{Mann1945} performed; correlations between trend magnitude and morphometrics. \\
+	\bigskip
+	Q2: station data\supercite{Menne2012,Smith2011} aggregated for subregions based on a 20 KM radius; correlations identified between ice metrics and monthly mean (or max) meteorological conditions.
 
 
 
@@ -137,8 +133,8 @@
  \caption{Linear trends for each metric. Open (solid) dots indicate 95\% (99\%) statistical significance. Columns correspond to rows in fig \ref{fig:dur}. }
   \label{fig:trends}
 \end{figure}
-			Season duration decrease is visible in some regions but not apparent in others (see fig. \ref{fig:dur}).  Regions that show decrease are often offshore and deep (WSU, CSU, ESU, NHU, EHU, CHU, WON, CON). This may be due to warmer subsurface temps\supercite{Cannon2024, Anderson2021} during later years providing heat to surface waters and preventing freezing, whereas shallow regions may be able to consistently release all heat from the water column. 
-	\vspace{-5ex}
+			Season duration decrease is visible in some (primarily deep) regions but not apparent in others (see fig. \ref{fig:dur}). This may be due to warmer subsurface temps\supercite{Cannon2024, Anderson2021} providing heat to surface waters and preventing freezing, whereas shallow regions are more frequently isothermal and thus able to release all heat from the water column. 
+	\vspace{-2ex}
 \begin{figure} 
 	  \includegraphics[width=0.7\textwidth]{../figures/morphoscatter.png}
 	  \caption{Correlations between statistically significant ice metric trends (vertical axes) and morphometrics (horizontal axes). Moderate correlations (Pearson's r$>$0.3) are shown in dark grey and strong correlations ($>$0.6) are black.}
@@ -154,41 +150,30 @@
 \begin{column}{\colwidth}
 
 %	\centering	\large \textbf{\underline{Part 2: Correlation with Met Stations}} \normalfont
-				\begin{itemize}
-				\item depth and area show significant influence on AMIC and duration change
-				\item latitude showed the most influence on seasonal average ice change 
-				\end{itemize}
+				Area (and depth) has significant influence on AMIC (and ice duration). Area's influence is curious, with larger surface areas providing more heat exchange at the surface. It should be noted that area, depth and volume (not shown), covary. Higher latitude regions showed more decrease in JFM and ice duration but not in AMIC.
 
 	
 	\begin{figure} 
-		\includegraphics[width=0.8\textwidth]{../figures/cor/SB.png}
-		\includegraphics[width=0.8\textwidth]{../figures/cor/NHU.png}
+		\includegraphics[width=0.9\textwidth]{../figures/cor/SB.png}
+		\includegraphics[width=0.9\textwidth]{../figures/cor/NHU.png}
 		%\includegraphics[width=\textwidth]{../figures/cor/WER.png}
 		\caption{Correlation between Seasonal Ice Cover (JFM) and local meteorology. Meteorological variables are aggregated by month (columns) and state variable (rows). Data was correlated from Jul-Jun to each ice season during that window. Larger squares indicate stronger correlations and blue (red) indicates direct (indirect) correlation.}
 	  \label{fig:scatter}
 	  \end{figure}
 
-
-
 	  \justifying
-	  \begin{itemize}
 
-		  \item Strong inverse correlation with air temp, particularly during Jan and Feb. 
-		  \item Precip showed minimal correlation during any month/region while wind and cloud cover had moderate correlations. 
-		  \item Since wind contributes to surface mixing which ultimately cools the water column and clouds primarily reflect solar radiation, we expect direct correlations with ice cover: True for Saginaw Bay but not Northern Huron. 
-		  \item Correlations varied considerably between subregions but $\textit{within}$ a given subregion, the correlations were fairly consistent between AMIC, JFM and ice duration (not shown).
-		\item A number of post ice season correlations were identified: provides valuable insight into physical processes but are not meaningful for prediction. 
-\end{itemize}
+		  Strong inverse correlation was observed with air temp, particularly during Jan and Feb. Precip showed minimal correlation during any month/region while wind and cloud cover had moderate correlations. Since wind contributes to surface mixing which ultimately cools the water column during fall and clouds primarily reflect solar radiation, we expect direct correlations with ice cover (this was true for Saginaw Bay but not Northern Huron.) A number of post ice season correlations were identified--this provides valuable insight into physical processes but are not useful for prediction. 
+		  \vspace{4ex}
 \begin{block}{Summary}\label{summary}
-		\vspace{-2ex}
 		\begin{itemize}
 			\item A majority of subregions show significant decreasing trends in all three metrics
 			\item Lake morphology influences ice trends; not consistent across ice metrics
 			\item Air temperature strongly anti-correlated with ice cover for all metrics
-			\item Wind, cloud cover correlations with ice cover varied from region to region
-			\item Future work: predictive model development: step-wise linear regression or machine-learning
+			\item Wind, cloud correlations with ice cover varied among subregions
+			\item Future work: predictive model development: step-wise linear \\ regression or machine-learning
 		\end{itemize}
-		\vspace{-5ex}
+		\vspace{-9ex}
 		\raggedleft
 		References: \includegraphics[width=.125\textwidth]{../figures/bib_qr.png}
   \end{block}

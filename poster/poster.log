@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.11.17)  23 FEB 2026 07:11
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.11.17)  23 FEB 2026 10:26
  system commands enabled.
  file:line:error style messages enabled.
 **poster.tex
@@ -1420,60 +1420,58 @@ Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 80.
 (luatex.def)             Requested size: 221.62654pt x 85.35826pt.
 File: logos/GLERL.png Graphic file (type png)
 <use logos/GLERL.png>
-Package luatex.def Info: logos/GLERL.png  used on input line 202.
+Package luatex.def Info: logos/GLERL.png  used on input line 187.
 (luatex.def)             Requested size: 331.41936pt x 85.35826pt.
 File: logos/CIGLR_LOGO_white.png Graphic file (type png)
 <use logos/CIGLR_LOGO_white.png>
-Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 202.
+Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 187.
 (luatex.def)             Requested size: 221.62654pt x 85.35826pt.
 <../figures/station_map.png, id=27, 1806.75pt x 1204.5pt>
 File: ../figures/station_map.png Graphic file (type png)
 <use ../figures/station_map.png>
-Package luatex.def Info: ../figures/station_map.png  used on input line 202.
-(luatex.def)             Requested size: 501.90952pt x 334.6111pt.
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 202.
+Package luatex.def Info: ../figures/station_map.png  used on input line 187.
+(luatex.def)             Requested size: 645.31068pt x 430.21953pt.
 <../figures/dur_ts.png, id=35, 1706.375pt x 803.0pt>
 File: ../figures/dur_ts.png Graphic file (type png)
 <use ../figures/dur_ts.png>
-Package luatex.def Info: ../figures/dur_ts.png  used on input line 202.
+Package luatex.def Info: ../figures/dur_ts.png  used on input line 187.
 (luatex.def)             Requested size: 645.31068pt x 303.68509pt.
 <../figures/trends_horz.png, id=36, 1505.625pt x 351.3125pt>
 File: ../figures/trends_horz.png Graphic file (type png)
 <use ../figures/trends_horz.png>
-Package luatex.def Info: ../figures/trends_horz.png  used on input line 202.
+Package luatex.def Info: ../figures/trends_horz.png  used on input line 187.
 (luatex.def)             Requested size: 717.01674pt x 167.30937pt.
 <../figures/morphoscatter.png, id=42, 1656.1875pt x 1355.0625pt>
 File: ../figures/morphoscatter.png Graphic file (type png)
 <use ../figures/morphoscatter.png>
-Package luatex.def Info: ../figures/morphoscatter.png  used on input line 202.
+Package luatex.def Info: ../figures/morphoscatter.png  used on input line 187.
 (luatex.def)             Requested size: 501.90952pt x 410.6572pt.
 <../figures/cor/SB.png, id=43, 2409.0pt x 983.675pt>
 File: ../figures/cor/SB.png Graphic file (type png)
 <use ../figures/cor/SB.png>
-Package luatex.def Info: ../figures/cor/SB.png  used on input line 202.
-(luatex.def)             Requested size: 573.61557pt x 234.22563pt.
+Package luatex.def Info: ../figures/cor/SB.png  used on input line 187.
+(luatex.def)             Requested size: 645.31068pt x 263.49445pt.
 <../figures/cor/NHU.png, id=44, 2409.0pt x 983.675pt>
 File: ../figures/cor/NHU.png Graphic file (type png)
 <use ../figures/cor/NHU.png>
-Package luatex.def Info: ../figures/cor/NHU.png  used on input line 202.
-(luatex.def)             Requested size: 573.61557pt x 234.22563pt.
+Package luatex.def Info: ../figures/cor/NHU.png  used on input line 187.
+(luatex.def)             Requested size: 645.31068pt x 263.49445pt.
 <../figures/bib_qr.png, id=45, 406.51875pt x 406.51875pt>
 File: ../figures/bib_qr.png Graphic file (type png)
 <use ../figures/bib_qr.png>
-Package luatex.def Info: ../figures/bib_qr.png  used on input line 202.
+Package luatex.def Info: ../figures/bib_qr.png  used on input line 187.
 (luatex.def)             Requested size: 89.62709pt x 89.62668pt.
 
-Overfull \vbox (12.15381pt too high) detected at line 202
+Overfull \vbox (20.3814pt too high) detected at line 187
  []
 
 File: logos/GLERL.png Graphic file (type png)
 <use logos/GLERL.png>
-Package luatex.def Info: logos/GLERL.png  used on input line 202.
+Package luatex.def Info: logos/GLERL.png  used on input line 187.
 (luatex.def)             Requested size: 331.41936pt x 85.35826pt.
 File: logos/CIGLR_LOGO_white.png Graphic file (type png)
 <use logos/CIGLR_LOGO_white.png>
-Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 202.
+Package luatex.def Info: logos/CIGLR_LOGO_white.png  used on input line 187.
 (luatex.def)             Requested size: 221.62654pt x 85.35826pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -1500,14 +1498,14 @@ Package logreq Info: Writing requests to 'poster.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 48759 strings out of 476553
- 244184,2373549 words of node,token memory allocated
- 61676 words of node memory still in use:
-   383 hlist, 44 vlist, 59 rule, 439 disc, 71 local_par, 48 math, 1356 glue, 853 kern, 250 penalty, 4429 glyph, 972 attribute, 93 glue_spec, 972 attribute_list, 22 write, 128 pdf_literal, 17 pdf_start_link, 17 pdf_end_link, 9 pdf_dest, 17 pdf_action, 216 pdf_colorstack, 9 pdf_setmatrix, 9 pdf_save, 9 pdf_restore nodes
-   avail lists: 1:4,2:498,3:1352,4:795,5:2665,6:221,7:18071,8:13,9:1682,10:23,11:1333
- 69379 multiletter control sequences out of 65536+600000
- 156 fonts using 29729151 bytes
- 128i,20n,128p,809b,2434s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 48750 strings out of 476553
+ 244178,2373549 words of node,token memory allocated
+ 57620 words of node memory still in use:
+   350 hlist, 44 vlist, 52 rule, 411 disc, 67 local_par, 42 math, 1254 glue, 805 kern, 230 penalty, 4161 glyph, 896 attribute, 93 glue_spec, 896 attribute_list, 22 write, 128 pdf_literal, 17 pdf_start_link, 17 pdf_end_link, 9 pdf_dest, 17 pdf_action, 184 pdf_colorstack, 9 pdf_setmatrix, 9 pdf_save, 9 pdf_restore nodes
+   avail lists: 1:1,2:498,3:1292,4:699,5:2521,6:209,7:16943,8:13,9:1563,10:24,11:1249
+ 69370 multiletter control sequences out of 65536+600000
+ 148 fonts using 27941999 bytes
+ 128i,20n,128p,827b,2434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@Anderson2021'
 
@@ -1532,11 +1530,11 @@ warning  (pdf backend): unreferenced destination with name 'cite.0@Sharma2019'
 warning  (pdf backend): unreferenced destination with name 'cite.0@Mason2016'
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@Yang2020'
-</usr/share/texlive/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Regular.otf></usr/share/texlive/texmf-dist/fonts/truetype/typoland/lato/Lato-LightItalic.ttf>{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texlive/texmf-dist/fonts/truetype/typoland/lato/Lato-Regular.ttf>{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texlive/texmf-dist/fonts/truetype/typoland/lato/Lato-Light.ttf></usr/share/texlive/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Bold.otf></usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf></usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on poster.pdf (1 page, 912002 bytes).
+</usr/share/texlive/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Regular.otf></usr/share/texlive/texmf-dist/fonts/truetype/typoland/lato/Lato-Regular.ttf>{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texlive/texmf-dist/fonts/truetype/typoland/lato/Lato-Light.ttf></usr/share/texlive/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Bold.otf></usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf></usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb>
+Output written on poster.pdf (1 page, 897618 bytes).
 
-PDF statistics: 151 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+PDF statistics: 139 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
  24 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
