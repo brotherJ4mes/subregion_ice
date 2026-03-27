@@ -116,6 +116,50 @@
       \verb http://dx.doi.org/10.1038/s41467-021-21971-1
       \endverb
     \endentry
+    \entry{Assel_2005}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ddcecfd73bc86946328549316e4f04cd}{%
+           family={Assel},
+           familyi={A\bibinitperiod},
+           given={Raymond\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Meteorological Society}%
+      }
+      \strng{namehash}{ddcecfd73bc86946328549316e4f04cd}
+      \strng{fullhash}{ddcecfd73bc86946328549316e4f04cd}
+      \strng{bibnamehash}{ddcecfd73bc86946328549316e4f04cd}
+      \strng{authorbibnamehash}{ddcecfd73bc86946328549316e4f04cd}
+      \strng{authornamehash}{ddcecfd73bc86946328549316e4f04cd}
+      \strng{authorfullhash}{ddcecfd73bc86946328549316e4f04cd}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0894-8755}
+      \field{journaltitle}{Journal of Climate}
+      \field{month}{11}
+      \field{number}{22}
+      \field{title}{Classification of Annual Great Lakes Ice Cycles: Winters of 1973–2002*}
+      \field{volume}{18}
+      \field{year}{2005}
+      \field{pages}{4895\bibrangedash 4905}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1175/jcli3571.1
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1175/JCLI3571.1
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1175/JCLI3571.1
+      \endverb
+    \endentry
     \entry{Austin_2007}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2d41a619cbb2302bd71a3ef7f014a24e}{%
@@ -741,6 +785,111 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1002/lno.12527
+      \endverb
+    \endentry
+    \entry{Sharma_2019}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=b3bb3dc9bb5b84cd888c508bf4d813d1}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Sapna},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75078f91677f4cf09084b7f170a1ff76}{%
+           family={Blagrave},
+           familyi={B\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b79236e0b587cbee37d2e122b05d46f}{%
+           family={Magnuson},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e091a966d7979a48a24b3a061ee42a4}{%
+           family={O’Reilly},
+           familyi={O\bibinitperiod},
+           given={Catherine\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e89a22b5aa69657060e0219c023aba5}{%
+           family={Oliver},
+           familyi={O\bibinitperiod},
+           given={Samantha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68095943c1264b0525426bc3f1812968}{%
+           family={Batt},
+           familyi={B\bibinitperiod},
+           given={Ryan\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=96fde50f4ca70daa9ea065da22f5e627}{%
+           family={Magee},
+           familyi={M\bibinitperiod},
+           given={Madeline\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af93ec8948811989eb776da8c398a292}{%
+           family={Straile},
+           familyi={S\bibinitperiod},
+           given={Dietmar},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e68b6e4c3fd3df3163b357e8ba40533b}{%
+           family={Weyhenmeyer},
+           familyi={W\bibinitperiod},
+           given={Gesa\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4cc10f60d213d2aef2b8c7037bbf8723}{%
+           family={Winslow},
+           familyi={W\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ba1910b9e7d550de8a375e67e45f726}{%
+           family={Woolway},
+           familyi={W\bibinitperiod},
+           given={R.\bibnamedelimi Iestyn},
+           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{b39b0f8902c26b854e56da50feecabf6}
+      \strng{fullhash}{76b24cad6613a5db81bc06c30b3bc613}
+      \strng{bibnamehash}{76b24cad6613a5db81bc06c30b3bc613}
+      \strng{authorbibnamehash}{76b24cad6613a5db81bc06c30b3bc613}
+      \strng{authornamehash}{b39b0f8902c26b854e56da50feecabf6}
+      \strng{authorfullhash}{76b24cad6613a5db81bc06c30b3bc613}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1758-6798}
+      \field{journaltitle}{Nature Climate Change}
+      \field{month}{1}
+      \field{number}{3}
+      \field{title}{Widespread loss of lake ice around the Northern Hemisphere in a warming world}
+      \field{volume}{9}
+      \field{year}{2019}
+      \field{pages}{227\bibrangedash 231}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/s41558-018-0393-5
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1038/s41558-018-0393-5
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/s41558-018-0393-5
       \endverb
     \endentry
     \entry{Twiss_2012}{article}{}
@@ -1044,6 +1193,50 @@
       \verb http://dx.doi.org/10.1038/s41467-021-21971-1
       \endverb
     \endentry
+    \entry{Assel_2005}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ddcecfd73bc86946328549316e4f04cd}{%
+           family={Assel},
+           familyi={A\bibinitperiod},
+           given={Raymond\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Meteorological Society}%
+      }
+      \strng{namehash}{ddcecfd73bc86946328549316e4f04cd}
+      \strng{fullhash}{ddcecfd73bc86946328549316e4f04cd}
+      \strng{bibnamehash}{ddcecfd73bc86946328549316e4f04cd}
+      \strng{authorbibnamehash}{ddcecfd73bc86946328549316e4f04cd}
+      \strng{authornamehash}{ddcecfd73bc86946328549316e4f04cd}
+      \strng{authorfullhash}{ddcecfd73bc86946328549316e4f04cd}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0894-8755}
+      \field{journaltitle}{Journal of Climate}
+      \field{month}{11}
+      \field{number}{22}
+      \field{title}{Classification of Annual Great Lakes Ice Cycles: Winters of 1973–2002*}
+      \field{volume}{18}
+      \field{year}{2005}
+      \field{pages}{4895\bibrangedash 4905}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1175/jcli3571.1
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1175/JCLI3571.1
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1175/JCLI3571.1
+      \endverb
+    \endentry
     \entry{Austin_2007}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2d41a619cbb2302bd71a3ef7f014a24e}{%
@@ -1669,6 +1862,111 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1002/lno.12527
+      \endverb
+    \endentry
+    \entry{Sharma_2019}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=b3bb3dc9bb5b84cd888c508bf4d813d1}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Sapna},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75078f91677f4cf09084b7f170a1ff76}{%
+           family={Blagrave},
+           familyi={B\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b79236e0b587cbee37d2e122b05d46f}{%
+           family={Magnuson},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e091a966d7979a48a24b3a061ee42a4}{%
+           family={O’Reilly},
+           familyi={O\bibinitperiod},
+           given={Catherine\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e89a22b5aa69657060e0219c023aba5}{%
+           family={Oliver},
+           familyi={O\bibinitperiod},
+           given={Samantha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68095943c1264b0525426bc3f1812968}{%
+           family={Batt},
+           familyi={B\bibinitperiod},
+           given={Ryan\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=96fde50f4ca70daa9ea065da22f5e627}{%
+           family={Magee},
+           familyi={M\bibinitperiod},
+           given={Madeline\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af93ec8948811989eb776da8c398a292}{%
+           family={Straile},
+           familyi={S\bibinitperiod},
+           given={Dietmar},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e68b6e4c3fd3df3163b357e8ba40533b}{%
+           family={Weyhenmeyer},
+           familyi={W\bibinitperiod},
+           given={Gesa\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4cc10f60d213d2aef2b8c7037bbf8723}{%
+           family={Winslow},
+           familyi={W\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ba1910b9e7d550de8a375e67e45f726}{%
+           family={Woolway},
+           familyi={W\bibinitperiod},
+           given={R.\bibnamedelimi Iestyn},
+           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{b39b0f8902c26b854e56da50feecabf6}
+      \strng{fullhash}{76b24cad6613a5db81bc06c30b3bc613}
+      \strng{bibnamehash}{76b24cad6613a5db81bc06c30b3bc613}
+      \strng{authorbibnamehash}{76b24cad6613a5db81bc06c30b3bc613}
+      \strng{authornamehash}{b39b0f8902c26b854e56da50feecabf6}
+      \strng{authorfullhash}{76b24cad6613a5db81bc06c30b3bc613}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1758-6798}
+      \field{journaltitle}{Nature Climate Change}
+      \field{month}{1}
+      \field{number}{3}
+      \field{title}{Widespread loss of lake ice around the Northern Hemisphere in a warming world}
+      \field{volume}{9}
+      \field{year}{2019}
+      \field{pages}{227\bibrangedash 231}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/s41558-018-0393-5
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1038/s41558-018-0393-5
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/s41558-018-0393-5
       \endverb
     \endentry
     \entry{Twiss_2012}{article}{}
