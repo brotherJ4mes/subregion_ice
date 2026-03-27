@@ -170,7 +170,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
-      <bcf:value>ydnt</bcf:value>
+      <bcf:value>nyt</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortsets</bcf:key>
@@ -3060,22 +3060,31 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">Martin_2023</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">Austin_2007</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">Nicholls_1998</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">Twiss_2012</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">Brown_1993</bcf:citekey>
+    <bcf:citekey order="4" intorder="2">Lynch_2015</bcf:citekey>
+    <bcf:citekey order="4" intorder="3">Collingsworth_2017</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">Austin_2007</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">Anderson_2021</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">Mason_2016</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">Richardson_2024</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">Richardson_2024</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">Lin_2022</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">Lin_2022</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">Richardson_2024</bcf:citekey>
+    <bcf:citekey order="12" intorder="2">Bai_2012</bcf:citekey>
+    <bcf:citekey order="12" intorder="3">Wang_2018</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="ydnt">
+  <bcf:sortingtemplate name="nyt">
     <bcf:sort order="1">
       <bcf:sortitem order="1">presort</bcf:sortitem>
     </bcf:sort>
     <bcf:sort order="2" final="1">
       <bcf:sortitem order="1">sortkey</bcf:sortitem>
     </bcf:sort>
-    <bcf:sort order="3" sort_direction="descending">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-      <bcf:sortitem literal="1" order="3">9999</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
+    <bcf:sort order="3">
       <bcf:sortitem order="1">sortname</bcf:sortitem>
       <bcf:sortitem order="2">author</bcf:sortitem>
       <bcf:sortitem order="3">editor</bcf:sortitem>
@@ -3083,25 +3092,33 @@
       <bcf:sortitem order="5">sorttitle</bcf:sortitem>
       <bcf:sortitem order="6">title</bcf:sortitem>
     </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
     <bcf:sort order="5">
       <bcf:sortitem order="1">sorttitle</bcf:sortitem>
       <bcf:sortitem order="2">title</bcf:sortitem>
     </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
+    </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="0"
-                name="ydnt/apasortcite//global/global"
+                name="nyt/apasortcite//global/global"
                 type="entry"
-                sortingtemplatename="ydnt"
+                sortingtemplatename="nyt"
                 sortingnamekeytemplatename="apasortcite"
                 labelprefix=""
                 uniquenametemplatename="global"
                 labelalphanametemplatename="global">
   </bcf:datalist>
   <bcf:datalist section="0"
-                name="ydnt/global//global/global"
+                name="nyt/global//global/global"
                 type="entry"
-                sortingtemplatename="ydnt"
+                sortingtemplatename="nyt"
                 sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"

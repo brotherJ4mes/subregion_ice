@@ -128,8 +128,6 @@ INPUT /home/kessler/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroma
 INPUT /home/kessler/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-bold.luc
 INPUT /home/kessler/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc
 INPUT /home/kessler/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc
-OUTPUT subregion_ice.pdf
-INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr5.tfm
@@ -139,6 +137,8 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy5.tfm
+OUTPUT subregion_ice.pdf
+INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./subregion_ice.aux
 INPUT ./subregion_ice.run.xml
 OUTPUT subregion_ice.run.xml

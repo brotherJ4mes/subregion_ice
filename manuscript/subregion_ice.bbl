@@ -18,37 +18,102 @@
 
 
 \refsection{0}
-  \datalist[entry]{ydnt/apasortcite//global/global}
-    \entry{Martin_2023}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=1a159119dfe622a93312f026baaf5115}{%
-           family={Associates},
+  \datalist[entry]{nyt/apasortcite//global/global}
+    \entry{Anderson_2021}{article}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=7bd8ffe7ef1e09395300820c84dbb810}{%
+           family={Anderson},
            familyi={A\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod},
+           given={Eric\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbf4ad31f4ef3f5bfffadb4c0b5a963c}{%
+           family={Stow},
+           familyi={S\bibinitperiod},
+           given={Craig\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=277318cfa4e33ac1fabfb8144ba7eb76}{%
+           family={Gronewold},
+           familyi={G\bibinitperiod},
+           given={Andrew\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d3b391600486b0a189a6afdc8088f7a}{%
+           family={Mason},
+           familyi={M\bibinitperiod},
+           given={Lacey\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30d8635d6b30ff4a62e4361db952e04b}{%
+           family={McCormick},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=624d5061ce34039d68015a91cc3d252b}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Song\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9621e444cbccc38e47aa3c690df65ee}{%
+           family={Ruberg},
+           familyi={R\bibinitperiod},
+           given={Steven\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dab623feed3e88eae7577c10283f4c84}{%
+           family={Beadle},
+           familyi={B\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f457a32795b1b4d1002d2786449b240}{%
+           family={Constant},
+           familyi={C\bibinitperiod},
+           given={Stephen\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7da7977ebef0b6f122530d8c24e1e4f}{%
+           family={Hawley},
+           familyi={H\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{1a159119dfe622a93312f026baaf5115}
-      \strng{fullhash}{1a159119dfe622a93312f026baaf5115}
-      \strng{bibnamehash}{1a159119dfe622a93312f026baaf5115}
-      \strng{authorbibnamehash}{1a159119dfe622a93312f026baaf5115}
-      \strng{authornamehash}{1a159119dfe622a93312f026baaf5115}
-      \strng{authorfullhash}{1a159119dfe622a93312f026baaf5115}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{7078a43456e16703ae646dfeeb515687}
+      \strng{fullhash}{cf4f7e93231de2cbe88d33cb42b2713a}
+      \strng{bibnamehash}{cf4f7e93231de2cbe88d33cb42b2713a}
+      \strng{authorbibnamehash}{cf4f7e93231de2cbe88d33cb42b2713a}
+      \strng{authornamehash}{7078a43456e16703ae646dfeeb515687}
+      \strng{authorfullhash}{cf4f7e93231de2cbe88d33cb42b2713a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{6}
-      \field{title}{Economic Impacts of Maritime Shipping in the Great Lakes - St Lawrence Region}
-      \field{year}{2023}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nature Communications}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Seasonal overturn and stratification changes drive deep-water warming in one of Earth’s largest lakes}
+      \field{volume}{12}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1038/s41467-021-21971-1
+      \endverb
       \verb{urlraw}
-      \verb http://marinedelivers.com
+      \verb http://dx.doi.org/10.1038/s41467-021-21971-1
       \endverb
       \verb{url}
-      \verb http://marinedelivers.com
+      \verb http://dx.doi.org/10.1038/s41467-021-21971-1
       \endverb
     \endentry
     \entry{Austin_2007}{article}{}
@@ -75,8 +140,8 @@
       \strng{authorbibnamehash}{36c5d3a7a8291220cec46ccd18915312}
       \strng{authornamehash}{36c5d3a7a8291220cec46ccd18915312}
       \strng{authorfullhash}{36c5d3a7a8291220cec46ccd18915312}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -97,40 +162,886 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1029/2006GL029021
+      \endverb
+    \endentry
+    \entry{Bai_2012}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=7da2a25d555690c21944d71eb3032b3a}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Xuezhi},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e453927e646e355f3edb61c5518de1d1}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0086298b57748587520028570f4fcd95}{%
+           family={Sellinger},
+           familyi={S\bibinitperiod},
+           given={Cynthia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76a7d7c51832a9ce230852f4ba2dc3e8}{%
+           family={Clites},
+           familyi={C\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e57abf6e74eee8859f3b26cb80322944}{%
+           family={Assel},
+           familyi={A\bibinitperiod},
+           given={Raymond},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Geophysical Union (AGU)}%
+      }
+      \strng{namehash}{7dab938a72bfb0421a91f17f8f4e9970}
+      \strng{fullhash}{3a56e35497835576115e4562fdfaf247}
+      \strng{bibnamehash}{3a56e35497835576115e4562fdfaf247}
+      \strng{authorbibnamehash}{3a56e35497835576115e4562fdfaf247}
+      \strng{authornamehash}{7dab938a72bfb0421a91f17f8f4e9970}
+      \strng{authorfullhash}{3a56e35497835576115e4562fdfaf247}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0148-0227}
+      \field{journaltitle}{Journal of Geophysical Research: Oceans}
+      \field{month}{3}
+      \field{number}{C3}
+      \field{title}{Interannual variability of Great Lakes ice cover and its relationship to NAO and ENSO}
+      \field{volume}{117}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.1029/2010jc006932
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1029/2010jc006932
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1029/2010jc006932
+      \endverb
+    \endentry
+    \entry{Brown_1993}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c94df69d82740f4348e6482a3e773a00}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Russell\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8983f4545e494f2297abc2c2bfa1b73c}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={William\bibnamedelima W.},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddcecfd73bc86946328549316e4f04cd}{%
+           family={Assel},
+           familyi={A\bibinitperiod},
+           given={Raymond\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{297117549b6e62fbcbf64fedf029090b}
+      \strng{fullhash}{7740f7d9c93f31160fccf76d9d3a51a9}
+      \strng{bibnamehash}{7740f7d9c93f31160fccf76d9d3a51a9}
+      \strng{authorbibnamehash}{7740f7d9c93f31160fccf76d9d3a51a9}
+      \strng{authornamehash}{297117549b6e62fbcbf64fedf029090b}
+      \strng{authorfullhash}{7740f7d9c93f31160fccf76d9d3a51a9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0380-1330}
+      \field{journaltitle}{Journal of Great Lakes Research}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Factors Affecting the Recruitment of Lake Whitefish in Two Areas of Northern Lake Michigan}
+      \field{volume}{19}
+      \field{year}{1993}
+      \field{pages}{418\bibrangedash 428}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/s0380-1330(93)71229-0
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/S0380-1330(93)71229-0
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/S0380-1330(93)71229-0
+      \endverb
+    \endentry
+    \entry{Collingsworth_2017}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=c9239a34176bb7fe6ec8d0c31f42e326}{%
+           family={Collingsworth},
+           familyi={C\bibinitperiod},
+           given={Paris\bibnamedelima D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03ef85d97898332c4bff0665646574e1}{%
+           family={Bunnell},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=244e0e6c0bb1bc03b1c89e5c417aa38d}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b2ef5a34ffd96fa40f45b25ba7fc632}{%
+           family={Kao},
+           familyi={K\bibinitperiod},
+           given={Yu-Chun},
+           giveni={Y\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ebbd8707453223e2302eca941dd83a2}{%
+           family={Feiner},
+           familyi={F\bibinitperiod},
+           given={Zachary\bibnamedelima S.},
+           giveni={Z\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bcc89b842281e085fd43499db77217f}{%
+           family={Claramunt},
+           familyi={C\bibinitperiod},
+           given={Randall\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b6bc5801f3900e198300f74ebd0cdfb}{%
+           family={Lofgren},
+           familyi={L\bibinitperiod},
+           given={Brent\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41642a2dce53c3ca3d6881ae2d20f20b}{%
+           family={Höök},
+           familyi={H\bibinitperiod},
+           given={Tomas\bibnamedelima O.},
+           giveni={T\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=908d333508cac1f42c2caa69ab8ec4ac}{%
+           family={Ludsin},
+           familyi={L\bibinitperiod},
+           given={Stuart\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{88aff5a06abb38615b2238cebc1f7889}
+      \strng{fullhash}{a0991304652f4f5ef855e9b22b58cead}
+      \strng{bibnamehash}{a0991304652f4f5ef855e9b22b58cead}
+      \strng{authorbibnamehash}{a0991304652f4f5ef855e9b22b58cead}
+      \strng{authornamehash}{88aff5a06abb38615b2238cebc1f7889}
+      \strng{authorfullhash}{a0991304652f4f5ef855e9b22b58cead}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-5184}
+      \field{journaltitle}{Reviews in Fish Biology and Fisheries}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Climate change as a long-term stressor for the fisheries of the Laurentian Great Lakes of North America}
+      \field{volume}{27}
+      \field{year}{2017}
+      \field{pages}{363\bibrangedash 391}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1007/s11160-017-9480-3
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s11160-017-9480-3
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s11160-017-9480-3
+      \endverb
+    \endentry
+    \entry{Lin_2022}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=401071742139af73a143a6be0e9c9c10}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Yu-Chun},
+           giveni={Y\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b80ed9bfa5197c678851073e86d0eed}{%
+           family={Fujisaki-Manome},
+           familyi={F\bibinithyphendelim M\bibinitperiod},
+           given={Ayumi},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e453927e646e355f3edb61c5518de1d1}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Meteorological Society}%
+      }
+      \strng{namehash}{6c6b9ca22ee3fe629900949fde4a6120}
+      \strng{fullhash}{976253e5b0f42c6cbe38e9e9f884ac7f}
+      \strng{bibnamehash}{976253e5b0f42c6cbe38e9e9f884ac7f}
+      \strng{authorbibnamehash}{976253e5b0f42c6cbe38e9e9f884ac7f}
+      \strng{authornamehash}{6c6b9ca22ee3fe629900949fde4a6120}
+      \strng{authorfullhash}{976253e5b0f42c6cbe38e9e9f884ac7f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1520-0442}
+      \field{journaltitle}{Journal of Climate}
+      \field{month}{10}
+      \field{number}{19}
+      \field{title}{Recently Amplified Interannual Variability of the Great Lakes Ice Cover in Response to Changing Teleconnections}
+      \field{volume}{35}
+      \field{year}{2022}
+      \field{pages}{6283\bibrangedash 6300}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1175/jcli-d-21-0448.1
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1175/jcli-d-21-0448.1
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1175/jcli-d-21-0448.1
+      \endverb
+    \endentry
+    \entry{Lynch_2015}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=c733487c2134662d48332ce8733ab239}{%
+           family={Lynch},
+           familyi={L\bibinitperiod},
+           given={Abigail\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8983f4545e494f2297abc2c2bfa1b73c}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={William\bibnamedelima W.},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=753363519bb330230c7b5753d0c43c84}{%
+           family={Beard},
+           familyi={B\bibinitperiod},
+           given={T.\bibnamedelimi Douglas},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b6bc5801f3900e198300f74ebd0cdfb}{%
+           family={Lofgren},
+           familyi={L\bibinitperiod},
+           given={Brent\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{da8c9bf7930a8d3ef609803432db78c8}
+      \strng{fullhash}{f228c10252f48028109e62673da3b6a1}
+      \strng{bibnamehash}{f228c10252f48028109e62673da3b6a1}
+      \strng{authorbibnamehash}{f228c10252f48028109e62673da3b6a1}
+      \strng{authornamehash}{da8c9bf7930a8d3ef609803432db78c8}
+      \strng{authorfullhash}{f228c10252f48028109e62673da3b6a1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0380-1330}
+      \field{journaltitle}{Journal of Great Lakes Research}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Climate change projections for lake whitefish ( Coregonus clupeaformis ) recruitment in the 1836 Treaty Waters of the Upper Great Lakes}
+      \field{volume}{41}
+      \field{year}{2015}
+      \field{pages}{415\bibrangedash 422}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.jglr.2015.03.015
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.jglr.2015.03.015
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.jglr.2015.03.015
+      \endverb
+    \endentry
+    \entry{Martin_2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=81d6f316d169150d0e8733866c38684d}{%
+           family={Martin},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{81d6f316d169150d0e8733866c38684d}
+      \strng{fullhash}{81d6f316d169150d0e8733866c38684d}
+      \strng{bibnamehash}{81d6f316d169150d0e8733866c38684d}
+      \strng{authorbibnamehash}{81d6f316d169150d0e8733866c38684d}
+      \strng{authornamehash}{81d6f316d169150d0e8733866c38684d}
+      \strng{authorfullhash}{81d6f316d169150d0e8733866c38684d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Economic Impacts of Maritime Shipping in the Great Lakes - St Lawrence Region}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb http://marinedelivers.com
+      \endverb
+      \verb{url}
+      \verb http://marinedelivers.com
+      \endverb
+    \endentry
+    \entry{Mason_2016}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=8d3b391600486b0a189a6afdc8088f7a}{%
+           family={Mason},
+           familyi={M\bibinitperiod},
+           given={Lacey\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2711f90b790ba691504c75d4bbbff9c2}{%
+           family={Riseng},
+           familyi={R\bibinitperiod},
+           given={Catherine\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=277318cfa4e33ac1fabfb8144ba7eb76}{%
+           family={Gronewold},
+           familyi={G\bibinitperiod},
+           given={Andrew\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee58a3a30b388f39f3d8e8596b88ef99}{%
+           family={Rutherford},
+           familyi={R\bibinitperiod},
+           given={Edward\bibnamedelima S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e453927e646e355f3edb61c5518de1d1}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76a7d7c51832a9ce230852f4ba2dc3e8}{%
+           family={Clites},
+           familyi={C\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a85dc17733be9b4ab28e0ea0aa839d2}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Sigrid\bibnamedelimb D.\bibnamedelimi P.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5bf70981f1d11e1e93c1a4b9ea938634}{%
+           family={McIntyre},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{9c6b766e2163f50ae74d58cd897678df}
+      \strng{fullhash}{30d409b2a96d743bf7a765357a57a24a}
+      \strng{bibnamehash}{30d409b2a96d743bf7a765357a57a24a}
+      \strng{authorbibnamehash}{30d409b2a96d743bf7a765357a57a24a}
+      \strng{authornamehash}{9c6b766e2163f50ae74d58cd897678df}
+      \strng{authorfullhash}{30d409b2a96d743bf7a765357a57a24a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-1480}
+      \field{journaltitle}{Climatic Change}
+      \field{month}{6}
+      \field{number}{1–2}
+      \field{title}{Fine-scale spatial variation in ice cover and surface temperature trends across the surface of the Laurentian Great Lakes}
+      \field{volume}{138}
+      \field{year}{2016}
+      \field{pages}{71\bibrangedash 83}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/s10584-016-1721-2
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s10584-016-1721-2
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s10584-016-1721-2
+      \endverb
+    \endentry
+    \entry{Nicholls_1998}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=69ac6dc87f9ec4bd2e442885cbf6627e}{%
+           family={Nicholls},
+           familyi={N\bibinitperiod},
+           given={K.\bibnamedelimi H.},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{69ac6dc87f9ec4bd2e442885cbf6627e}
+      \strng{fullhash}{69ac6dc87f9ec4bd2e442885cbf6627e}
+      \strng{bibnamehash}{69ac6dc87f9ec4bd2e442885cbf6627e}
+      \strng{authorbibnamehash}{69ac6dc87f9ec4bd2e442885cbf6627e}
+      \strng{authornamehash}{69ac6dc87f9ec4bd2e442885cbf6627e}
+      \strng{authorfullhash}{69ac6dc87f9ec4bd2e442885cbf6627e}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1939-5590}
+      \field{journaltitle}{Limnology and Oceanography}
+      \field{month}{6}
+      \field{number}{4}
+      \field{title}{El Niño, ice cover, and Great Lakes phosphorus: Implications for climate warming}
+      \field{volume}{43}
+      \field{year}{1998}
+      \field{pages}{715\bibrangedash 719}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.4319/lo.1998.43.4.0715
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.4319/lo.1998.43.4.0715
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.4319/lo.1998.43.4.0715
+      \endverb
+    \endentry
+    \entry{Richardson_2024}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=900eaead10afa0d4e6cfee7d5c87dc9f}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5725ebd912da510e417514176f8bc2e3}{%
+           family={Filazzola},
+           familyi={F\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ba1910b9e7d550de8a375e67e45f726}{%
+           family={Woolway},
+           familyi={W\bibinitperiod},
+           given={R.\bibnamedelimi Iestyn},
+           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3a47c439548d634523bfa375a28a958}{%
+           family={Imrit},
+           familyi={I\bibinitperiod},
+           given={M.\bibnamedelimi Arshad},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21295ba130ba3aaa00a1a898f734dfe2}{%
+           family={Bouffard},
+           familyi={B\bibinitperiod},
+           given={Damien},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e68b6e4c3fd3df3163b357e8ba40533b}{%
+           family={Weyhenmeyer},
+           familyi={W\bibinitperiod},
+           given={Gesa\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=823607715019b2740d13d07ce7f87974}{%
+           family={Magnuson},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3bb3dc9bb5b84cd888c508bf4d813d1}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Sapna},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{f764b929cacd89f7f09662bebf0bd0f9}
+      \strng{fullhash}{0e6b274db9d65d180c26daa251f55a34}
+      \strng{bibnamehash}{0e6b274db9d65d180c26daa251f55a34}
+      \strng{authorbibnamehash}{0e6b274db9d65d180c26daa251f55a34}
+      \strng{authornamehash}{f764b929cacd89f7f09662bebf0bd0f9}
+      \strng{authorfullhash}{0e6b274db9d65d180c26daa251f55a34}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1939-5590}
+      \field{journaltitle}{Limnology and Oceanography}
+      \field{month}{2}
+      \field{number}{4}
+      \field{title}{Nonlinear responses in interannual variability of lake ice to climate change}
+      \field{volume}{69}
+      \field{year}{2024}
+      \field{pages}{789\bibrangedash 801}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1002/lno.12527
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1002/lno.12527
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1002/lno.12527
+      \endverb
+    \endentry
+    \entry{Twiss_2012}{article}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=765377c82068c38abf629c34d2bc0910}{%
+           family={Twiss},
+           familyi={T\bibinitperiod},
+           given={M.R.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=faa7b6681e7b70404bc318ca013bb0cf}{%
+           family={McKay},
+           familyi={M\bibinitperiod},
+           given={R.M.L.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=858aaa006186ab0b7aae525e30a53ce6}{%
+           family={Bourbonniere},
+           familyi={B\bibinitperiod},
+           given={R.A.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2c83a3daf4517897dc6f19ec424fd04}{%
+           family={Bullerjahn},
+           familyi={B\bibinitperiod},
+           given={G.S.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50b1295d0b8beff4a6a93614cb5d6df7}{%
+           family={Carrick},
+           familyi={C\bibinitperiod},
+           given={H.J.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d0e704cf3f7e8b6da18514f52ddb023}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={R.E.H.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=094b12138c74ca283769b7d50c876df4}{%
+           family={Winter},
+           familyi={W\bibinitperiod},
+           given={J.G.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f32d0badccfcbbb998c32ad4d0beb645}{%
+           family={D’souza},
+           familyi={D\bibinitperiod},
+           given={N.A.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7cb826827802ddd6a0136bd785f56ced}{%
+           family={Furey},
+           familyi={F\bibinitperiod},
+           given={P.C.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbfab4a33396cd774bf1afb6d01ac3f7}{%
+           family={Lashaway},
+           familyi={L\bibinitperiod},
+           given={A.R.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2642b71355f659674ecb4096bd0c7f76}{%
+           family={Saxton},
+           familyi={S\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c488bb053fcc831d99863ca5e402cdb2}{%
+           family={Wilhelm},
+           familyi={W\bibinitperiod},
+           given={S.W.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{80e5dc0745b75567321562f9841be07c}
+      \strng{fullhash}{f69f94943e13110148cfbd2807d7dfb8}
+      \strng{bibnamehash}{f69f94943e13110148cfbd2807d7dfb8}
+      \strng{authorbibnamehash}{f69f94943e13110148cfbd2807d7dfb8}
+      \strng{authornamehash}{80e5dc0745b75567321562f9841be07c}
+      \strng{authorfullhash}{f69f94943e13110148cfbd2807d7dfb8}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0380-1330}
+      \field{journaltitle}{Journal of Great Lakes Research}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Diatoms abound in ice-covered Lake Erie: An investigation of offshore winter limnology in Lake Erie over the period 2007 to 2010}
+      \field{volume}{38}
+      \field{year}{2012}
+      \field{pages}{18\bibrangedash 30}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.jglr.2011.12.008
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.jglr.2011.12.008
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.jglr.2011.12.008
+      \endverb
+    \endentry
+    \entry{Wang_2018}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=e453927e646e355f3edb61c5518de1d1}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0429294c467218def5015affd75940c6}{%
+           family={Kessler},
+           familyi={K\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7da2a25d555690c21944d71eb3032b3a}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Xuezhi},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76a7d7c51832a9ce230852f4ba2dc3e8}{%
+           family={Clites},
+           familyi={C\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a95654b864cb72c594dcb315ad932d4}{%
+           family={Lofgren},
+           familyi={L\bibinitperiod},
+           given={Brent},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32cba9e955f17b5161582666dfab89b1}{%
+           family={Assuncao},
+           familyi={A\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0373f8fd9b1cbd15e069d6d29501e86b}{%
+           family={Bratton},
+           familyi={B\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3409207a776018bff35257830eece6ad}{%
+           family={Chu},
+           familyi={C\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7e7c7af90e6aa9d5286a82bb14c9ac9}{%
+           family={Leshkevich},
+           familyi={L\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Meteorological Society}%
+      }
+      \strng{namehash}{b51edf14e24c461ba431d8ac8b55042c}
+      \strng{fullhash}{adac868925a782b473248a263786c7c6}
+      \strng{bibnamehash}{adac868925a782b473248a263786c7c6}
+      \strng{authorbibnamehash}{adac868925a782b473248a263786c7c6}
+      \strng{authornamehash}{b51edf14e24c461ba431d8ac8b55042c}
+      \strng{authorfullhash}{adac868925a782b473248a263786c7c6}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1520-0442}
+      \field{journaltitle}{Journal of Climate}
+      \field{month}{9}
+      \field{number}{18}
+      \field{title}{Decadal Variability of Great Lakes Ice Cover in Response to AMO and PDO, 1963–2017}
+      \field{volume}{31}
+      \field{year}{2018}
+      \field{pages}{7249\bibrangedash 7268}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1175/jcli-d-17-0283.1
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1175/JCLI-D-17-0283.1
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1175/JCLI-D-17-0283.1
       \endverb
     \endentry
   \enddatalist
-  \datalist[entry]{ydnt/global//global/global}
-    \entry{Martin_2023}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=1a159119dfe622a93312f026baaf5115}{%
-           family={Associates},
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Anderson_2021}{article}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=7bd8ffe7ef1e09395300820c84dbb810}{%
+           family={Anderson},
            familyi={A\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod},
+           given={Eric\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbf4ad31f4ef3f5bfffadb4c0b5a963c}{%
+           family={Stow},
+           familyi={S\bibinitperiod},
+           given={Craig\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=277318cfa4e33ac1fabfb8144ba7eb76}{%
+           family={Gronewold},
+           familyi={G\bibinitperiod},
+           given={Andrew\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d3b391600486b0a189a6afdc8088f7a}{%
+           family={Mason},
+           familyi={M\bibinitperiod},
+           given={Lacey\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30d8635d6b30ff4a62e4361db952e04b}{%
+           family={McCormick},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=624d5061ce34039d68015a91cc3d252b}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Song\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9621e444cbccc38e47aa3c690df65ee}{%
+           family={Ruberg},
+           familyi={R\bibinitperiod},
+           given={Steven\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dab623feed3e88eae7577c10283f4c84}{%
+           family={Beadle},
+           familyi={B\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f457a32795b1b4d1002d2786449b240}{%
+           family={Constant},
+           familyi={C\bibinitperiod},
+           given={Stephen\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7da7977ebef0b6f122530d8c24e1e4f}{%
+           family={Hawley},
+           familyi={H\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{1a159119dfe622a93312f026baaf5115}
-      \strng{fullhash}{1a159119dfe622a93312f026baaf5115}
-      \strng{bibnamehash}{1a159119dfe622a93312f026baaf5115}
-      \strng{authorbibnamehash}{1a159119dfe622a93312f026baaf5115}
-      \strng{authornamehash}{1a159119dfe622a93312f026baaf5115}
-      \strng{authorfullhash}{1a159119dfe622a93312f026baaf5115}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{7078a43456e16703ae646dfeeb515687}
+      \strng{fullhash}{cf4f7e93231de2cbe88d33cb42b2713a}
+      \strng{bibnamehash}{cf4f7e93231de2cbe88d33cb42b2713a}
+      \strng{authorbibnamehash}{cf4f7e93231de2cbe88d33cb42b2713a}
+      \strng{authornamehash}{7078a43456e16703ae646dfeeb515687}
+      \strng{authorfullhash}{cf4f7e93231de2cbe88d33cb42b2713a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{6}
-      \field{title}{Economic Impacts of Maritime Shipping in the Great Lakes - St Lawrence Region}
-      \field{year}{2023}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nature Communications}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Seasonal overturn and stratification changes drive deep-water warming in one of Earth’s largest lakes}
+      \field{volume}{12}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1038/s41467-021-21971-1
+      \endverb
       \verb{urlraw}
-      \verb http://marinedelivers.com
+      \verb http://dx.doi.org/10.1038/s41467-021-21971-1
       \endverb
       \verb{url}
-      \verb http://marinedelivers.com
+      \verb http://dx.doi.org/10.1038/s41467-021-21971-1
       \endverb
     \endentry
     \entry{Austin_2007}{article}{}
@@ -157,8 +1068,8 @@
       \strng{authorbibnamehash}{36c5d3a7a8291220cec46ccd18915312}
       \strng{authornamehash}{36c5d3a7a8291220cec46ccd18915312}
       \strng{authorfullhash}{36c5d3a7a8291220cec46ccd18915312}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -179,6 +1090,787 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1029/2006GL029021
+      \endverb
+    \endentry
+    \entry{Bai_2012}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=7da2a25d555690c21944d71eb3032b3a}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Xuezhi},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e453927e646e355f3edb61c5518de1d1}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0086298b57748587520028570f4fcd95}{%
+           family={Sellinger},
+           familyi={S\bibinitperiod},
+           given={Cynthia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76a7d7c51832a9ce230852f4ba2dc3e8}{%
+           family={Clites},
+           familyi={C\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e57abf6e74eee8859f3b26cb80322944}{%
+           family={Assel},
+           familyi={A\bibinitperiod},
+           given={Raymond},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Geophysical Union (AGU)}%
+      }
+      \strng{namehash}{7dab938a72bfb0421a91f17f8f4e9970}
+      \strng{fullhash}{3a56e35497835576115e4562fdfaf247}
+      \strng{bibnamehash}{3a56e35497835576115e4562fdfaf247}
+      \strng{authorbibnamehash}{3a56e35497835576115e4562fdfaf247}
+      \strng{authornamehash}{7dab938a72bfb0421a91f17f8f4e9970}
+      \strng{authorfullhash}{3a56e35497835576115e4562fdfaf247}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0148-0227}
+      \field{journaltitle}{Journal of Geophysical Research: Oceans}
+      \field{month}{3}
+      \field{number}{C3}
+      \field{title}{Interannual variability of Great Lakes ice cover and its relationship to NAO and ENSO}
+      \field{volume}{117}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.1029/2010jc006932
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1029/2010jc006932
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1029/2010jc006932
+      \endverb
+    \endentry
+    \entry{Brown_1993}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c94df69d82740f4348e6482a3e773a00}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Russell\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8983f4545e494f2297abc2c2bfa1b73c}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={William\bibnamedelima W.},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddcecfd73bc86946328549316e4f04cd}{%
+           family={Assel},
+           familyi={A\bibinitperiod},
+           given={Raymond\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{297117549b6e62fbcbf64fedf029090b}
+      \strng{fullhash}{7740f7d9c93f31160fccf76d9d3a51a9}
+      \strng{bibnamehash}{7740f7d9c93f31160fccf76d9d3a51a9}
+      \strng{authorbibnamehash}{7740f7d9c93f31160fccf76d9d3a51a9}
+      \strng{authornamehash}{297117549b6e62fbcbf64fedf029090b}
+      \strng{authorfullhash}{7740f7d9c93f31160fccf76d9d3a51a9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0380-1330}
+      \field{journaltitle}{Journal of Great Lakes Research}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Factors Affecting the Recruitment of Lake Whitefish in Two Areas of Northern Lake Michigan}
+      \field{volume}{19}
+      \field{year}{1993}
+      \field{pages}{418\bibrangedash 428}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/s0380-1330(93)71229-0
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/S0380-1330(93)71229-0
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/S0380-1330(93)71229-0
+      \endverb
+    \endentry
+    \entry{Collingsworth_2017}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=c9239a34176bb7fe6ec8d0c31f42e326}{%
+           family={Collingsworth},
+           familyi={C\bibinitperiod},
+           given={Paris\bibnamedelima D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03ef85d97898332c4bff0665646574e1}{%
+           family={Bunnell},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=244e0e6c0bb1bc03b1c89e5c417aa38d}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b2ef5a34ffd96fa40f45b25ba7fc632}{%
+           family={Kao},
+           familyi={K\bibinitperiod},
+           given={Yu-Chun},
+           giveni={Y\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ebbd8707453223e2302eca941dd83a2}{%
+           family={Feiner},
+           familyi={F\bibinitperiod},
+           given={Zachary\bibnamedelima S.},
+           giveni={Z\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bcc89b842281e085fd43499db77217f}{%
+           family={Claramunt},
+           familyi={C\bibinitperiod},
+           given={Randall\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b6bc5801f3900e198300f74ebd0cdfb}{%
+           family={Lofgren},
+           familyi={L\bibinitperiod},
+           given={Brent\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41642a2dce53c3ca3d6881ae2d20f20b}{%
+           family={Höök},
+           familyi={H\bibinitperiod},
+           given={Tomas\bibnamedelima O.},
+           giveni={T\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=908d333508cac1f42c2caa69ab8ec4ac}{%
+           family={Ludsin},
+           familyi={L\bibinitperiod},
+           given={Stuart\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{88aff5a06abb38615b2238cebc1f7889}
+      \strng{fullhash}{a0991304652f4f5ef855e9b22b58cead}
+      \strng{bibnamehash}{a0991304652f4f5ef855e9b22b58cead}
+      \strng{authorbibnamehash}{a0991304652f4f5ef855e9b22b58cead}
+      \strng{authornamehash}{88aff5a06abb38615b2238cebc1f7889}
+      \strng{authorfullhash}{a0991304652f4f5ef855e9b22b58cead}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-5184}
+      \field{journaltitle}{Reviews in Fish Biology and Fisheries}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Climate change as a long-term stressor for the fisheries of the Laurentian Great Lakes of North America}
+      \field{volume}{27}
+      \field{year}{2017}
+      \field{pages}{363\bibrangedash 391}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1007/s11160-017-9480-3
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s11160-017-9480-3
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s11160-017-9480-3
+      \endverb
+    \endentry
+    \entry{Lin_2022}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=401071742139af73a143a6be0e9c9c10}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Yu-Chun},
+           giveni={Y\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b80ed9bfa5197c678851073e86d0eed}{%
+           family={Fujisaki-Manome},
+           familyi={F\bibinithyphendelim M\bibinitperiod},
+           given={Ayumi},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e453927e646e355f3edb61c5518de1d1}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Meteorological Society}%
+      }
+      \strng{namehash}{6c6b9ca22ee3fe629900949fde4a6120}
+      \strng{fullhash}{976253e5b0f42c6cbe38e9e9f884ac7f}
+      \strng{bibnamehash}{976253e5b0f42c6cbe38e9e9f884ac7f}
+      \strng{authorbibnamehash}{976253e5b0f42c6cbe38e9e9f884ac7f}
+      \strng{authornamehash}{6c6b9ca22ee3fe629900949fde4a6120}
+      \strng{authorfullhash}{976253e5b0f42c6cbe38e9e9f884ac7f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1520-0442}
+      \field{journaltitle}{Journal of Climate}
+      \field{month}{10}
+      \field{number}{19}
+      \field{title}{Recently Amplified Interannual Variability of the Great Lakes Ice Cover in Response to Changing Teleconnections}
+      \field{volume}{35}
+      \field{year}{2022}
+      \field{pages}{6283\bibrangedash 6300}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1175/jcli-d-21-0448.1
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1175/jcli-d-21-0448.1
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1175/jcli-d-21-0448.1
+      \endverb
+    \endentry
+    \entry{Lynch_2015}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=c733487c2134662d48332ce8733ab239}{%
+           family={Lynch},
+           familyi={L\bibinitperiod},
+           given={Abigail\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8983f4545e494f2297abc2c2bfa1b73c}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={William\bibnamedelima W.},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=753363519bb330230c7b5753d0c43c84}{%
+           family={Beard},
+           familyi={B\bibinitperiod},
+           given={T.\bibnamedelimi Douglas},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b6bc5801f3900e198300f74ebd0cdfb}{%
+           family={Lofgren},
+           familyi={L\bibinitperiod},
+           given={Brent\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{da8c9bf7930a8d3ef609803432db78c8}
+      \strng{fullhash}{f228c10252f48028109e62673da3b6a1}
+      \strng{bibnamehash}{f228c10252f48028109e62673da3b6a1}
+      \strng{authorbibnamehash}{f228c10252f48028109e62673da3b6a1}
+      \strng{authornamehash}{da8c9bf7930a8d3ef609803432db78c8}
+      \strng{authorfullhash}{f228c10252f48028109e62673da3b6a1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0380-1330}
+      \field{journaltitle}{Journal of Great Lakes Research}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Climate change projections for lake whitefish ( Coregonus clupeaformis ) recruitment in the 1836 Treaty Waters of the Upper Great Lakes}
+      \field{volume}{41}
+      \field{year}{2015}
+      \field{pages}{415\bibrangedash 422}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.jglr.2015.03.015
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.jglr.2015.03.015
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.jglr.2015.03.015
+      \endverb
+    \endentry
+    \entry{Martin_2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=81d6f316d169150d0e8733866c38684d}{%
+           family={Martin},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{81d6f316d169150d0e8733866c38684d}
+      \strng{fullhash}{81d6f316d169150d0e8733866c38684d}
+      \strng{bibnamehash}{81d6f316d169150d0e8733866c38684d}
+      \strng{authorbibnamehash}{81d6f316d169150d0e8733866c38684d}
+      \strng{authornamehash}{81d6f316d169150d0e8733866c38684d}
+      \strng{authorfullhash}{81d6f316d169150d0e8733866c38684d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Economic Impacts of Maritime Shipping in the Great Lakes - St Lawrence Region}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb http://marinedelivers.com
+      \endverb
+      \verb{url}
+      \verb http://marinedelivers.com
+      \endverb
+    \endentry
+    \entry{Mason_2016}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=8d3b391600486b0a189a6afdc8088f7a}{%
+           family={Mason},
+           familyi={M\bibinitperiod},
+           given={Lacey\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2711f90b790ba691504c75d4bbbff9c2}{%
+           family={Riseng},
+           familyi={R\bibinitperiod},
+           given={Catherine\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=277318cfa4e33ac1fabfb8144ba7eb76}{%
+           family={Gronewold},
+           familyi={G\bibinitperiod},
+           given={Andrew\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee58a3a30b388f39f3d8e8596b88ef99}{%
+           family={Rutherford},
+           familyi={R\bibinitperiod},
+           given={Edward\bibnamedelima S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e453927e646e355f3edb61c5518de1d1}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76a7d7c51832a9ce230852f4ba2dc3e8}{%
+           family={Clites},
+           familyi={C\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a85dc17733be9b4ab28e0ea0aa839d2}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Sigrid\bibnamedelimb D.\bibnamedelimi P.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5bf70981f1d11e1e93c1a4b9ea938634}{%
+           family={McIntyre},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{9c6b766e2163f50ae74d58cd897678df}
+      \strng{fullhash}{30d409b2a96d743bf7a765357a57a24a}
+      \strng{bibnamehash}{30d409b2a96d743bf7a765357a57a24a}
+      \strng{authorbibnamehash}{30d409b2a96d743bf7a765357a57a24a}
+      \strng{authornamehash}{9c6b766e2163f50ae74d58cd897678df}
+      \strng{authorfullhash}{30d409b2a96d743bf7a765357a57a24a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-1480}
+      \field{journaltitle}{Climatic Change}
+      \field{month}{6}
+      \field{number}{1–2}
+      \field{title}{Fine-scale spatial variation in ice cover and surface temperature trends across the surface of the Laurentian Great Lakes}
+      \field{volume}{138}
+      \field{year}{2016}
+      \field{pages}{71\bibrangedash 83}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/s10584-016-1721-2
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s10584-016-1721-2
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s10584-016-1721-2
+      \endverb
+    \endentry
+    \entry{Nicholls_1998}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=69ac6dc87f9ec4bd2e442885cbf6627e}{%
+           family={Nicholls},
+           familyi={N\bibinitperiod},
+           given={K.\bibnamedelimi H.},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{69ac6dc87f9ec4bd2e442885cbf6627e}
+      \strng{fullhash}{69ac6dc87f9ec4bd2e442885cbf6627e}
+      \strng{bibnamehash}{69ac6dc87f9ec4bd2e442885cbf6627e}
+      \strng{authorbibnamehash}{69ac6dc87f9ec4bd2e442885cbf6627e}
+      \strng{authornamehash}{69ac6dc87f9ec4bd2e442885cbf6627e}
+      \strng{authorfullhash}{69ac6dc87f9ec4bd2e442885cbf6627e}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1939-5590}
+      \field{journaltitle}{Limnology and Oceanography}
+      \field{month}{6}
+      \field{number}{4}
+      \field{title}{El Niño, ice cover, and Great Lakes phosphorus: Implications for climate warming}
+      \field{volume}{43}
+      \field{year}{1998}
+      \field{pages}{715\bibrangedash 719}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.4319/lo.1998.43.4.0715
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.4319/lo.1998.43.4.0715
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.4319/lo.1998.43.4.0715
+      \endverb
+    \endentry
+    \entry{Richardson_2024}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=900eaead10afa0d4e6cfee7d5c87dc9f}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5725ebd912da510e417514176f8bc2e3}{%
+           family={Filazzola},
+           familyi={F\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ba1910b9e7d550de8a375e67e45f726}{%
+           family={Woolway},
+           familyi={W\bibinitperiod},
+           given={R.\bibnamedelimi Iestyn},
+           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3a47c439548d634523bfa375a28a958}{%
+           family={Imrit},
+           familyi={I\bibinitperiod},
+           given={M.\bibnamedelimi Arshad},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21295ba130ba3aaa00a1a898f734dfe2}{%
+           family={Bouffard},
+           familyi={B\bibinitperiod},
+           given={Damien},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e68b6e4c3fd3df3163b357e8ba40533b}{%
+           family={Weyhenmeyer},
+           familyi={W\bibinitperiod},
+           given={Gesa\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=823607715019b2740d13d07ce7f87974}{%
+           family={Magnuson},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3bb3dc9bb5b84cd888c508bf4d813d1}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Sapna},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{f764b929cacd89f7f09662bebf0bd0f9}
+      \strng{fullhash}{0e6b274db9d65d180c26daa251f55a34}
+      \strng{bibnamehash}{0e6b274db9d65d180c26daa251f55a34}
+      \strng{authorbibnamehash}{0e6b274db9d65d180c26daa251f55a34}
+      \strng{authornamehash}{f764b929cacd89f7f09662bebf0bd0f9}
+      \strng{authorfullhash}{0e6b274db9d65d180c26daa251f55a34}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1939-5590}
+      \field{journaltitle}{Limnology and Oceanography}
+      \field{month}{2}
+      \field{number}{4}
+      \field{title}{Nonlinear responses in interannual variability of lake ice to climate change}
+      \field{volume}{69}
+      \field{year}{2024}
+      \field{pages}{789\bibrangedash 801}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1002/lno.12527
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1002/lno.12527
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1002/lno.12527
+      \endverb
+    \endentry
+    \entry{Twiss_2012}{article}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=765377c82068c38abf629c34d2bc0910}{%
+           family={Twiss},
+           familyi={T\bibinitperiod},
+           given={M.R.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=faa7b6681e7b70404bc318ca013bb0cf}{%
+           family={McKay},
+           familyi={M\bibinitperiod},
+           given={R.M.L.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=858aaa006186ab0b7aae525e30a53ce6}{%
+           family={Bourbonniere},
+           familyi={B\bibinitperiod},
+           given={R.A.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2c83a3daf4517897dc6f19ec424fd04}{%
+           family={Bullerjahn},
+           familyi={B\bibinitperiod},
+           given={G.S.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50b1295d0b8beff4a6a93614cb5d6df7}{%
+           family={Carrick},
+           familyi={C\bibinitperiod},
+           given={H.J.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d0e704cf3f7e8b6da18514f52ddb023}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={R.E.H.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=094b12138c74ca283769b7d50c876df4}{%
+           family={Winter},
+           familyi={W\bibinitperiod},
+           given={J.G.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f32d0badccfcbbb998c32ad4d0beb645}{%
+           family={D’souza},
+           familyi={D\bibinitperiod},
+           given={N.A.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7cb826827802ddd6a0136bd785f56ced}{%
+           family={Furey},
+           familyi={F\bibinitperiod},
+           given={P.C.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbfab4a33396cd774bf1afb6d01ac3f7}{%
+           family={Lashaway},
+           familyi={L\bibinitperiod},
+           given={A.R.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2642b71355f659674ecb4096bd0c7f76}{%
+           family={Saxton},
+           familyi={S\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c488bb053fcc831d99863ca5e402cdb2}{%
+           family={Wilhelm},
+           familyi={W\bibinitperiod},
+           given={S.W.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{80e5dc0745b75567321562f9841be07c}
+      \strng{fullhash}{f69f94943e13110148cfbd2807d7dfb8}
+      \strng{bibnamehash}{f69f94943e13110148cfbd2807d7dfb8}
+      \strng{authorbibnamehash}{f69f94943e13110148cfbd2807d7dfb8}
+      \strng{authornamehash}{80e5dc0745b75567321562f9841be07c}
+      \strng{authorfullhash}{f69f94943e13110148cfbd2807d7dfb8}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0380-1330}
+      \field{journaltitle}{Journal of Great Lakes Research}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Diatoms abound in ice-covered Lake Erie: An investigation of offshore winter limnology in Lake Erie over the period 2007 to 2010}
+      \field{volume}{38}
+      \field{year}{2012}
+      \field{pages}{18\bibrangedash 30}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.jglr.2011.12.008
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.jglr.2011.12.008
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.jglr.2011.12.008
+      \endverb
+    \endentry
+    \entry{Wang_2018}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=e453927e646e355f3edb61c5518de1d1}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0429294c467218def5015affd75940c6}{%
+           family={Kessler},
+           familyi={K\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7da2a25d555690c21944d71eb3032b3a}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Xuezhi},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76a7d7c51832a9ce230852f4ba2dc3e8}{%
+           family={Clites},
+           familyi={C\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a95654b864cb72c594dcb315ad932d4}{%
+           family={Lofgren},
+           familyi={L\bibinitperiod},
+           given={Brent},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32cba9e955f17b5161582666dfab89b1}{%
+           family={Assuncao},
+           familyi={A\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0373f8fd9b1cbd15e069d6d29501e86b}{%
+           family={Bratton},
+           familyi={B\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3409207a776018bff35257830eece6ad}{%
+           family={Chu},
+           familyi={C\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7e7c7af90e6aa9d5286a82bb14c9ac9}{%
+           family={Leshkevich},
+           familyi={L\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Meteorological Society}%
+      }
+      \strng{namehash}{b51edf14e24c461ba431d8ac8b55042c}
+      \strng{fullhash}{adac868925a782b473248a263786c7c6}
+      \strng{bibnamehash}{adac868925a782b473248a263786c7c6}
+      \strng{authorbibnamehash}{adac868925a782b473248a263786c7c6}
+      \strng{authornamehash}{b51edf14e24c461ba431d8ac8b55042c}
+      \strng{authorfullhash}{adac868925a782b473248a263786c7c6}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1520-0442}
+      \field{journaltitle}{Journal of Climate}
+      \field{month}{9}
+      \field{number}{18}
+      \field{title}{Decadal Variability of Great Lakes Ice Cover in Response to AMO and PDO, 1963–2017}
+      \field{volume}{31}
+      \field{year}{2018}
+      \field{pages}{7249\bibrangedash 7268}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1175/jcli-d-17-0283.1
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1175/JCLI-D-17-0283.1
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1175/JCLI-D-17-0283.1
       \endverb
     \endentry
   \enddatalist
