@@ -2,7 +2,9 @@
 \documentclass[draft]{article}
 \usepackage[margin=1in]{geometry} % full-width
 \usepackage{authblk}
-\usepackage{lipsum}
+\usepackage{color} % just for annotations while editting
+\usepackage{soul} % just for annotations while editting
+\usepackage{markdown}
 \usepackage[backend=biber,style=apa,sorting=nyt]{biblatex}
 %\usepackage[backend=biber,style=numeric, autocite=superscript]{biblatex}
 
@@ -32,14 +34,20 @@
 
 \section{Introduction}
 %The Laurentian Great Lakes contain a fifth of Earth's available freshwater and as a result, the climate of this region is unlike any other on the planet. The lakes  act to thermally regulate  the surrounding land by means of absorbing and releasing heat as synoptic weather systems propagate through the region. Depending on the season and position of the jet stream, the prevailing  Westerlies bring warm air from the southwestern US or cold air from northern Canada. Strong winds in the fall act to mix the water column of the lakes and also increase evaporation which contributes further to surface cooling. These interactions between lake surface and atmosphere play out year-round and have significant influence on the lives of those who call the Great Lakes home.
-% JAK: The opening pararaph could be entirely cut if submitting to JGLR
+% JAK: The opening paragraph could be entirely cut if submitting to JGLR
 
-Lake ice in the Great Lakes is highly variable and has impacts ranging from economy to ecology. The commercial shipping industry in the Great Lakes transports 135 million tons of cargo each year and supports a quarter millin jobs (\cite{Martin_2023}). The presence vs absence and timing of ice cover influences the length of the shipping season and during high ice years shipping has been entirely suspended which interrupts supply chains that rely on raw materials such as Iron Ore, Grain, etc. The biota of the lakes also interact with ice cover which impacts nutrient loading (\cite{Nicholls_1998}), serves as a winter habitat for Diatoms (\cite{Twiss_2012}) and has been widely suggested to protect Lake Whitefish eggs during otherwise harsh winter conditions (\cite{Brown_1993, Lynch_2015, Collingsworth_2017}).
+Lake ice in the Great Lakes is highly variable and has impacts ranging from economy to winter ecology. The presence and timing of ice cover influences the length of the commercial shipping season and during high ice years shipping has been entirely suspended which interrupts supply chains that rely on raw materials such as Iron Ore, Grain, etc. (Each year 135 million tons of cargo are moved in the Great Lakes which support a quarter million jobs (\cite{Martin_2023})). Additionally, many coastal communities rely on ice cover for winter tourism which boosts local economies. [citation] The biota of the lakes interact with ice cover which impacts nutrient loading (\cite{Nicholls_1998}), serves as a winter habitat for Diatoms (\cite{Twiss_2012}) and has been widely suggested to protect Lake Whitefish eggs during otherwise harsh winter conditions (\cite{Brown_1993, Lynch_2015, Collingsworth_2017}).
 
-Previous studies have demonstrated that, consistent with trends in air and ocean temperatures, water temperatures in the Great Lakes, are also increasing both in the surface (\cite{Austin_2007}, many more!) and subsurface (\cite{Anderson_2021}). However, the rate and extent of warming in the Great Lakes varies considerably from lake to lake and even \emph{within} each lake (\cite{Mason_2016}), partly due to the heterogeneity of characteristics within lakes (bathymetry, latitude, surface area) often referred to as lake morphometry. These characteristics can act as competing factors for changes in lake ice cover.  For example, \textcite{Sharma_2019} found that mean depth influenced ice loss for lakes at similar latitudes. \textcite{Richardson_2024} hypothesized that, globally, lake ice phenology will respond nonlinearly to climate-change such that lakes in geographically colder (warmer) regions experience increased (decreased) interannual variability. This is mostly consistent with the findings of \textcite{Lin_2022}, who showed that regionally the Great Lakes have been experiencing increased variability since 1998.
+The timing and extent of Great Lakes ice vary considerably from year to year. For example, the long-term (1973-\hl{2025}) average and standard deviation for annual maximum ice cover is 52\% and  24\%, respectively, which implies that peak ice cover for a given year is frequently ($\mu \pm \sigma$) as low as 28\% or as high as 76\%.  The length of the ice season is, on average, ~82 days long (based on 10\% threshold) but has been as short as 23 days and as long as 148 days. This variability has significant impact on Great Lakes ecosystems and further motivates the need to understand the drivers of ice cover in order to make meaningful predictions. 
+%[TODO: update previous for 2026 once season complete]
+
+Previous studies have demonstrated that, consistent with trends in air and ocean temperatures, water temperatures in the Great Lakes, are also increasing both in the surface (\cite{Austin_2007, OReilly_2015, Zhong_2018, Woolway_2018}) and subsurface (\cite{Anderson_2021, Cannon_2024}). However, the rate and extent of warming in the Great Lakes varies considerably from lake to lake and even \emph{within} each lake (\cite{Mason_2016}), partly due to the heterogeneity of characteristics within lakes (bathymetry, latitude, surface area) often referred to as lake morphometry. These characteristics can act as competing factors for changes in lake ice cover.  For example, \textcite{Sharma_2019} found that mean depth influenced ice loss for lakes at similar latitudes. \textcite{Richardson_2024} hypothesized that, globally, lake ice phenology will respond non-linearly to climate-change such that lakes in geographically colder (warmer) regions experience increased (decreased) interannual variability. This is mostly consistent with the findings of \textcite{Lin_2022}, who showed that regionally the Great Lakes have been experiencing increased variability since 1998.
 
 \textcite{Assel_2005} classified ice seasons as either mild, typical or severe and found that. . .
 
+%Forecasting paragraph
+Numerical ice forecasts are high resolution and go beyond the sub-regional scale but they are computationally expensive and have showed varied skill with some lakes and years more prone to error (\cite{Anderson_2018}). 
+Subregional ice forecasts \cite{Venumuddula_2024} have proved advantageous over forecasts at larger scales.
 
 
 %Ice cover is a unique variable to study, in the sense that unlike continuous temperature , wind speeds or water currents, it's bounded by 0 and 1 and it  either is present or it's not 
@@ -47,9 +55,28 @@ Previous studies have demonstrated that, consistent with trends in air and ocean
 
 \section{Data \& Methods}
 
-Ice cover in the Great Lakes has been recorded for over five decades with information from high resolution, satellite-based instruments. 
 
-While much previous work has identified the significant influence of teleconnections on (Great) Lakes ice cover (\cite{Richardson_2024, Bai_2012, Wang_2018}), our focus is on subregional ice formation (i.e. differences
+
+High-resolution ice cover in the Great Lakes has been recorded since 1973\footnote{Though some ice measurements pre-date 1973, they did not included comprehensive coverage of the lake surface so will not be considered in this work [(see CITE: TM-121 for details.]} coinciding with the advent of consistent satellite overpass in the region. This data set is made possible by the North American Ice Services (NAIS: comprised of US National Ice Center and Canadian Ice Service) who generate daily (semi-weekly prior to 2011) data using a variety of sources including remote-sensing data (synthetic-aperture radar, infrared and visible imagery), ship reports, ice reconnaissance flights and analyst knowledge. This data set was standardized by \textcite{Yang_2020} via re-sampling onto a 1.25 KM grid for the entire period of record and also temporally interpolated from semi-weekly to daily frequency. We use this standardized data set (hereafter: NAIS data) for all of our analysis.
+
+Meteorological data is available from the Great Lakes 
+
+While much previous work has identified the significant influence of teleconnections on (Great) Lakes ice cover (\cite{Richardson_2024, Bai_2012, Wang_2018}), our focus is on subregional ice formation (i.e. differences between
+
+Following the work of \textcite{Mason_2016}, we aggregate the NAIS data into subregions defined by the Great Lakes Aquatic Habitat Framework (\cite{Wang_2015}) and analyze ice phenology, trends and relationships to both lake morphometrics and meteorological data. This analysis is described in detail next. The subregions
+
+The first component of analysis is aimed to identify if ice trends exist 
+
+
+\begin{markdown}
+- define AMIC, duration and JFM
+- describe GHCND and ISH
+\end{markdown}
+
+\hl{TODO:} should we subset recent data to match frequency of older data?  or should we repeate analysis using the daily interpolated data?
+
+
+
 
 \section{Results}
 
