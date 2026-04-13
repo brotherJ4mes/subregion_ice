@@ -1,2 +1,4 @@
-- define AMIC, duration and JFM
-- describe GHCND and ISH
+- hange point analysis for each region?
+- should we subset recent data to match frequency of older data?  or should we repeate analysis using the daily interpolated data?
+- include model data (or mooring data) for subregions stratification or heat content?  this is a biiig can of worms
+- mooring data might be doable but limited regions and years

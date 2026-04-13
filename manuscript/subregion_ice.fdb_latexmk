@@ -1,12 +1,14 @@
 # Fdb version 4
-["biber subregion_ice"] 1775579846 "subregion_ice.bcf" "subregion_ice.bbl" "subregion_ice" 1775581015 0
+["biber subregion_ice"] 1776096456 "subregion_ice.bcf" "subregion_ice.bbl" "subregion_ice" 1776101614 0
   "./refs.bib" 1775579835 13799 fd9ac09a19a69d8accf594ef1eee0fde ""
-  "subregion_ice.bcf" 1775581015 134509 06f30c57c8f594c06d3aa3f8d446ebd3 "pdflatex"
+  "subregion_ice.bcf" 1776101614 134574 12d7dc3aeed84cb01527dc79214f301f "pdflatex"
   (generated)
   "subregion_ice.bbl"
   "subregion_ice.blg"
   (rewritten before read)
-["pdflatex"] 1775581011 "subregion_ice.tex" "subregion_ice.pdf" "subregion_ice" 1775581015 0
+["pdflatex"] 1776101610 "subregion_ice.tex" "subregion_ice.pdf" "subregion_ice" 1776101614 0
+  "../figures/station_map.png" 1733772059 355174 2f322b4d0c340354a4377b506f7720db ""
+  "/home/kessler/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc" 1731515027 81837 4defb7a479a5fd058bb0732d84253c7a ""
   "/home/kessler/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc" 1731515026 136312 0853009ccd3f419d3c73a3ff97e7b924 ""
   "/home/kessler/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1731280078 127327 0c22a2c7faa4e80fd8c3443dc8dd3208 ""
   "/home/kessler/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1731515025 128299 b151497b293cf2f51c7db1d2ff6e9c88 ""
@@ -18,6 +20,7 @@
   "/home/kessler/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-bold.luc" 1731515026 128451 2c9d2009a563dd4d1a77d5443f58a689 ""
   "/home/kessler/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-regular.luc" 1731515026 127960 b2da8a623aaa61d5287cf39f4131163a ""
   "/home/kessler/.texlive2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1731280078 307963 48315f301353d9ee11f68ade2d06d7dc ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf" 1255129361 64684 15a2082c8e31f411875a86ea2d29a0ee ""
   "/usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf" 1255129361 118828 4d461c73423fe2666dad2ff0dfc3ca68 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf" 1255129361 111536 ae9d1b331000d544f47e5223081b7b54 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf" 1255129361 110496 b9c8767d4cc3bf3f4b21f676bf89aa78 ""
@@ -192,12 +195,12 @@
   "/usr/local/texlive/2023/texmf-dist/tex/luatex/markdown/markdown.lua" 1682627872 188652 5d6d13f6bbeaab88f33b4df335390273 ""
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1691436835 4647401 00ff9efb2ef8bbb46dd24b87a26bdf62 ""
   "/usr/local/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt" 1691436868 12171516 d449e813e9f09c5bd2be21f0f02b8d5f ""
-  "_markdown_subregion_ice/49e879726f7ea50eb61188734f238e9a.md.tex" 1775581010 272 c6c59d512949839737e77783af977108 ""
-  "subregion_ice.aux" 1775581015 5903 9d234b727e5248877d24d4cd66bb29d6 "pdflatex"
-  "subregion_ice.bbl" 1775579847 161384 7fc6eb6ff474e1bf58b0eeaab5b3caa5 "biber subregion_ice"
-  "subregion_ice.markdown.in" 1775581014 57 8d6d43a3b979a297d585e51190d21560 "pdflatex"
-  "subregion_ice.run.xml" 1775581015 2519 4f8e92481963141c6f8db950b0d10907 "pdflatex"
-  "subregion_ice.tex" 1775581006 7152 f22c0d8c952a92d555e3dafef14de64d ""
+  "_markdown_subregion_ice/0b957335a1e4682a9a5f59125aa2ba6a.md.tex" 1776101605 659 89fdc5f53020b33295729288305c289f ""
+  "subregion_ice.aux" 1776101614 6476 59e73bd0d6a2eab04510a2d0da058a33 "pdflatex"
+  "subregion_ice.bbl" 1776096457 161384 7fc6eb6ff474e1bf58b0eeaab5b3caa5 "biber subregion_ice"
+  "subregion_ice.markdown.in" 1776101613 348 1531d9a8d6c6d5fdf329121689dac18e "pdflatex"
+  "subregion_ice.run.xml" 1776101614 2519 4f8e92481963141c6f8db950b0d10907 "pdflatex"
+  "subregion_ice.tex" 1776101602 9985 31f1a74003b7ebd0c260746ee5fa70f5 ""
   (generated)
   "subregion_ice.aux"
   "subregion_ice.bcf"

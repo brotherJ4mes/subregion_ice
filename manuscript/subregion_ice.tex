@@ -5,6 +5,7 @@
 \usepackage{color} % just for annotations while editting
 \usepackage{soul} % just for annotations while editting
 \usepackage{markdown}
+\usepackage{graphicx}
 \usepackage[backend=biber,style=apa,sorting=nyt]{biblatex}
 %\usepackage[backend=biber,style=numeric, autocite=superscript]{biblatex}
 
@@ -52,28 +53,58 @@ Subregional ice forecasts \cite{Venumuddula_2024} have proved advantageous over 
 
 %Ice cover is a unique variable to study, in the sense that unlike continuous temperature , wind speeds or water currents, it's bounded by 0 and 1 and it  either is present or it's not 
 
-
-\section{Data \& Methods}
-
+To further understanding of the physical drivers of ice cover formation and decay, we analyze 54 years of daily ice cover in the Great Lakes at sub-lake scales. By evaluating ice cover aggregated into within subregions, we gain insight into changes and relationships occurring at the sub-lake scale that might otherwise be masked by those at the lake-wide scale. Furthermore, the heterogeneity of physical characteristics (e.g. depth) within the Lakes motivates an analysis of how those varying characteristics may be impacting long-term changes in ice cover. Additionally, we leverage coastal meteorological station data to assess how locally-specific atmospheric conditions impact the evolution ice cover over the course of a given ice season.
 
 
+\section{Methods}
+\subsection{Overview}
+Following the work of \textcite{Mason_2016}, we aggregate gridded ice cover data into 22 regions defined by the Great Lakes Aquatic Habitat Framework (\cite{Wang_2015}) (hereafter "subregions", see figure \ref{fig:map})  which have been thoughtfully defined to delineate the Lakes (and watersheds) by various factors including circulation patterns, thermal stratification, as well as physiochemical and biological characteristics (see \textcite{Wang_2015} for more details.) Once aggregated, three ice metrics are calculated for each of the 54 ice seasons on record: annual maximum ice cover, seasonal average ice cover and ice duration. Though these ice metrics are closely correlated, each provides additional information about a given ice season. 
+
+The first component of analysis is identifying what statistically significant ice trends, if any, exist at these sub-lake scales, and how those changes might relate to the characteristics (e.g. morphemetrics) of a given subregion. The second component addresses how atmospheric phenomena plays a role in dictating ice cover on the local scale. This is accomplished by using daily meteorological data from land-based stations specific to each subregion to identify correlations between atmospheric conditions and ice phenology. Variables analyzed include air temperature, wind speed, cloud cover, dew point (not shown), and precipitation.
+
+By identifying subregional ice trends, we gain deeper insight into how lake ice is changing and what might be expected in the future at a more detailed level for each specific region. Additionally, relating these changes back to physical characteristics provides clues as to what drives the change and what makes a specific subregion or lake more susceptible to that change. These results can have implications for large lakes globally especially those at similar latitudes or with similar characteristics.
+
+A analyze ice phenology, trends and relationships to both lake morphometrics and meteorological data. This analysis is described in detail next. 
+
+
+
+\begin{figure}
+	%\includegraphics[width=.9\textwidth]{../figures/dur_ts.png}
+	\includegraphics[width=\textwidth]{../figures/station_map.png}
+	\caption{ Figure caption}
+	\label{fig:map}
+\end{figure}
+
+
+\subsection{Metrics}
+
+\subsection{Data}
 High-resolution ice cover in the Great Lakes has been recorded since 1973\footnote{Though some ice measurements pre-date 1973, they did not included comprehensive coverage of the lake surface so will not be considered in this work [(see CITE: TM-121 for details.]} coinciding with the advent of consistent satellite overpass in the region. This data set is made possible by the North American Ice Services (NAIS: comprised of US National Ice Center and Canadian Ice Service) who generate daily (semi-weekly prior to 2011) data using a variety of sources including remote-sensing data (synthetic-aperture radar, infrared and visible imagery), ship reports, ice reconnaissance flights and analyst knowledge. This data set was standardized by \textcite{Yang_2020} via re-sampling onto a 1.25 KM grid for the entire period of record and also temporally interpolated from semi-weekly to daily frequency. We use this standardized data set (hereafter: NAIS data) for all of our analysis.
+
+
+
+
+
+
+
+
+
+
 
 Meteorological data is available from the Great Lakes 
 
 While much previous work has identified the significant influence of teleconnections on (Great) Lakes ice cover (\cite{Richardson_2024, Bai_2012, Wang_2018}), our focus is on subregional ice formation (i.e. differences between
 
-Following the work of \textcite{Mason_2016}, we aggregate the NAIS data into subregions defined by the Great Lakes Aquatic Habitat Framework (\cite{Wang_2015}) and analyze ice phenology, trends and relationships to both lake morphometrics and meteorological data. This analysis is described in detail next. The subregions
 
-The first component of analysis is aimed to identify if ice trends exist 
 
 
 \begin{markdown}
-- define AMIC, duration and JFM
-- describe GHCND and ISH
+- hange point analysis for each region?
+- should we subset recent data to match frequency of older data?  or should we repeate analysis using the daily interpolated data?
+- include model data (or mooring data) for subregions stratification or heat content?  this is a biiig can of worms
+- mooring data might be doable but limited regions and years
 \end{markdown}
 
-\hl{TODO:} should we subset recent data to match frequency of older data?  or should we repeate analysis using the daily interpolated data?
 
 
 
