@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.8.7)  13 APR 2026 13:33
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.8.7)  17 APR 2026 15:10
  system commands enabled.
  file:line:error style messages enabled.
 **subregion_ice.tex
@@ -688,13 +688,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 <../figures/station_map.png, id=15, 1806.75pt x 1204.5pt>
- [2] [3]
+ [2]
 \openout3 = subregion_ice.markdown.in
 
-Package markdown Info: Buffering markdown input into the temporary input file "subregion_ice.markdown.in" and scanning for the closing token sequence "\end{markdown}" on input line 101.
-Package markdown Info: The ending token sequence was found on input line 106.
-Package markdown Info: Including markdown document "./subregion_ice.markdown.in" on input line 106.
- (./_markdown_subregion_ice/0b957335a1e4682a9a5f59125aa2ba6a.md.tex) [4] [5] (./subregion_ice.aux)
+Package markdown Info: Buffering markdown input into the temporary input file "subregion_ice.markdown.in" and scanning for the closing token sequence "\end{markdown}" on input line 112.
+Package markdown Info: The ending token sequence was found on input line 117.
+Package markdown Info: Including markdown document "./subregion_ice.markdown.in" on input line 117.
+ (./_markdown_subregion_ice/fe06e09044a4fe5df4fed516f7891c08.md.tex [3]) [4] [5] (./subregion_ice.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-03>
@@ -705,19 +705,19 @@ Package logreq Info: Writing requests to 'subregion_ice.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 16166 strings out of 477513
+ 16167 strings out of 477513
  125161,1977958 words of node,token memory allocated
- 604 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 2 glyph, 9 attribute, 69 glue_spec, 9 attribute_list, 1 write nodes
-   avail lists: 1:2,2:1030,3:670,4:66,5:468,6:37,7:8923,8:45,9:183,10:11,11:742
- 36865 multiletter control sequences out of 65536+600000
- 64 fonts using 4613991 bytes
- 82i,8n,76p,1245b,5048s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on subregion_ice.pdf (5 pages, 74496 bytes).
+ 612 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 2 glyph, 11 attribute, 69 glue_spec, 11 attribute_list, 1 write nodes
+   avail lists: 1:2,2:942,3:598,4:70,5:461,6:35,7:8456,8:45,9:184,10:11,11:614
+ 36866 multiletter control sequences out of 65536+600000
+ 65 fonts using 4745679 bytes
+ 82i,8n,76p,1319b,5048s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on subregion_ice.pdf (5 pages, 119845 bytes).
 
-PDF statistics: 99 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+PDF statistics: 126 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
