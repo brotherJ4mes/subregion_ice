@@ -1,21 +1,21 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'subregion_ice.blg'
-[158] biber:340> INFO - === Fri Apr 17, 2026, 17:43:14
-[180] Biber.pm:419> INFO - Reading 'subregion_ice.bcf'
-[285] Biber.pm:979> INFO - Found 23 citekeys in bib section 0
-[310] Biber.pm:4419> INFO - Processing section 0
-[323] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
-[326] bibtex.pm:1713> INFO - LaTeX decoding ...
-[377] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
-[915] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[915] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[915] Biber.pm:4239> INFO - Sorting list 'nyt/apasortcite//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[915] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[1018] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1018] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1018] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[1018] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[1077] bbl.pm:660> INFO - Writing 'subregion_ice.bbl' with encoding 'UTF-8'
-[1157] bbl.pm:763> INFO - Output to subregion_ice.bbl
-[1158] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_XRNT/8fe4c9854184545302f21ebf0d47516c_6337.utf8, line 57, warning: 54 characters of junk seen at toplevel
-[1158] Biber.pm:133> INFO - WARNINGS: 1
+[32] biber:340> INFO - === Mon Apr 20, 2026, 14:45:23
+[47] Biber.pm:419> INFO - Reading 'subregion_ice.bcf'
+[85] Biber.pm:979> INFO - Found 23 citekeys in bib section 0
+[93] Biber.pm:4419> INFO - Processing section 0
+[99] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
+[99] bibtex.pm:1713> INFO - LaTeX decoding ...
+[116] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[278] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[278] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[278] Biber.pm:4239> INFO - Sorting list 'nyt/apasortcite//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[278] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[313] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[314] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[314] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[314] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[334] bbl.pm:660> INFO - Writing 'subregion_ice.bbl' with encoding 'UTF-8'
+[424] bbl.pm:763> INFO - Output to subregion_ice.bbl
+[424] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_ocz1/8fe4c9854184545302f21ebf0d47516c_1098751.utf8, line 57, warning: 54 characters of junk seen at toplevel
+[424] Biber.pm:133> INFO - WARNINGS: 1

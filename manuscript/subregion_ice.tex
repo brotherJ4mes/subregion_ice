@@ -1,5 +1,5 @@
+\documentclass{article}
 %\documentclass[draft]{article}
-\documentclass[draft]{article}
 \usepackage[margin=1in]{geometry} % full-width
 \usepackage{authblk}
 \usepackage{color} % just for annotations while editting
@@ -59,11 +59,11 @@ To further understanding of the physical drivers of ice cover formation and deca
 
 \section{Methods}
 \subsection{Overview}
-Following the work of \textcite{Mason_2016}, we aggregate gridded ice cover data into 22 regions defined by the Great Lakes Aquatic Habitat Framework (\cite{Wang_2015}) (hereafter ``subregions'', see figure \ref{fig:map})  which have been thoughtfully defined to delineate the Lakes (and watersheds) by various factors including circulation patterns, thermal stratification, as well as physiochemical and biological characteristics (see \textcite{Wang_2015} for more details.) Once aggregated, three ice metrics are calculated for each of the 54 ice seasons on record: annual maximum ice cover, seasonal average ice cover and ice duration. Though these ice metrics are closely correlated, each provides unique information about a given ice season and show different relationships with morphometrics as can be seen in the results section. 
+Following the work of \textcite{Mason_2016}, we aggregate gridded ice cover data into 22 regions defined by the Great Lakes Aquatic Habitat Framework (\cite{Wang_2015}) (hereafter ``subregions'', see figure \ref{fig:map})  which have been thoughtfully defined to delineate the Great Lakes (and watersheds) by various factors including circulation patterns, thermal stratification, as well as physiochemical and biological characteristics (see \textcite{Wang_2015} for more details.) Once aggregated, ice metrics are calculated for each of the 54 ice seasons on record: annual maximum ice cover, seasonal average ice cover and ice phenology (duration, onset, breakup). Though these ice metrics are closely correlated, each provides unique information about a given ice season and show different relationships with morphometrics as can be seen in the results section. 
 
-The first component of analysis is identifying what statistically significant ice trends, if any, exist at these sub-lake scales, and how those changes might relate to the characteristics (e.g. morphemetrics) of a given subregion. The second component addresses how atmospheric phenomena and the thermodynamic state of a lake or subregion play role in dictating ice cover on the local scale. This is accomplished by using \emph{in-situ} observations specific to each subregion to identify correlations between atmosphere and lake conditions throughout the year and ice phenology. 
+The first component of analysis is identifying what statistically significant ice trends, if any, exist at these sub-lake scales, and how those changes might relate to the characteristics (e.g. morphemetrics) of a given subregion. The second component addresses how atmospheric phenomena and the thermodynamic state of a lake or subregion play a role in dictating ice cover on the local scale. This is accomplished by using \emph{in-situ} observations specific to each subregion to identify correlations between atmosphere and lake conditions throughout the year and ice phenology. 
 
-While much previous work has identified the significant influence of teleconnections on (Great) Lakes ice cover (\cite{Richardson_2024, Bai_2012, Wang_2018}), our focus is on subregional ice formation (i.e. differences between
+While much previous work has identified the significant influence of teleconnections on (Great) Lakes ice cover (\cite{Richardson_2024, Bai_2012, Wang_2018}), our focus is on subregional ice formation (i.e. differences between . . .
 
 By identifying subregional ice trends, we gain deeper insight into how lake ice is changing and what might be expected in the future at a more detailed level for each specific region. This specificity is valuable when considering nearly all of the motivations for studying lake ice: commercial navigation occurs along well-defined shipping routes, residents interact with ice along a specific shoreline and ecosystems exists as microcosms in the Great Lakes [is this true?]. Additionally, relating changes in ice cover back to physical characteristics provides clues as to what drives the change and what makes a specific subregion or lake more susceptible to that change. These results can have implications for large lakes globally especially those at similar latitudes or with similar physical characteristics.
 
@@ -71,23 +71,25 @@ First, ice metrics for each of the subregions is calculated and statistically si
 
 \subsection{Metrics}
 
-The following ice metrics are used to analyze ice cover: annual max ice cover (AMIC), seasonal average ice cover (JFM), ice duration, ice onset and ice breakup.  
+We define an ice season as the period between November and the following May and, hereafter, refer to a given season by the calendar year in which January occurs (e.g. the 1996 - 1997 winter is referred to as ice year 1997.)  The following ice metrics are used to analyze ice cover: annual maximum ice cover (AMIC), seasonal average ice cover (JFM), ice duration, ice onset and ice breakup.  Annual max is simply the highest daily value reported in a given ice season and is expressed as percentage. The seasonal average is defined as the mean ice cover from January 1 through March 30. We restrict the average to January, February and March because ice data was not consistently reported outside this window during the 1970's and 1980's.  (If alternatively, one averages over the entire season, systematic error can be introduced by implicitly treating missing data as zero. This is particularly critical for doing trend analysis and we recommend future work is cautious of this issue.) 
 
+In addition to expressing ice cover as a percentage, we can also consider the timing and duration of ice cover in a given subregion. We define the ice duration \eqref{dur} as the total number of (non-consecutive) days in which ice was above the threshold of 10\%.   Using the same threshold, we define ice onset (ice breakup) as the first (last) day in a season during which ice cover was observed. Although this includes data outside the JFM date range, the aformentioned systematic error is most likely avoided since ice cover reporting generally began well below 10\% and persisted until it was lower. [I think maybe David found this to be untrue on the local scale?, if so we could increase the threshold]. Last, we can also consider the date when AMIC occurred.
+
+ 
 \begin{equation} 
-	\textup{Ice Duration} = \sum_{Nov}^{May} 
+	\textup{Ice Duration} = \sum_{d=t_0}^{t_f}  \label{eq:dur}
 	\begin{cases} 
-		1 & x > 10 \\
-		0 & x \le 10 \\
+		1 & i(d) $\ge$ 10 \\
+		0 & i(d) < 10 \\
 	\end{cases}
 \end{equation}
+where \emph{i(d)} is ice cover on a day, \emph{d} which ranges between Nov 1 - May 31.
 
-
-\begin{equation} 
-	\textup{Seasonal Average}  = \frac{1}{N} \sum_{Jan-01}^{Mar-30} Ice
-\end{equation} 
 
 
 \subsection{Ice Trends and Morphometrics}
+For each of the aformentioned ice metrics, trend [and change point?] analysis is performed to identify meaningful changes over time.
+
 
 \subsection{Correlations with \emph{in-situ} data}
 
@@ -112,10 +114,12 @@ Meteorological data is available from the Great Lakes
 
 \begin{markdown}
 - change point analysis for each region?
+	- does a stat sig. chng pt negate a stat sig trend?
 - should we subset recent data to match frequency of older data?  or should we repeate analysis using the daily interpolated data?
 - include model data (or mooring data) for subregions stratification or heat content?  this is a biiig can of worms
 - mooring data might be doable but limited regions and years
 - calculate first last and ndays using the ACTUAL eqn you show
+- also calculate the DAY OF MAX
 \end{markdown}
 
 
