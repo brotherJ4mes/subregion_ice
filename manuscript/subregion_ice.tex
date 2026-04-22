@@ -3,7 +3,7 @@
 \usepackage[margin=1in]{geometry} % full-width
 \usepackage{authblk}
 \usepackage{color} % just for annotations while editting
-\usepackage{soul} % just for annotations while editting
+\usepackage{soul} % just for annotations while editting 
 \usepackage{markdown}
 \usepackage{amsmath}
 \usepackage{graphicx}
@@ -49,7 +49,7 @@ Previous studies have demonstrated that, consistent with trends in air and ocean
 
 %Forecasting paragraph
 Numerical ice forecasts are high resolution and go beyond the sub-regional scale but they are computationally expensive and have showed varied skill with some lakes and years more prone to error (\cite{Anderson_2018}). 
-Subregional ice forecasts \cite{Venumuddula_2024} have proved advantageous over forecasts at larger scales.
+Subregional ice forecasts \cite{Venumuddula_2024} have proved advantageous over forecasts at larger scales...
 
 
 %Ice cover is a unique variable to study, in the sense that unlike continuous temperature , wind speeds or water currents, it's bounded by 0 and 1 and it  either is present or it's not 
@@ -67,7 +67,7 @@ While much previous work has identified the significant influence of teleconnect
 
 By identifying subregional ice trends, we gain deeper insight into how lake ice is changing and what might be expected in the future at a more detailed level for each specific region. This specificity is valuable when considering nearly all of the motivations for studying lake ice: commercial navigation occurs along well-defined shipping routes, residents interact with ice along a specific shoreline and ecosystems exists as microcosms in the Great Lakes [is this true?]. Additionally, relating changes in ice cover back to physical characteristics provides clues as to what drives the change and what makes a specific subregion or lake more susceptible to that change. These results can have implications for large lakes globally especially those at similar latitudes or with similar physical characteristics.
 
-First, ice metrics for each of the subregions is calculated and statistically significant trends are tested for. Next, relationships between ice trends and lake characteristics (morphometrics) are identified. Finally, meteorological and marine data are leveraged to identify the timing and magnitutde of regional phenomena. This analysis is described in detail in the following subsections.
+First, ice metrics for each of the subregions is calculated and statistically significant trends are tested for. Next, relationships between ice trends and lake characteristics (morphometrics) are identified. Finally, meteorological and limnological data are leveraged to identify how the timing and magnitude of regional phenomena impact ice evolution. This analysis is described in detail in the following subsections.
 
 \subsection{Metrics}
 
@@ -83,15 +83,19 @@ In addition to expressing ice cover as a percentage, we can also consider the ti
 		0 & i(d) < 10 \\
 	\end{cases}
 \end{equation}
-where \emph{i(d)} is ice cover on a day, \emph{d} which ranges between Nov 1 - May 31.
+where \emph{i(d)} is ice cover on day, \emph{d} which ranges between Nov 1 - May 31.
 
 
 
 \subsection{Ice Trends and Morphometrics}
-For each of the aformentioned ice metrics, trend [and change point?] analysis is performed to identify meaningful changes over time.
+To assess changes in ice cover on the local scale, the above ice metrics are first calculated for each of the 22 subregions and each of the 53 ice seasons. These metrics can be evaluated visually as time series which is directly useful for understanding how ice varies in given regions. Next, linear regression is applied to each ice metric which provides a more quantitative evaluation of changes in ice phenology. We apply \st{ordinary least squares and} Theil-Sen (\cite{Siegel_1982})[and also STL?] to derive the linear trend as well as applying Mann-Kendall (cite) to test for statistical significance. (If a linear trend is not deemed significant at the 95\% level or if confidence intervals include a trend of 0, we exlude that metric/subregion trend from futher analysis.) 
+
+Following the trend assessment, we identify correlations between the statistically significant trends and the physical characteristis (e.g. moprhometrics) of each subregion. The variables assessed include mean [also do max?] depth, surface area, latitude and longitude. We hypothesize that subregions with similar characteristics will also show similar changes in ice cover (e.g. deeper regions will respond differently than shallower regions to the observed surface air temperature increase over time).
 
 
 \subsection{Correlations with \emph{in-situ} data}
+
+% paragraph about implications for forecasting (either here or in introduction..but tie it back here with a statement?)
 
 
 \begin{figure}
@@ -120,6 +124,13 @@ Meteorological data is available from the Great Lakes
 - mooring data might be doable but limited regions and years
 - calculate first last and ndays using the ACTUAL eqn you show
 - also calculate the DAY OF MAX
+- Theil-Sen estimates
+- read theil-sen paper (siegel 1982)
+- confidence intervals (how to show on plot?)
+- is some form of trend analysis possible using a subset of the data?
+	- specifically, if we categorize high/med/low ice years can we perform linear regresssion on each set?
+	- seems like discontinuity (i.e. varying delta t) would be a problem
+
 \end{markdown}
 
 

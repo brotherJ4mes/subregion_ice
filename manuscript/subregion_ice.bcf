@@ -3089,8 +3089,9 @@
     <bcf:citekey order="22" intorder="1">Richardson_2024</bcf:citekey>
     <bcf:citekey order="22" intorder="2">Bai_2012</bcf:citekey>
     <bcf:citekey order="22" intorder="3">Wang_2018</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">Yang_2020</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">Siegel_1982</bcf:citekey>
     <bcf:citekey order="24" intorder="1">Yang_2020</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">Yang_2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

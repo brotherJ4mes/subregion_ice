@@ -1467,6 +1467,49 @@
       \verb http://dx.doi.org/10.1038/s41558-018-0393-5
       \endverb
     \endentry
+    \entry{Siegel_1982}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=991c81d3dbd7dd32baa208dc344d19b2}{%
+           family={SIEGEL},
+           familyi={S\bibinitperiod},
+           given={ANDREW\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press (OUP)}%
+      }
+      \strng{namehash}{991c81d3dbd7dd32baa208dc344d19b2}
+      \strng{fullhash}{991c81d3dbd7dd32baa208dc344d19b2}
+      \strng{bibnamehash}{991c81d3dbd7dd32baa208dc344d19b2}
+      \strng{authorbibnamehash}{991c81d3dbd7dd32baa208dc344d19b2}
+      \strng{authornamehash}{991c81d3dbd7dd32baa208dc344d19b2}
+      \strng{authorfullhash}{991c81d3dbd7dd32baa208dc344d19b2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1464-3510}
+      \field{journaltitle}{Biometrika}
+      \field{number}{1}
+      \field{title}{Robust regression using repeated medians}
+      \field{volume}{69}
+      \field{year}{1982}
+      \field{pages}{242\bibrangedash 244}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1093/biomet/69.1.242
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1093/biomet/69.1.242
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1093/biomet/69.1.242
+      \endverb
+    \endentry
     \entry{Twiss_2012}{article}{}
       \name{author}{12}{}{%
         {{un=0,uniquepart=base,hash=765377c82068c38abf629c34d2bc0910}{%
@@ -3495,6 +3538,49 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1038/s41558-018-0393-5
+      \endverb
+    \endentry
+    \entry{Siegel_1982}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=991c81d3dbd7dd32baa208dc344d19b2}{%
+           family={SIEGEL},
+           familyi={S\bibinitperiod},
+           given={ANDREW\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press (OUP)}%
+      }
+      \strng{namehash}{991c81d3dbd7dd32baa208dc344d19b2}
+      \strng{fullhash}{991c81d3dbd7dd32baa208dc344d19b2}
+      \strng{bibnamehash}{991c81d3dbd7dd32baa208dc344d19b2}
+      \strng{authorbibnamehash}{991c81d3dbd7dd32baa208dc344d19b2}
+      \strng{authornamehash}{991c81d3dbd7dd32baa208dc344d19b2}
+      \strng{authorfullhash}{991c81d3dbd7dd32baa208dc344d19b2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1464-3510}
+      \field{journaltitle}{Biometrika}
+      \field{number}{1}
+      \field{title}{Robust regression using repeated medians}
+      \field{volume}{69}
+      \field{year}{1982}
+      \field{pages}{242\bibrangedash 244}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1093/biomet/69.1.242
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1093/biomet/69.1.242
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1093/biomet/69.1.242
       \endverb
     \endentry
     \entry{Twiss_2012}{article}{}

@@ -5,3 +5,10 @@
 - mooring data might be doable but limited regions and years
 - calculate first last and ndays using the ACTUAL eqn you show
 - also calculate the DAY OF MAX
+- Theil-Sen estimates
+- read theil-sen paper (siegel 1982)
+- confidence intervals (how to show on plot?)
+- is some form of trend analysis possible using a subset of the data?
+	- specifically, if we categorize high/med/low ice years can we perform linear regresssion on each set?
+	- seems like discontinuity (i.e. varying delta t) would be a problem
+
