@@ -71,7 +71,7 @@ First, ice metrics for each of the subregions is calculated and statistically si
 
 \subsection{Metrics}
 
-We define an ice season as the period between November and the following May and, hereafter, refer to a given season by the calendar year in which January occurs (e.g. the 1996 - 1997 winter is referred to as ice year 1997.)  The following ice metrics are used to analyze ice cover: annual maximum ice cover (AMIC), seasonal average ice cover (JFM), ice duration, ice onset and ice breakup.  Annual max is simply the highest daily value reported in a given ice season and is expressed as percentage. The seasonal average is defined as the mean ice cover from January 1 through March 30. We restrict the average to January, February and March because ice data was not consistently reported outside this window during the 1970's and 1980's.  (If alternatively, one averages over the entire season, systematic error can be introduced by implicitly treating missing data as zero. This is particularly critical for doing trend analysis and we recommend future work is cautious of this issue.) 
+We define an ice season as the period between November and the following May and, hereafter, refer to a given season by the calendar year in which January occurs (e.g. the 1996 - 1997 winter is referred to as ice year 1997.)  The following ice metrics are used to analyze ice cover: annual maximum ice cover (AMIC), seasonal average ice cover (JFM), ice duration, ice onset and ice breakup.  Annual max is simply the highest daily value reported in a given ice season and is expressed as percentage. The seasonal average is defined as the mean ice cover from January 1 through March 31. We restrict the average to January, February and March because ice data was not consistently reported outside this window during the 1970's and 1980's.  (If alternatively, one averages over the entire season, systematic error can be introduced by implicitly treating missing data as zero. This is particularly critical for doing trend analysis and we recommend future work is cautious of this issue.) 
 
 In addition to expressing ice cover as a percentage, we can also consider the timing and duration of ice cover in a given subregion. We define the ice duration \eqref{dur} as the total number of (non-consecutive) days in which ice was above the threshold of 10\%.   Using the same threshold, we define ice onset (ice breakup) as the first (last) day in a season during which ice cover was observed. Although this includes data outside the JFM date range, the aformentioned systematic error is most likely avoided since ice cover reporting generally began well below 10\% and persisted until it was lower. [I think maybe David found this to be untrue on the local scale?, if so we could increase the threshold]. Last, we can also consider the date when AMIC occurred.
 
@@ -120,7 +120,9 @@ Meteorological data is available from the Great Lakes
 - change point analysis for each region?
 	- does a stat sig. chng pt negate a stat sig trend?
 - should we subset recent data to match frequency of older data?  or should we repeate analysis using the daily interpolated data?
-- include model data (or mooring data) for subregions stratification or heat content?  this is a biiig can of worms
+- include subsurface temp data from moorings
+	- calculate correlations with ice metrics
+	- turnover dates correlations?
 - mooring data might be doable but limited regions and years
 - calculate first last and ndays using the ACTUAL eqn you show
 - also calculate the DAY OF MAX
@@ -131,6 +133,9 @@ Meteorological data is available from the Great Lakes
 	- specifically, if we categorize high/med/low ice years can we perform linear regresssion on each set?
 	- seems like discontinuity (i.e. varying delta t) would be a problem
 
+a
+- reconcile number of subregions on all plots
+	- shouldn't SMR be part of huron?;
 \end{markdown}
 
 

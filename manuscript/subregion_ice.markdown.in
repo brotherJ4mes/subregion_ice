@@ -1,7 +1,9 @@
 - change point analysis for each region?
 	- does a stat sig. chng pt negate a stat sig trend?
 - should we subset recent data to match frequency of older data?  or should we repeate analysis using the daily interpolated data?
-- include model data (or mooring data) for subregions stratification or heat content?  this is a biiig can of worms
+- include subsurface temp data from moorings
+	- calculate correlations with ice metrics
+	- turnover dates correlations?
 - mooring data might be doable but limited regions and years
 - calculate first last and ndays using the ACTUAL eqn you show
 - also calculate the DAY OF MAX
@@ -12,3 +14,5 @@
 	- specifically, if we categorize high/med/low ice years can we perform linear regresssion on each set?
 	- seems like discontinuity (i.e. varying delta t) would be a problem
 
+- reconcile number of subregions on all plots
+	- shouldn't SMR be part of huron?;
