@@ -1,9 +1,0 @@
-Created TensorFlow Lite XNNPACK delegate for CPU.
-[10536:10536:0223/091625.204927:ERROR:mojo/public/cpp/bindings/lib/interface_endpoint_client.cc:732] Message 0 rejected by interface blink.mojom.WidgetHost
-[10536:10567:0223/091632.583007:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
-[10628:19:0223/091650.162643:ERROR:third_party/webrtc/pc/sdp_offer_answer.cc:466] A BUNDLE group contains a codec collision for payload_type='111. All codecs must share the same type, encoding name, clock rate and parameters. (INVALID_PARAMETER)
-[10628:19:0223/091651.562822:ERROR:third_party/webrtc/pc/sdp_offer_answer.cc:466] A BUNDLE group contains a codec collision for payload_type='111. All codecs must share the same type, encoding name, clock rate and parameters. (INVALID_PARAMETER)
-[10628:19:0223/091653.521164:ERROR:third_party/webrtc/pc/sdp_offer_answer.cc:466] A BUNDLE group contains a codec collision for payload_type='111. All codecs must share the same type, encoding name, clock rate and parameters. (INVALID_PARAMETER)
-[10583:10805:0223/091654.481036:ERROR:media/gpu/vaapi/vaapi_video_decoder.cc:1220] failed Initialize()ing the frame pool
-[10536:10567:0223/091702.023529:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
-[10628:5:0223/091708.929114:ERROR:third_party/blink/renderer/modules/media/audio/mojo_audio_output_ipc.cc:186] MojoAudioOutputIPC failed to acquire factory

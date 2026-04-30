@@ -1,5 +1,0 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'subregion_ice.aux.blg'
-[32] biber:340> INFO - === Fri Mar 27, 2026, 15:00:44
-[99] Utils.pm:410> ERROR - Cannot find 'subregion_ice.aux.bcf'!
-[99] Biber.pm:136> INFO - ERRORS: 1
