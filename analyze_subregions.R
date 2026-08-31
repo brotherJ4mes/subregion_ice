@@ -1,14 +1,14 @@
 #!/usr/bin/Rscript
 library(fields)
 library(Kendall)
-library(latex2exp)
+#library(latex2exp)
 #graphics.off()
 
 #out_dir = '/home/kessler/work/subregion_ice/poster/67311e171949f1bd5174bf03/figures'
 #out_dir = '/home/kessler/work/subregion_ice/poster/67311e171949f1bd5174bf03/figures'
 #out_dir = '/home/kessler/work/subregion_ice/figures'
 out_dir = '/home/j4mes/work/subregion_ice/figures'
-file_in = 'txt/yrly_out/all.txt'
+file_in = 'data/txt/yrly_out/all.txt'
 
 thresh = 10
 ice = read.table(file_in)
@@ -24,7 +24,7 @@ plt_trend = T
 cross_cor = F
 
 
-meta = read.table('txt/meta.txt', sep='\t', head=T)
+meta = read.table('data/txt/meta.txt', sep='\t', head=T)
 lks = meta$lake
 # re-order lakes (Ont is handled differently to omit Niagara (no ice data)
 lk_idx = c(grep('Sup', lks), grep('Mic', lks), grep('Hur', lks), grep('Eri', lks), which(grepl('Ont',meta$name)))
@@ -69,6 +69,7 @@ dur = aggregate(ice_on, by=list(yr=onyr), sum)
 
 #stop()
 
+stop()
 
 normalize = function(dat){ out = cbind(data.frame(yr=unique(iyr), sweep(dat[,-1], 2, apply(dat[,-1], 2, mean), '-'))) }
 

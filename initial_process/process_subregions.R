@@ -4,11 +4,13 @@ library(terra)
 
 yr <- commandArgs(trail=T)
 #yr <- 2019
-dir_in <- sprintf('/mnt/projects/ipemf/ice/ct_1024/%s', yr)
+#dir_in <- sprintf('/mnt/projects/ipemf/ice/ct_1024/%s', yr)
+dir_in <- sprintf('/home/j4mes/work/subregion_ice/analysis/initial_process/%s/', yr)
 merc_str <- '+proj=merc +lon_0=0 +k=1 +x_0=0 +y_0=-24 +datum=WGS84 +units=m +no_defs'
-bnds <- st_read('shp/glahf_cw_mercator.shp', quiet=T) # boundaries
+bnds <- st_read('/home/j4mes/work/subregion_ice/analysis/data/shp/glahf_cw_mercator.shp', quiet=T) # boundaries
 
 x_ice <- function(fin, fun='mean'){
+		print(fin)
 		ice <- rast(fin)
 		crs(ice) <- merc_str
 		ice[ice==-1] <- NA
