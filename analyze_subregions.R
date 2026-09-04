@@ -76,15 +76,14 @@ normalize = function(dat){ out = cbind(data.frame(yr=unique(iyr), sweep(dat[,-1]
 heat_map = function(dat, cmap, brks, ti_str, fout, linecol='black'){
 	png(sprintf('%s/%s.png', out_dir, fout), w=1700, h=800)
 	par(mar=c(2,12.75,4,8), cex.axis=1.5, cex.main=2.5)
-	image.plot(x=dat$yr, y=1:nsubs, z=as.matrix(dat[,-1]), yaxt='n', main=ti_str,
-		  ylab=NA,  xlab=NA, col=cmap, breaks=brks, xaxt='n', ylim=c(nsubs+.5,0.5))
-	axis(2, at=1:nsubs, lab=meta$name, las=2)
+	image.plot(x=dat$yr, y=1:nsubs, z=as.matrix(dat[,-1]), yaxt='n', main=ti_str,	  ylab=NA,  xlab=NA, col=cmap, breaks=brks, xaxt='n', ylim=c(nsubs+.5,0.5))
+		axis(2, at=1:nsubs, lab=meta$name, las=2)
 	axis(1, at=dat$yr[c(F,F,T,F,F)])
 	axis(1, at=dat$yr, lab=NA)
 	axis(3, at=dat$yr[c(F,F,T,F,F)], lab=NA)
 	axis(4, lk_brks+.5, lab=NA, tcl=-1, lwd=2)
 	abline(h=lk_brks[c(-1,-6)]+.5, lwd=2, col=linecol)
-	text(x=max(dat$yr)+1.5, y=lk_brks[-6] + diff(lk_brks)/2 + 0.5, lab=unique(lks), srt=270, xpd=NA, cex=1.75)
+text(x=max(dat$yr)+1.5, y=lk_brks[-6] + diff(lk_brks)/2 + 0.5, lab=unique(lks), srt=270, xpd=NA, cex=1.75)
 	dev.off()
 
 	#axis(4, at=lk_brks[-6] + diff(lk_brks)/2 + 0.5, lab=c('Sup.','Mic.','Hur.','Erie','Ont.'), las=2)
