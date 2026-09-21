@@ -62,8 +62,10 @@ jfm = yrs2rownames(jfm)
 # 90% for GrB and SMR
 # 10% for all other subregions
 
-#thresh = ifelse(apply(jfm[,-1], 2, mean)>20, 20, 10)
+#thresh = ifelse(apply(jfm, 2, mean)>20, 20, 10)
 thresh = ifelse(apply(jfm, 2, mean)>10, 10, 5)
+#hresh = jfm
+#tresh[] = 10
 thresh[c('WB','SB','WER','LSC')] = 50
 thresh[c('GrB','SMR')] = 90
 
@@ -82,7 +84,6 @@ if(T){
 	abline(h=lk_brks[c(-1,-6)]+.5, lwd=2)
 	text(x=max(yrs)+1.5, y=lk_brks[-6] + diff(lk_brks)/2 + 0.5, lab=unique(lks), srt=270, xpd=NA, cex=1)
 	axis(4, at=1:nsubs, apply(had_ice, 2, sum), las=2, lwd=0, line=-.5)
-
 
 jd[jd>300] = jd[jd>300]-365 # important to wait until NOW to do this 
 dur = aggregate(ice_on, by=list(yrs=iyr), 'sum')

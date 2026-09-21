@@ -18,11 +18,11 @@ lks = lks[lk_idx]
 lk_brks = c(0,max(grep('Sup',lks)), max(grep('Mic',lks)), max(grep('Hur',lks)), max(grep('Eri',lks)), max(grep('Ont',lks)))
 #lk_brks = c(0,max(grep('Sup',lks)), max(grep('Mic',lks)), max(grep('Hur',lks)), max(grep('Eri',lks)), max(grep('Ont',lks)))
 
+tick_yr = seq.Date(dts[13], rev(dts)[1], by='year') # jan 01
+tick_five = seq.Date(dts[236], rev(dts)[1], by='5 years') # jan 01 every 5
 
 	# draw timeseries plots of all 22 subregions (may include in appendix)
 if(F){
-	tick_yr = seq.Date(dts[13], rev(dts)[1], by='year') # jan 01
-	tick_five = seq.Date(dts[236], rev(dts)[1], by='5 years') # jan 01 every 5
 	draw_ts = function(name){ 
 		plot(dts, ice[,name], xaxt='n', pch=20, ylim=c(0,100)); 
 		mtext(side=2, name, cex=1, line=-2); 
@@ -54,7 +54,7 @@ tf=t0+89 # mar 31
 draw_jfm_window = function(name, title, thresh){
 	shaded_col=rgb(0,0,0,.10)
 	plot(dts, ice[,name], pch=20, ylab=NA,
-		 xlim=c(as.Date('1972-12-01'),as.Date('1990-09-01')), 
+		 xlim=c(as.Date('1972-12-01'),as.Date('1976-09-01')), 
 		 xlab=NA, xaxt='n', yaxt='n')
 	polygon(x=as.Date(rep(interleave(t0,tf),each=2)), y=rep(c(-10,110,110,-10),54), col=shaded_col, border=NA)
 	abline(h=thresh, col=shaded_col)
@@ -118,7 +118,7 @@ if(F){
 
 
 
-if(T){ # stacked bar plots
+if(F){ # stacked bar plots
 mu0 = apply(ice0, 2, mean, na.rm=T)
 muf = apply(icef, 2, mean, na.rm=T)
 sd0 = apply(ice0, 2, sd, na.rm=T)
