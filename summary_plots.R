@@ -1,5 +1,6 @@
 #!/bin/Rscript
-library(wesanderson)
+source('set_colors.R')
+
 out_dir = '~/work/subregion_ice/manuscript/figures/'
 file_in = 'data/all_years_sub_ice.txt'
 
@@ -26,7 +27,6 @@ lk_brks = c(0,max(grep('Sup',lks)), max(grep('Mic',lks)), max(grep('Hur',lks)), 
 #lk_brks = c(0,max(grep('Sup',lks)), max(grep('Mic',lks)), max(grep('Hur',lks)), max(grep('Eri',lks)), max(grep('Ont',lks)))
 
 cidx = match(lks, unique(meta$lake))
-pal = wes_palette('Darjeeling1')
 
 
 # barplot of JFM and amic

@@ -1,7 +1,8 @@
-#!/usr/bin/Rscript
+#!/usr/bin/env Rscript
 library(sf)
-library(wesanderson)
+#library(wesanderson)
 source('met_utils.R')
+source('set_colors.R')
 
 #TODO: add scale bar to map and scalebar (m^2) to barplot
 #TODO: sort barplot by lake > longitude
@@ -25,7 +26,8 @@ if(!(exists('lks'))){
 	ghcnd$source = 'GHCND'
 	isd$source = 'ISH'
 	stns = rbind(ghcnd, isd)
-	lks = st_read('/home/kessler/work/geospatial_data/glahf_spatial_framework_v1d1/spatial_framework/GLAHF_spatial_framework_v1d1.gdb/', layer='subbasins_by_lake_area')
+	#lks = st_read('/home/kessler/work/geospatial_data/glahf_spatial_framework_v1d1/spatial_framework/GLAHF_spatial_framework_v1d1.gdb/', layer='subbasins_by_lake_area')
+	lks = st_read('data/shp/glahf_cw_mercator.shp')
 	#lks[lks$SUBBASIN=='SMR',]$LAKE = 'Superior'
 	lks = st_transform(lks, st_crs(ghcnd))
 
@@ -72,13 +74,14 @@ moor_col = 'darkslategrey'
 moor_cex = 5
 
 #pal = wes_palette('FantasticFox1')
-pal = rev(wes_palette('Darjeeling1')) # Love it
+#pal = rev(wes_palette('Darjeeling1')) # Love it # leave this set by set_colors.R
 #pal = wes_palette('Moonrise3') # LIKE IT!
 #pal = wes_palette('BottleRocket2') # Not bad
 #text_col = c(1,1,'white','white','white')
-text_col = 'black'
+text_colext_col = 'black'
 #pal = wes_palette('Rushmore1')
 
+#png(paste(out_dir,'station_map.png', sep='/'), w=1800, h=1200)
 png(paste(out_dir,'station_map.png', sep='/'), w=1800, h=1200)
 par(cex.axis=2.0, mar=c(1,1,1,16))
 
